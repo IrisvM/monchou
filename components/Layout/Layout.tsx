@@ -5,6 +5,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from '../Link';
 import Header from '../Header/Header';
 import Head from 'next/head';
+import { SearchContent } from '../../pages/api/recipes';
+import { MagnifyingGlassIcon } from '@heroicons/react/20/solid';
+import { useRouter } from 'next/router';
 
 const navigation = [
   { name: 'Thuis', href: '/', exact: true },
@@ -14,7 +17,10 @@ const navigation = [
 export default function Layout({
   children,
   title,
-}: PropsWithChildren<{ title?: string }>) {
+}: PropsWithChildren<{ title?: string; searchContent?: SearchContent }>) {
+  const router = useRouter();
+  const { query } = router.query;
+
   return (
     <>
       <Head>
@@ -29,8 +35,8 @@ export default function Layout({
             {({ open }) => (
               <>
                 <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
-                  <div className="relative flex h-16 items-center justify-between lg:border-b lg:border-fuchsia-400 lg:border-opacity-25">
-                    <div className="flex items-center px-2 lg:px-0">
+                  <div className="relative flex h-16 items-center justify-end lg:border-b lg:border-fuchsia-400 lg:border-opacity-25">
+                    <div className="flex items-center px-2 lg:px-0 justify-self-start grow">
                       <div className="flex-shrink-0">
                         <CakeIcon className="h-8 w-8 text-white" />
                       </div>
@@ -54,7 +60,27 @@ export default function Layout({
                         </div>
                       </div>
                     </div>
-                    <div className="flex lg:hidden">
+                    <div className="flex mr-4">
+                      <div className="relative mt-1 rounded-md shadow-sm">
+                        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                          <MagnifyingGlassIcon
+                            className="h-5 w-5 text-gray-400"
+                            aria-hidden="true"
+                          />
+                        </div>
+                        <form action="/zoeken" method="get">
+                          <input
+                            type="search"
+                            name="query"
+                            id="searchQuery"
+                            defaultValue={query}
+                            className="block w-full bg-fuchsia-200 rounded-md border-gray-300 pl-10 focus:border-fuchsia-500 focus:ring-fuchsia-500 sm:text-sm"
+                            placeholder="Zoeken..."
+                          />
+                        </form>
+                      </div>
+                    </div>
+                    <div className="flex lg:hidden justify-self-end justify-end">
                       {/* Mobile menu button */}
                       <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-fuchsia-700 p-2 text-fuchsia-200 hover:bg-fuchsia-500 hover:bg-opacity-75 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-fuchsia-600">
                         <span className="sr-only">Open main menu</span>

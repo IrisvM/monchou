@@ -1,15 +1,16 @@
 import RecipeMeta from '../../components/RecipeMeta';
 import WYSIWYG from '../../components/WYSIWYG';
-import { getRecipe, listRecipes, Recipe as RecipeType } from '../api/recipes';
+import {
+  getRecipe,
+  listRecipes,
+  Recipe,
+  Recipe as RecipeType,
+} from '../api/recipes';
 
-type Props = RecipeType;
+type Props = { recipe: RecipeType };
 
 export default function Recipe({
-  ingredients,
-  tags,
-  content,
-  serving,
-  type,
+  recipe: { ingredients, tags, content, serving, type },
 }: Props) {
   return (
     <>
@@ -43,9 +44,11 @@ type Params = {
 
 export async function getStaticProps({
   params,
-}: Params): Promise<{ props: Props }> {
+}: Params): Promise<{ props: { recipe: RecipeType } }> {
   return {
-    props: await getRecipe(params.slug),
+    props: {
+      recipe: await getRecipe(params.slug),
+    },
   };
 }
 

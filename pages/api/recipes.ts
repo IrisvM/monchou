@@ -13,6 +13,11 @@ export type Recipe = {
   type: string;
 };
 
+export type SearchContent = {
+  slug: string;
+  search: string;
+}[];
+
 export async function getRecipe(name: string): Promise<Recipe> {
   const fileContents = await fs.promises.readFile(
     `${RECIPE_DIR}/${name}.md`,
@@ -37,4 +42,11 @@ export async function listRecipes(): Promise<Recipe[]> {
       .map((filename) => filename.replace(/\.md$/, ''))
       .map((name) => getRecipe(name))
   );
+}
+
+export async function searchRecipes(): Promise<SearchContent> {
+  return (await listRecipes()).map((r) => ({
+    search: r.title,
+    slug: r.slug,
+  }));
 }
