@@ -23,14 +23,18 @@ export async function getRecipe(name: string): Promise<Recipe> {
     `${RECIPE_DIR}/${name}.md`,
     'utf8'
   );
-  const { data, content } = matter(fileContents);
 
-  const result = await remark().use(html).process(content);
+  try {
+    const { data, content } = matter(fileContents);
 
-  return {
-    ...data,
-    content: result.toString(),
-  } as Recipe;
+    const result = await remark().use(html).process(content);
+    return {
+      ...data,
+      content: result.toString(),
+    } as Recipe;
+  } catch (err) {
+    throw new Error(`Error during parsing ${name}: ${err}`);
+  }
 }
 
 const RECIPE_DIR = `${process.cwd()}/recipes`;

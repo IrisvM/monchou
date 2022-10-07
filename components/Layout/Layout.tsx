@@ -68,7 +68,7 @@ export default function Layout({
                             aria-hidden="true"
                           />
                         </div>
-                        <form action="/zoeken" method="get">
+                        <form action="/recepten" method="get">
                           <input
                             type="search"
                             name="query"
