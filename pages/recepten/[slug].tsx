@@ -1,11 +1,6 @@
 import RecipeMeta from '../../components/RecipeMeta';
 import WYSIWYG from '../../components/WYSIWYG';
-import {
-  getRecipe,
-  listRecipes,
-  Recipe,
-  Recipe as RecipeType,
-} from '../api/recipes';
+import { getRecipe, listRecipes, Recipe as RecipeType } from '../api/recipes';
 
 type Props = { recipe: RecipeType };
 
