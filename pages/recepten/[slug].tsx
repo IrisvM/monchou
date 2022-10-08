@@ -1,6 +1,11 @@
 import RecipeMeta from '../../components/RecipeMeta';
 import WYSIWYG from '../../components/WYSIWYG';
-import { getRecipe, listRecipes, Recipe as RecipeType } from '../api/recipes';
+import {
+  getRecipe,
+  listRecipes,
+  listTags,
+  Recipe as RecipeType,
+} from '../api/recipes';
 
 type Props = { recipe: RecipeType };
 
@@ -37,11 +42,13 @@ type Params = {
   };
 };
 
-export async function getStaticProps({
-  params,
-}: Params): Promise<{ props: { recipe: RecipeType } }> {
+export async function getStaticProps({ params }: Params): Promise<{
+  props: { title: string; recipe: RecipeType };
+}> {
+  const recipe = await getRecipe(params.slug);
   return {
     props: {
+      title: recipe.title,
       recipe: await getRecipe(params.slug),
     },
   };

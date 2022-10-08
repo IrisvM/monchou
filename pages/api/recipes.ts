@@ -13,11 +13,6 @@ export type Recipe = {
   type: string;
 };
 
-export type SearchContent = {
-  slug: string;
-  search: string;
-}[];
-
 export async function getRecipe(name: string): Promise<Recipe> {
   const fileContents = await fs.promises.readFile(
     `${RECIPE_DIR}/${name}.md`,
@@ -48,9 +43,19 @@ export async function listRecipes(): Promise<Recipe[]> {
   );
 }
 
-export async function searchRecipes(): Promise<SearchContent> {
-  return (await listRecipes()).map((r) => ({
-    search: r.title,
-    slug: r.slug,
-  }));
+export async function listRecipesByTag(tag: string): Promise<Recipe[]> {
+  return (await listRecipes()).filter((recipe) => recipe.tags.includes(tag));
+}
+
+export async function listTags(): Promise<string[]> {
+  const set = new Set<string>();
+  const recipes = await listRecipes();
+
+  for (const recipe of recipes) {
+    for (const tag of recipe.tags) {
+      set.add(tag);
+    }
+  }
+
+  return [...set];
 }

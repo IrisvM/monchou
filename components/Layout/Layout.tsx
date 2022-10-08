@@ -5,20 +5,19 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from '../Link';
 import Header from '../Header/Header';
 import Head from 'next/head';
-import { SearchContent } from '../../pages/api/recipes';
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid';
 import { useRouter } from 'next/router';
 
-const navigation = [
-  { name: 'Thuis', href: '/', exact: true },
+const navigation: { name: string; href: string; exact?: boolean }[] = [
   { name: 'Recepten', href: '/recepten' },
 ];
 
 export default function Layout({
   children,
   title,
-}: PropsWithChildren<{ title?: string; searchContent?: SearchContent }>) {
+}: PropsWithChildren<{ title?: string }>) {
   const router = useRouter();
+  const searchPath = router.asPath === '/' ? '/recepten' : undefined;
   const { query } = router.query;
 
   return (
@@ -38,7 +37,9 @@ export default function Layout({
                   <div className="relative flex h-16 items-center justify-end lg:border-b lg:border-fuchsia-400 lg:border-opacity-25">
                     <div className="flex items-center px-2 lg:px-0 justify-self-start grow">
                       <div className="flex-shrink-0">
-                        <CakeIcon className="h-8 w-8 text-white" />
+                        <Link href="/">
+                          <CakeIcon className="h-8 w-8 text-white" />
+                        </Link>
                       </div>
                       <div className="hidden lg:ml-10 lg:block">
                         <div className="flex space-x-4">
@@ -49,7 +50,7 @@ export default function Layout({
                               href={item.href}
                               activeClassName={(isActive) =>
                                 isActive
-                                  ? 'bg-fuchsia-700 text-white'
+                                  ? 'underline text-white'
                                   : 'text-white hover:bg-fuchsia-500 hover:bg-opacity-75'
                               }
                               className="rounded-md py-2 px-3 text-sm font-medium"
@@ -68,7 +69,7 @@ export default function Layout({
                             aria-hidden="true"
                           />
                         </div>
-                        <form action="/recepten" method="get">
+                        <form action={searchPath} method="get">
                           <input
                             type="search"
                             name="query"

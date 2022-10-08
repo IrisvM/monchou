@@ -1,14 +1,23 @@
 import RecipeList from '../../components/RecipeList';
+import TagList from '../../components/TagList';
 import useSearch from '../../hooks/useSearch';
-import { listRecipes, Recipe } from '../api/recipes';
+import { listRecipes, listTags, Recipe } from '../api/recipes';
 
 type Props = {
   recipes: Recipe[];
+  tags: string[];
 };
-export default function Recipes({ recipes }: Props) {
+export default function Recipes({ recipes, tags }: Props) {
   const filteredRecipes = useSearch(recipes);
 
-  return <RecipeList recipes={filteredRecipes} />;
+  return (
+    <>
+      <div className="mb-4">
+        <TagList tags={tags} />
+      </div>
+      <RecipeList recipes={filteredRecipes} />
+    </>
+  );
 }
 Recipes.displayName = 'Recepten overzicht';
 
@@ -18,6 +27,7 @@ export async function getStaticProps(): Promise<{
   return {
     props: {
       recipes: await listRecipes(),
+      tags: await listTags(),
     },
   };
 }
