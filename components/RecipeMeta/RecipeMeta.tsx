@@ -1,5 +1,6 @@
 import uppercaseFirst from '../../helpers/uppercaseFirst';
 import { Recipe } from '../../pages/api/recipes';
+import Tag from '../Tag';
 
 export default function RecipeMeta({ type, tags, serving }: Partial<Recipe>) {
   return (
@@ -21,12 +22,7 @@ export default function RecipeMeta({ type, tags, serving }: Partial<Recipe>) {
           <dt className="sr-only">Labels</dt>
           <dd className="mt-3 mb-3">
             {tags.map((tag) => (
-              <span
-                key={tag}
-                className="rounded-full mr-2 bg-indigo-100 px-2 py-1 text-xs font-medium text-indigo-800"
-              >
-                {uppercaseFirst(tag)}
-              </span>
+              <Tag tag={tag} key={tag} />
             ))}
           </dd>
         </>

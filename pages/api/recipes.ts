@@ -18,14 +18,18 @@ export async function getRecipe(name: string): Promise<Recipe> {
     `${RECIPE_DIR}/${name}.md`,
     'utf8'
   );
-  const { data, content } = matter(fileContents);
 
-  const result = await remark().use(html).process(content);
+  try {
+    const { data, content } = matter(fileContents);
 
-  return {
-    ...data,
-    content: result.toString(),
-  } as Recipe;
+    const result = await remark().use(html).process(content);
+    return {
+      ...data,
+      content: result.toString(),
+    } as Recipe;
+  } catch (err) {
+    throw new Error(`Error during parsing ${name}: ${err}`);
+  }
 }
 
 const RECIPE_DIR = `${process.cwd()}/recipes`;
@@ -37,4 +41,21 @@ export async function listRecipes(): Promise<Recipe[]> {
       .map((filename) => filename.replace(/\.md$/, ''))
       .map((name) => getRecipe(name))
   );
+}
+
+export async function listRecipesByTag(tag: string): Promise<Recipe[]> {
+  return (await listRecipes()).filter((recipe) => recipe.tags.includes(tag));
+}
+
+export async function listTags(): Promise<string[]> {
+  const set = new Set<string>();
+  const recipes = await listRecipes();
+
+  for (const recipe of recipes) {
+    for (const tag of recipe.tags) {
+      set.add(tag);
+    }
+  }
+
+  return [...set];
 }

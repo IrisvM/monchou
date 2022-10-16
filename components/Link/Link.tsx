@@ -1,11 +1,10 @@
 import { PropsWithChildren } from 'react';
-import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 
 type Props = {
   href: string;
-  className: string;
-  activeClassName(isActive: boolean): string;
+  className?: string;
+  activeClassName?(isActive: boolean): string;
   exact?: boolean;
 };
 
@@ -24,7 +23,7 @@ export default function Link({
   return (
     <a
       href={href}
-      className={`${className} ${activeClassName(isActive)}`}
+      className={`${className} ${activeClassName?.(isActive)}`}
       aria-current={isActive ? 'page' : undefined}
     >
       {children}
