@@ -7,7 +7,10 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
       key={recipe.slug}
       className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow border border-gray-100 hover:border-fuchsia-100"
     >
-      <a href={`/recepten/${recipe.slug}`} className="flex flex-1 flex-col p-8">
+      <a
+        href={`/recepten/${recipe.type}/${recipe.slug}`}
+        className="flex flex-1 flex-col p-8"
+      >
         {/* <img
               className="mx-auto h-32 w-32 flex-shrink-0 rounded-full"
               src="#"

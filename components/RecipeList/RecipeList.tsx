@@ -8,7 +8,7 @@ export default function RecipeList({ recipes }: { recipes: Recipe[] }) {
       className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
     >
       {recipes.map((recipe) => (
-        <RecipeCard key={recipe.slug} recipe={recipe} />
+        <RecipeCard key={recipe.key} recipe={recipe} />
       ))}
     </ul>
   );

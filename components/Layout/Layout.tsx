@@ -9,15 +9,40 @@ import { MagnifyingGlassIcon } from '@heroicons/react/20/solid';
 import { useRouter } from 'next/router';
 
 const navigation: { name: string; href: string; exact?: boolean }[] = [
-  { name: 'Recepten', href: '/recepten' },
+  { name: 'Hoofdgerechten', href: '/recepten/hoofdgerecht' },
+  { name: 'Bijgerechten', href: '/recepten/bijgerecht' },
+  { name: 'Baksels', href: '/recepten/baksel' },
 ];
+
+function getTypeFromPath(currenPath: string): string | undefined {
+  const matches = /\/recepten\/([^/]+)\/.*/.exec(currenPath);
+
+  if (matches === null) {
+    return undefined;
+  }
+
+  return matches[1] ?? undefined;
+}
+
+function getSearchPath(currentPath: string): string | undefined {
+  if (!currentPath.startsWith('/recepten')) {
+    return '/recepten';
+  }
+
+  const type = getTypeFromPath(currentPath);
+  if (type !== undefined) {
+    return '/recepten/' + type;
+  }
+
+  return undefined;
+}
 
 export default function Layout({
   children,
   title,
 }: PropsWithChildren<{ title?: string }>) {
   const router = useRouter();
-  const searchPath = router.asPath === '/' ? '/recepten' : undefined;
+  const searchPath = getSearchPath(router.asPath);
   const { query } = router.query;
 
   return (

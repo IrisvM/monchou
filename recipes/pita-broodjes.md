@@ -3,7 +3,7 @@ title: Pita broodjes
 slug: pita-broodjes
 tags: 
   - brood
-type: bijgedrecht
+type: bijgerecht
 serving: 2 personen
 ingredients:
   - quantity: 250

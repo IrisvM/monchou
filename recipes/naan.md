@@ -3,7 +3,7 @@ title: Naan brood
 slug: naan
 tags: 
   - brood
-type: bijgedrecht
+type: bijgerecht
 serving: 2 personen
 ingredients:
   - quantity: 250

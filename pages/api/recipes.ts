@@ -11,6 +11,8 @@ export type Recipe = {
   slug: string;
   content: string;
   type: string;
+  key: string;
+  filename: string;
 };
 
 export async function getRecipe(name: string): Promise<Recipe> {
@@ -25,11 +27,27 @@ export async function getRecipe(name: string): Promise<Recipe> {
     const result = await remark().use(html).process(content);
     return {
       ...data,
+      slug: data.slug.toLocaleLowerCase(),
+      type: data.type.toLocaleLowerCase(),
+      tags: data.tags ?? [],
       content: result.toString(),
+      filename: name + '.md',
+      key: name,
     } as Recipe;
   } catch (err) {
     throw new Error(`Error during parsing ${name}: ${err}`);
   }
+}
+
+export async function getRecipeByTypeAndSlug(
+  type: string,
+  slug: string
+): Promise<Recipe> {
+  const recipes = await listRecipesByType(type);
+
+  const recipe = recipes.find((recipe) => recipe.slug === slug)!;
+
+  return recipe;
 }
 
 const RECIPE_DIR = `${process.cwd()}/recipes`;
@@ -41,6 +59,11 @@ export async function listRecipes(): Promise<Recipe[]> {
       .map((filename) => filename.replace(/\.md$/, ''))
       .map((name) => getRecipe(name))
   );
+}
+
+export async function listRecipesByType(type: string): Promise<Recipe[]> {
+  const recipes = await listRecipes();
+  return recipes.filter((recipe) => recipe.type === type);
 }
 
 export async function listRecipesByTag(tag: string): Promise<Recipe[]> {
@@ -58,4 +81,21 @@ export async function listTags(): Promise<string[]> {
   }
 
   return [...set];
+}
+
+export async function listTagsByType(type: string): Promise<string[]> {
+  const set = new Set<string>();
+  const recipes = await listRecipesByType(type);
+
+  for (const recipe of recipes) {
+    for (const tag of recipe.tags) {
+      set.add(tag);
+    }
+  }
+
+  return [...set];
+}
+
+export async function listRecipeTypes(): Promise<string[]> {
+  return [...new Set((await listRecipes()).map((recipe) => recipe.type))];
 }

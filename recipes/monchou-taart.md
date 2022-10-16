@@ -4,7 +4,7 @@ slug: monchou-taart
 tags: 
   - taart
   - zoet
-type: nagerecht
+type: baksel
 serving: 25cm taart
 ingredients:
   - quantity: 1

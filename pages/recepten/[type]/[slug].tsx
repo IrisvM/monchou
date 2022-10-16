@@ -1,11 +1,12 @@
-import RecipeMeta from '../../components/RecipeMeta';
-import WYSIWYG from '../../components/WYSIWYG';
+import RecipeMeta from '../../../components/RecipeMeta';
+import WYSIWYG from '../../../components/WYSIWYG';
 import {
   getRecipe,
+  getRecipeByTypeAndSlug,
   listRecipes,
   listTags,
   Recipe as RecipeType,
-} from '../api/recipes';
+} from '../../api/recipes';
 
 type Props = { recipe: RecipeType };
 
@@ -39,17 +40,19 @@ export default function Recipe({
 type Params = {
   params: {
     slug: string;
+    type: string;
   };
 };
 
 export async function getStaticProps({ params }: Params): Promise<{
   props: { title: string; recipe: RecipeType };
 }> {
-  const recipe = await getRecipe(params.slug);
+  const recipe = await getRecipeByTypeAndSlug(params.type, params.slug);
+
   return {
     props: {
       title: recipe.title,
-      recipe: await getRecipe(params.slug),
+      recipe,
     },
   };
 }
@@ -61,6 +64,7 @@ export async function getStaticPaths() {
     paths: recipes.map((recipe) => {
       return {
         params: {
+          type: recipe.type,
           slug: recipe.slug,
         },
       };
