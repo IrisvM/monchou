@@ -99,3 +99,17 @@ export async function listTagsByType(type: string): Promise<string[]> {
 export async function listRecipeTypes(): Promise<string[]> {
   return [...new Set((await listRecipes()).map((recipe) => recipe.type))];
 }
+
+export async function* listRecipeTypeTags(): AsyncGenerator<{
+  type: string;
+  tag: string;
+}> {
+  const types = await listRecipeTypes();
+
+  for (const type of types) {
+    const tags = await listTagsByType(type);
+    for (const tag of tags) {
+      yield { type, tag };
+    }
+  }
+}

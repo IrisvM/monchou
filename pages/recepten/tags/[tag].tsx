@@ -1,4 +1,5 @@
 import RecipeList from '../../../components/RecipeList';
+import RecipeListPage from '../../../components/RecipePage';
 import TagList from '../../../components/TagList';
 import uppercaseFirst from '../../../helpers/uppercaseFirst';
 import useSearch from '../../../hooks/useSearch';
@@ -10,16 +11,7 @@ type Props = {
   tag: string;
 };
 export default function RecipesByTag({ recipes, tags }: Props) {
-  const filteredRecipes = useSearch(recipes);
-
-  return (
-    <>
-      <div className="mb-4">
-        <TagList tags={tags} />
-      </div>
-      <RecipeList recipes={filteredRecipes} />
-    </>
-  );
+  return <RecipeListPage recipes={recipes} tags={tags} />;
 }
 RecipesByTag.displayName = 'Recepten overzicht';
 
