@@ -9,16 +9,20 @@ serving: 12-14 personen
 ingredients:
   - quantity: 1
     unit: recept
-    title: [banketbakkersroom](http://monchou.littledev.nl/recepten/baksels/banketbakkersroom)
+    title: banketbakkersroom
+    to: /recepten/baksels/banketbakkersroom
   - quantity: 1
     unit: recept
-    title: [mokka crème](http://monchou.littledev.nl/recepten/baksels/mokka-creme)
+    title: mokka crème
+    to: /recepten/baksels/mokka-creme
   - quantity: 1
     unit: recept
-    title: [basis vanille taart](http://monchou.littledev.nl/recepten/baksels/basis-taart)
+    title: basis vanille taart
+    to: /recepten/baksels/basis-taart
   - quantity: 60
     unit: g
-    title: [genache](http://monchou.littledev.nl/recepten/baksels/genache)
+    title: genache
+    to: /recepten/baksels/genache
   - quantity: 
     unit: 
     title: nogatine

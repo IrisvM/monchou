@@ -32,7 +32,8 @@ ingredients:
     title: saté saus
   - quantity: 1.5
     unit: el
-    title: [nasi kruiden](http://monchou.littledev.nl/recepten/kruiden/nasi-kruiden)
+    title: nasi kruiden
+    to: /recepten/kruiden/nasi-kruiden
 ---
 
 # Bereiding

@@ -27,7 +27,8 @@ ingredients:
     title: zout
   - quantity: 200
     unit: g
-    title: [genache](http://monchou.littledev.nl/recepten/baskels/genache)
+    title: genache
+    to: /recepten/baskels/genache
   - quantity: 
     unit: 
     title: (vloeibare) boter en cacaopoeder voor invetten

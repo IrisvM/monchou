@@ -21,7 +21,8 @@ ingredients:
     title: poedersuiker
   - quantity: 300
     unit: g
-    title: [banketbakkersoom](http://monchou.littledev.nl/recepten/baksels/mokka-creme)
+    title: banketbakkersoom
+    to: /recepten/baksel/banketbakkersoom
 ---
 
 # Bereiden
