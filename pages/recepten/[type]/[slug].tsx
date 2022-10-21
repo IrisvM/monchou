@@ -1,10 +1,9 @@
+import IngredientList from '../../../components/IngredientList/IngredientList';
 import RecipeMeta from '../../../components/RecipeMeta';
 import WYSIWYG from '../../../components/WYSIWYG';
 import {
-  getRecipe,
   getRecipeByTypeAndSlug,
   listRecipes,
-  listTags,
   Recipe as RecipeType,
 } from '../../api/recipes';
 
@@ -21,13 +20,7 @@ export default function Recipe({
       </section>
       <section className="mb-3">
         <h2 className="text-2xl font-bold">Ingredienten</h2>
-        <ul>
-          {ingredients.map((ingredient) => (
-            <li key={ingredient.title}>
-              {ingredient.quantity} {ingredient.unit} {ingredient.title}
-            </li>
-          ))}
-        </ul>
+        <IngredientList ingredients={ingredients} />
       </section>
       <section className="mb-3">
         <h2 className="text-2xl font-bold">Stappen</h2>
