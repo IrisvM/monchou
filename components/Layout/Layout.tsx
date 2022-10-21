@@ -12,6 +12,7 @@ const navigation: { name: string; href: string; exact?: boolean }[] = [
   { name: 'Hoofdgerechten', href: '/recepten/hoofdgerecht' },
   { name: 'Bijgerechten', href: '/recepten/bijgerecht' },
   { name: 'Baksels', href: '/recepten/baksel' },
+  { name: 'Kruiden', href: '/recepten/kruiden' },
 ];
 
 function getTypeFromPath(currenPath: string): string | undefined {

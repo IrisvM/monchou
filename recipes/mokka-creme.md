@@ -4,7 +4,7 @@ slug: mokka-creme
 tags: 
   - vulling
   - zoet
-type: baksels
+type: baksel
 serving: taart van 18 cm tweemaal te vullen en af te werken
 ingredients:
   - quantity: 50

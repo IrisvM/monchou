@@ -34,7 +34,6 @@ ingredients:
   - quantity: 2
     unit: el
     title: kerrie masala kruiden
-
 ---
 
 # Curry

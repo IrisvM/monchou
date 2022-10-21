@@ -60,7 +60,6 @@ ingredients:
 - Kort voor serveren kan de ananas worden toegevoegd
 
 
-
 # Serveren
 
 Het lekkerste als de saus en eiermie gemengd worden.

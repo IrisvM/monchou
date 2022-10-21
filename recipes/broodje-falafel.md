@@ -35,12 +35,15 @@ ingredients:
     title: gemalen koriander
 ---
 
+
 # Salsa
+
 - Snijd de paprika, tomaten en knoflook fijn (eventueel met pers).
 - Meng dit met koriander en citroensap in een kom. Breng op smaak met peper en zout.
 
  
 # Vulling broodjes
+
 - Bak de falafel.
 - Vul de broodjes naar wens met sla, komkommer, salsa en falafel
 
