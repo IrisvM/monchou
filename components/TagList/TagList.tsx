@@ -1,10 +1,17 @@
 import TagLink from '../Tag/TagLink';
 
-export default function TagList({ tags }: { tags: string[] }) {
+export default function TagList({
+  tags,
+  type,
+}: {
+  tags: string[];
+  type?: string;
+}) {
+  const path = type !== undefined ? `/recepten/${type}` : `/recepten`;
   return (
     <>
       {tags.sort().map((tag) => (
-        <TagLink href={`/recepten/tags/${tag}`} tag={tag} key={tag} />
+        <TagLink href={`${path}/tags/${tag}`} tag={tag} key={tag} />
       ))}
     </>
   );
