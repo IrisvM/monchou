@@ -10,19 +10,19 @@ ingredients:
   - quantity: 1
     unit: recept
     title: banketbakkersroom
-    to: /recepten/baksels/banketbakkersroom
+    to: /recepten/baksel/banketbakkersroom
   - quantity: 1
     unit: recept
     title: mokka crème
-    to: /recepten/baksels/mokka-creme
+    to: /recepten/baksel/mokka-creme
   - quantity: 1
     unit: recept
     title: basis vanille taart
-    to: /recepten/baksels/basis-taart
+    to: /recepten/baksel/basis-taart
   - quantity: 60
     unit: g
     title: genache
-    to: /recepten/baksels/genache
+    to: /recepten/baksel/genache
   - quantity: 
     unit: 
     title: nogatine

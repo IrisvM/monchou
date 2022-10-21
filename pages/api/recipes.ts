@@ -5,7 +5,7 @@ import html from 'remark-html';
 
 export type Recipe = {
   title: string;
-  ingredients: { quantity: number; unit: string; title: string }[];
+  ingredients: { quantity: number; unit: string; title: string; to?: string }[];
   serving: string;
   tags: string[];
   slug: string;

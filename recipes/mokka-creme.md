@@ -22,7 +22,7 @@ ingredients:
   - quantity: 300
     unit: g
     title: banketbakkersoom
-    to: /recepten/baksel/banketbakkersoom
+    to: /recepten/baksel/banketbakkersroom
 ---
 
 # Bereiden
