@@ -13,14 +13,15 @@ type Props = {
   title: string;
   recipes: Recipe[];
   tags: string[];
+  type: string;
 };
-export default function Recipes({ recipes, tags }: Props) {
+export default function Recipes({ recipes, tags, type }: Props) {
   const filteredRecipes = useSearch(recipes);
 
   return (
     <>
       <div className="mb-4">
-        <TagList tags={tags} />
+        <TagList type={type} tags={tags} />
       </div>
       <RecipeList recipes={filteredRecipes} />
     </>
@@ -42,6 +43,7 @@ export async function getStaticProps({ params: { type } }: Params): Promise<{
       title: uppercaseFirst(type) + ' overzicht',
       recipes: await listRecipesByType(type),
       tags: await listTagsByType(type),
+      type,
     },
   };
 }
