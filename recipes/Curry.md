@@ -3,7 +3,7 @@ title: Curry
 slug: curry
 tags: 
   - curry
-type: hoodgerecht
+type: hoofdgerecht
 serving: 2 personen
 ingredients:
   - quantity: 200

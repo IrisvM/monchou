@@ -3,7 +3,7 @@ title: Nasi
 slug: nasi
 tags: 
   - vegetarisch
-type: hoodgerecht
+type: hoofdgerecht
 serving: 2 personen
 ingredients:
   - quantity: 1

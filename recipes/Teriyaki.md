@@ -3,7 +3,7 @@ title: Teriyaki
 slug: teriyaki
 tags: 
   - soja
-type: hoodgerecht
+type: hoofdgerecht
 serving: 2 personen
 ingredients:
   - quantity: 200

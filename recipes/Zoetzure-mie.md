@@ -2,7 +2,7 @@
 title: Zoetzure mie
 slug: zoetzure-mie
 tags: 
-type: hoodgerecht
+type: hoofdgerecht
 serving: 2 personen
 ingredients:
   - quantity: 200
