@@ -51,8 +51,14 @@ export default function Layout({
       <Head>
         <title>{title ?? 'Recepten'}</title>
       </Head>
+      <a
+        className="sr-only focus:not-sr-only focus:sticky focus:block w-full bg-fuchsia-700 text-white top-0 p-2 text-center"
+        href="#main-content"
+      >
+        Naar inhoud
+      </a>
       <div className="min-h-full">
-        <div className="bg-fuchsia-700 pb-32">
+        <div className="bg-fuchsia-700 pb-44">
           <Disclosure
             as="nav"
             className="border-b border-fuchsia-300 border-opacity-25 lg:border-none"
@@ -149,13 +155,13 @@ export default function Layout({
               </>
             )}
           </Disclosure>
-          <Header title={title ?? '(Monchou)'} />
         </div>
 
-        <main id="main-content" className="-mt-32">
+        <main id="main-content" className="-mt-44">
+          <Header title={title ?? '(Monchou)'} />
           <div className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
             {/* Replace with your content */}
-            <div className="rounded-lg bg-white px-5 py-6 shadow sm:px-6">
+            <div className="rounded-lg bg-white px-5 py-6 shadow sm:px-6 min-h-[10rem]">
               {children}
             </div>
             {/* /End replace */}
