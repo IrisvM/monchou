@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
@@ -15,9 +16,11 @@ export type Recipe = {
   filename: string;
 };
 
-export async function getRecipe(name: string): Promise<Recipe> {
+const RECIPE_DIR = `${process.cwd()}/recipes`;
+
+export async function getRecipe(path: string): Promise<Recipe> {
   const fileContents = await fs.promises.readFile(
-    `${RECIPE_DIR}/${name}.md`,
+    `${RECIPE_DIR}/${path}`,
     'utf8'
   );
 
@@ -31,11 +34,11 @@ export async function getRecipe(name: string): Promise<Recipe> {
       type: data.type.toLocaleLowerCase(),
       tags: data.tags ?? [],
       content: result.toString(),
-      filename: name + '.md',
-      key: name,
+      filename: path,
+      key: path,
     } as Recipe;
   } catch (err) {
-    throw new Error(`Error during parsing ${name}: ${err}`);
+    throw new Error(`Error during parsing ${path}: ${err}`);
   }
 }
 
@@ -50,19 +53,37 @@ export async function getRecipeByTypeAndSlug(
   return recipe;
 }
 
-const RECIPE_DIR = `${process.cwd()}/recipes`;
-
 export async function listRecipes(): Promise<Recipe[]> {
-  const recipeFileNames = await fs.promises.readdir(RECIPE_DIR);
-  return await Promise.all(
-    recipeFileNames
-      .map((filename) => filename.replace(/\.md$/, ''))
-      .map((name) => getRecipe(name))
-  );
+  const allRecipes = [];
+
+  for await (const recipe of listRecipesDir('')) {
+    allRecipes.push(recipe);
+  }
+
+  return allRecipes;
+}
+
+async function* listRecipesDir(dir: string): AsyncGenerator<Recipe> {
+  const fileNames = await fs.promises.readdir(path.join(RECIPE_DIR, dir));
+
+  for (const fileName of fileNames) {
+    const filePath = path.join(dir, fileName);
+    const fullFilePath = path.join(RECIPE_DIR, filePath);
+    const fstat = await fs.promises.stat(fullFilePath);
+
+    if (fstat.isDirectory()) {
+      yield* listRecipesDir(filePath);
+    }
+
+    if (fstat.isFile()) {
+      yield await getRecipe(filePath);
+    }
+  }
 }
 
 export async function listRecipesByType(type: string): Promise<Recipe[]> {
   const recipes = await listRecipes();
+
   return recipes.filter((recipe) => recipe.type === type);
 }
 
