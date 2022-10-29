@@ -18,7 +18,13 @@ export type Recipe = {
 
 const RECIPE_DIR = `${process.cwd()}/recipes`;
 
+const _recipeCache: { [path: string]: Recipe } = {};
+
 export async function getRecipe(path: string): Promise<Recipe> {
+  if (_recipeCache[path]) {
+    return _recipeCache[path];
+  }
+
   const fileContents = await fs.promises.readFile(
     `${RECIPE_DIR}/${path}`,
     'utf8'
@@ -28,7 +34,7 @@ export async function getRecipe(path: string): Promise<Recipe> {
     const { data, content } = matter(fileContents);
 
     const result = await remark().use(html).process(content);
-    return {
+    _recipeCache[path] = {
       ...data,
       slug: data.slug.toLocaleLowerCase(),
       type: data.type.toLocaleLowerCase(),
@@ -37,6 +43,8 @@ export async function getRecipe(path: string): Promise<Recipe> {
       filename: path,
       key: path,
     } as Recipe;
+
+    return _recipeCache[path];
   } catch (err) {
     throw new Error(`Error during parsing ${path}: ${err}`);
   }
@@ -53,12 +61,19 @@ export async function getRecipeByTypeAndSlug(
   return recipe;
 }
 
+let _recipesCache: undefined | Recipe[];
 export async function listRecipes(): Promise<Recipe[]> {
+  if (_recipesCache) {
+    return _recipesCache;
+  }
+
   const allRecipes = [];
 
   for await (const recipe of listRecipesDir('')) {
     allRecipes.push(recipe);
   }
+
+  _recipesCache = allRecipes;
 
   return allRecipes;
 }
