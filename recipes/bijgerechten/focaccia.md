@@ -6,7 +6,7 @@ tags:
 type: bijgerecht
 serving: 2 personen
 ingredients:
-  - quantity: 250
+  - quantity: 200
     unit: g
     title: bloem
   - quantity: 2
