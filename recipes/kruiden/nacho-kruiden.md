@@ -32,8 +32,5 @@ ingredients:
   - quantity: 0.5
     unit: deel
     title: gerookt paprikapoeder
-  - quantity: 0.25
-    unit: deel
-    title: chilivlokken 
 ---
 
