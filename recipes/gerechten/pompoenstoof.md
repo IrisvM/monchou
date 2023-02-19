@@ -10,7 +10,7 @@ ingredients:
   - quantity: 300
     unit: g
     title: flespompoen
-  - quantity: 1
+  - quantity: 0.5
     unit: el
     title: karwijzaad
   - quantity: 115

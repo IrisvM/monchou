@@ -2,7 +2,7 @@
 title: Stokbrood revival
 slug: stokbrood
 tags: 
-  - vegetarisch
+  - brood
 type: bijgerecht
 serving: 2 personen
 ingredients:
