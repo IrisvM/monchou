@@ -25,6 +25,9 @@ ingredients:
     title: cayennepeper
   - quantity: 0.5
     unit: deel
+    title: koriander
+  - quantity: 0.5
+    unit: deel
     title: knoflookpoeder
   - quantity: 0.5
     unit: deel
