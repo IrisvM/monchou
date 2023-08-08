@@ -36,9 +36,11 @@ ingredients:
     unit: deel
     title: gerookt paprikapoeder
 ---
+### Bereiding
+
 - Meng alle kruiden
 
-## Te gebruiken bij
+### Te gebruiken bij
 
 - [Nacho oven schotel](/recepten/hoofdgerecht/nacho)
 - Burritos uit de oven 
