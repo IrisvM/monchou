@@ -1,6 +1,6 @@
 ---
-title: Nacho kruiden
-slug: nacho-kruiden
+title: Texmex kruiden
+slug: texmex-kruiden
 tags: 
 type: kruiden
 serving: 
@@ -36,4 +36,10 @@ ingredients:
     unit: deel
     title: gerookt paprikapoeder
 ---
+- Meng alle kruiden
 
+## Te gebruiken bij
+
+- [Nacho oven schotel](/recepten/hoofdgerecht/nacho)
+- Burritos uit de oven 
+- Andere mexicaanse gerechten
