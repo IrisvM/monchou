@@ -40,7 +40,7 @@ ingredients:
     unit: g
     title: gehakt
   - quantity: 1
-    unit: el
+    unit: el (naar smaak)
     title: nacho kruiden
     to: /recepten/kruiden/nacho-kruiden  
     

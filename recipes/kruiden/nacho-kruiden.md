@@ -43,5 +43,5 @@ ingredients:
 # Te gebruiken bij
 
 - [Nacho oven schotel](/recepten/hoofdgerecht/nacho)
-- Burritos uit de oven 
+- [Burritos uit de oven](/recepten/hoofdgerecht/burrito) 
 - Andere mexicaanse gerechten
