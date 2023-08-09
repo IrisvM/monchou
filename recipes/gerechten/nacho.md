@@ -42,7 +42,7 @@ ingredients:
   - quantity: 1
     unit: el (naar smaak)
     title: nacho kruiden
-    to: /recepten/kruiden/nacho-kruiden  
+    to: /recepten/kruiden/texmex-kruiden  
     
 ---
 
