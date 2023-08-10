@@ -13,10 +13,10 @@ ingredients:
     title: komijn
   - quantity: 1  
     unit: deel
-    title: gemalen koriander
+    title: gemalen korianderzaad
   - quantity: 1
     unit: deel
-    title: gember
+    title: gemberpoeder
   - quantity: 0.25
     unit: deel
     title: knoflookpoeder

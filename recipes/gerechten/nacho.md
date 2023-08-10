@@ -18,7 +18,7 @@ ingredients:
   - quantity: 1
     unit: teen
     title: knoflook
-  - quantity: 
+  - quantity: snufje
     unit: 
     title: gemalen koriander
   - quantity: 2
@@ -46,22 +46,20 @@ ingredients:
     
 ---
 
-# Bereiding
+# Bereiding guacamole
+- Snijd of pers de knoflook fijn.
+- Haal het vruchtvlees uit de avocado en prak/vijzel/blender dit tot een puree. 
+- Meng de avocadoe met knoflook, gemalen korianderzaad en een scheutje limoensap. Eventueel op smaak brengen met peper en zout. 
 
-- Kook de rijst volgens de instructies op de verpakking
-- Snijd alle groenten
-- Kluts de eieren met de melk en breng op smaak naar wens
-- Bak eerst de wortel. Zodra deze zachter wordt, kan de paprika worden toegevoegd.
-- Bak ondertussen het ei en maak de saté saus
-- Voeg de kruiden en ketjap toe 
-- Voeg de rijst toe en meng goed
-- Voeg vervolgens de spitskool toe. Blijf roeren totdat de spitskool iets zachter wordt en begint de slinken
+# Bereiding nacho schotel
+- Verwarm de oven voor op ongeveer 175 graden Celcius
+- Bak het gehakt. 
+- Voeg papriak toe en bak deze mee.
+- Zodra gehakt en paprika gaar zijn, kunnen de kruiden worden toegevoegd. 
+- Voeg maïs, bonen en tomaten toe en bak deze mee totdat alles goed verwarmd is en de tomaat wat zachter is geworden.
+- Doe het mengsel in een ovenschaal. 
+- Een mogelijke opbouw kan zijn door eerst al het mengsel in een ovenschaal te doen en aan te drukken. Bedek dit mengsel met een laag nacho's. Daaroverheen kan de guacamole worden verdeeld, gevolgd door weer een laag nacho's. Verdeel boven op een dun laagje creme fraiche en de geraspte kaas.
+- Zet in de oven voor ongeveer 5 minuten, totdat de kaas gesmolten is. Zet eventueel onder de gril voor een kanpperig randje.
 
-
-# Variaties
-
-De eieren kunnen ook vervangen worden voor (vegetarische) kipstukjes.
-
-# Serveertips
-
-Ook lekker met een beetje atjar of paprika's op zuur.
+# Tips
+Met meer nacho's (of minder vulling) is dit gerecht ook geschikt als borrelgerecht. 

@@ -10,10 +10,10 @@ ingredients:
     title: paprikapoeder (mild)
   - quantity: 3
     unit: delen
-    title: komijn
+    title: gemalen komijnzaad
   - quantity: 1  
     unit: deel
-    title: gemalen koriander
+    title: gemalen korianderzaad
   - quantity: 0.5
     unit: deel
     title: zwarte peper

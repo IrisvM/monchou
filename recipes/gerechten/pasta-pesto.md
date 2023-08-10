@@ -34,7 +34,7 @@ ingredients:
 ---
 
 # Bereiding
-- Kook de spaghetti beetgaar. Bewaar 100 mL van het kookvocht.
+- Kook de pasta beetgaar. Bewaar 100 mL van het kookvocht.
 - Bak de champignons met een beetje basilicum en houdt apart.
 - Bak de paprika en doe gelijktijdig de cherry tomaatjes erbij. 
 - Alles alles klaar is, voeg dan de pesto toe aan de afgegoten pasta. Voeg pasta-water toe tot een smeuïge saus ontstaat.
