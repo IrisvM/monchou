@@ -14,7 +14,7 @@ ingredients:
   - quantity: 0.25
     unit: deel
     title: zwarte peper
-  - quantity: 0.5
+  - quantity: 0.25
     unit: deel
     title: zout
   - quantity: 0.25
