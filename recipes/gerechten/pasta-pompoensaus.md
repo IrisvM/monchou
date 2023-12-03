@@ -12,7 +12,7 @@ ingredients:
     title: pasta
   - quantity: 0.5
     unit: 
-    title: Pompoen
+    title: Flespompoen
   - quantity: 1
     unit: 
     title: Shallot
