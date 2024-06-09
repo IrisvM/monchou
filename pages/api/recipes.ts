@@ -9,6 +9,7 @@ export type Recipe = {
   ingredients: { quantity: number; unit: string; title: string; to?: string }[];
   serving: string;
   tags: string[];
+  image: null | string;
   slug: string;
   content: string;
   type: string;
@@ -32,6 +33,7 @@ export async function getRecipe(path: string): Promise<Recipe> {
       ...data,
       slug: data.slug.toLocaleLowerCase(),
       type: data.type.toLocaleLowerCase(),
+      image: data.image ?? null,
       tags: data.tags ?? [],
       content: result.toString(),
       filename: path,

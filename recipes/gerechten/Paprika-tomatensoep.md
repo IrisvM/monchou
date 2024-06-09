@@ -1,6 +1,7 @@
 ---
 title: Paprika-tomatensoep
 slug: paprika-tomatensoep
+image: recipes/gerechten/paprika-tomatensoep.jpg
 tags: 
   - Soep
   - Vegetarisch

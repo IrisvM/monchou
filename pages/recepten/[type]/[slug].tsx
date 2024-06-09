@@ -1,4 +1,5 @@
 import IngredientList from '../../../components/IngredientList/IngredientList';
+import RecipeImage from '../../../components/RecipeImage';
 import RecipeMeta from '../../../components/RecipeMeta';
 import WYSIWYG from '../../../components/WYSIWYG';
 import {
@@ -10,13 +11,19 @@ import {
 type Props = { recipe: RecipeType };
 
 export default function Recipe({
-  recipe: { ingredients, tags, content, serving, type },
+  recipe: { ingredients, tags, content, serving, type, image, title },
 }: Props) {
   return (
     <>
       <section className="mb-3">
         <h2 className="text-2xl font-bold">Meer over</h2>
-        <RecipeMeta serving={serving} tags={tags} type={type} />
+        <RecipeImage className="mt-4" image={image} title={title} />
+        <RecipeMeta
+          className="mt-4"
+          serving={serving}
+          tags={tags}
+          type={type}
+        />
       </section>
       <section className="mb-3">
         <h2 className="text-2xl font-bold">Ingredienten</h2>
