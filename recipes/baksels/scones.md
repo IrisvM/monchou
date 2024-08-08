@@ -5,32 +5,35 @@ tags:
   - brood
   - zoet
 type: baksel
-serving: 16 stuks
+serving: 14 stuks
 ingredients:
-  - quantity: 125
+  - quantity: 75
     unit: g
     title: koude ongezouten roomboter
-  - quantity: 50
+  - quantity: 90
     unit: g
-    title: witte basterdsuiker
-  - quantity: 425
+    title: suiker
+  - quantity: 500
     unit: g
     title: bloem
   - quantity: 5
     unit: tl
     title: bakpoeder
-  - quantity: 1
+  - quantity: 2
     unit: 
     title: ei
-  - quantity: 250
+  - quantity: 175
     unit: ml
-    title: volle melk
+    title: karnemelk
   - quantity: 
     unit: snufje
     title: zout
-  - quantity: 
-    unit: handje
+  - quantity: 125
+    unit: g
     title: rozijnen
+  - quantity: 
+    unit: 
+    title: extra ei
 ---
 
 # Bereiden
@@ -38,16 +41,17 @@ ingredients:
 - Meng alle droge ingrediënten in een grote kom.
 - Snijd de boter in blokjes en zorg dat deze koud blijven.
 - Doe het ei bij de melk en mix deze tot een geheel.
+- Wrijf de koude boter door de droge ingrediënten. Wrijf en meng totdat je grof broodkruim krijgt.
 - Maak een kuiltje in het midden van het bloemmengsel en doe daar het melkmengsel in. 
 - Meng de natte en droge ingrediënten vanuit het midden steeds meer samen met behulp van een vork. 
 - Bestuif een werkblad met bloem, stort het deeg op het werkblad en breng alles tot een geheel door te kneden. Voeg hier ook eventuele rozijnen toe. Kneed niet langer dan nodig.  
-- Rol of druk het deeg uit tot een lap van ongeveer 2.5 cm dikte. 
+- Rol of druk het deeg uit tot een lap van ongeveer 2 cm dikte. 
 - Steek de scones uit met een ronde vorm en leg op een bakpapier beklede bakplaat. Eventuele restjes kun je samenkneden tot een nieuwe lap deeg. 
-- Bestrijk de scones met melk (met eventueel ei). Probeer druppels op het papier te voorkomen. Deze verbranden makkelijk.
+- Bestrijk de scones met ei. Probeer druppels op het papier te voorkomen. Deze verbranden makkelijk.
 
 # Bakken
 
-- Bak de scones op 170 graden Celcius voor ongeveer 25 minuten.
+- Bak de scones op 200 graden Celcius voor ongeveer 15 minuten.
 - De scones zijn klaar als de bovenkant knapperig en een licht gebruinde kleur heeft. Check ook of de onderkant gaar en gebruind is.
 
  
