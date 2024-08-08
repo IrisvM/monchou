@@ -1,10 +1,21 @@
+import classNames from '../../helpers/classNames';
 import uppercaseFirst from '../../helpers/uppercaseFirst';
 import { Recipe } from '../../pages/api/recipes';
 import Tag from '../Tag';
 
-export default function RecipeMeta({ type, tags, serving }: Partial<Recipe>) {
+export default function RecipeMeta({
+  type,
+  tags,
+  serving,
+  className,
+}: Partial<Recipe> & { className?: string }) {
   return (
-    <dl className="mt-1 flex flex-grow flex-col justify-between">
+    <dl
+      className={classNames(
+        'mt-1 flex flex-grow flex-col justify-between',
+        className
+      )}
+    >
       {type && (
         <>
           <dt className="sr-only">Soort</dt>

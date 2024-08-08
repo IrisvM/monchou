@@ -20,5 +20,9 @@
         ul { 
             @apply list-disc ml-5;
         }
+
+        a {
+          @apply text-indigo-600
+        }
     }
 }

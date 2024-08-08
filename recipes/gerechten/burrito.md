@@ -6,7 +6,7 @@ tags:
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
-    - quantity: 6
+  - quantity: 6
     unit: kleine
     title: tortilla wraps
   - quantity: 200

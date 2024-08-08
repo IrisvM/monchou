@@ -1,5 +1,7 @@
 import { Recipe } from '../../pages/api/recipes';
+import Image from 'next/image';
 import RecipeMeta from '../RecipeMeta';
+import RecipeImage from '../RecipeImage';
 
 export default function RecipeCard({ recipe }: { recipe: Recipe }) {
   return (
@@ -11,14 +13,7 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
         href={`/recepten/${recipe.type}/${recipe.slug}`}
         className="flex flex-1 flex-col p-8"
       >
-        {/* <img
-              className="mx-auto h-32 w-32 flex-shrink-0 rounded-full"
-              src="#"
-              alt=""
-            /> */}
-        <div className="mx-auto h-32 w-32 flex-shrink-0 rounded-full bg-gray-200 text-center align-middle leading-[8rem] text-xl font-bold">
-          {recipe.title.substring(0, 2).toUpperCase()}
-        </div>
+        <RecipeImage title={recipe.title} image={recipe.image} />
         <h3 className="mt-6 text-sm font-medium text-gray-900">
           {recipe.title}
         </h3>

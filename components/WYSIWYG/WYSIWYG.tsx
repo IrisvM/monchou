@@ -15,7 +15,13 @@ function offsetHeading(
     const Heading = ('h' + (headingNumber + offset)) as 'h1';
 
     return (
-      <Heading {...domNode.attribs}>{domToReact(domNode.children)}</Heading>
+      <Heading {...domNode.attribs}>
+          {domToReact(
+              domNode.children
+                  .filter((n) => n.type !== 'cdata')
+                  .map((n) => n as DOMNode)
+          )}
+      </Heading>
     );
   }
 
