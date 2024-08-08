@@ -1,6 +1,7 @@
 ---
 title: Basis biscuit 
 slug: basis-biscuit
+image: recipes/baksels/basis-biscuit.jpg
 tags: 
   - taart
   - zoet

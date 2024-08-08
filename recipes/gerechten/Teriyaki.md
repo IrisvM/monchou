@@ -1,6 +1,7 @@
 ---
 title: Teriyaki
 slug: teriyaki
+image: recipes/gerechten/teriyaki.jpg
 tags: 
   - soja
 type: hoofdgerecht

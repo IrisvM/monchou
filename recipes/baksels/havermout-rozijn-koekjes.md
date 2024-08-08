@@ -1,6 +1,7 @@
 ---
 title: Havermout-rozijn koekjes
 slug: havermout-rozijn-koekjes
+image: recipes/baksels/haverkoekjes.jpg
 tags: 
   - koek
   - zoet

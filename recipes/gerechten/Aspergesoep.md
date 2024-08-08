@@ -1,6 +1,7 @@
 ---
 title: Aspergesoep
 slug: aspergesoep
+image: recipes/gerechten/aspergesoep.jpg
 tags: 
   - Soep
 type: hoofdgerecht

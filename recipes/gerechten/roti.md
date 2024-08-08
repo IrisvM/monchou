@@ -1,6 +1,7 @@
 ---
 title: Roti
 slug: roti
+image: recipes/gerechten/roti.jpg
 tags: 
   - vegetarisch
   - curry

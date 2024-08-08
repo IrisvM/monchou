@@ -1,6 +1,7 @@
 ---
 title: Focaccia
 slug: focaccia
+image: recipes/bijgerechten/foccacia.jpg
 tags: 
   - brood
 type: bijgerecht

@@ -1,6 +1,7 @@
 ---
 title: Mokka taart
 slug: mokka-taart
+image: recipes/baksels/mokka-taart.jpg
 tags: 
   - taart
   - zoet

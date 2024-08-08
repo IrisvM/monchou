@@ -1,6 +1,7 @@
 ---
 title: Pasta pesto
 slug: pasta-pesto
+image: recipes/gerechten/pasta-pesto.jpg
 tags: 
   - pasta
   - vegetarisch

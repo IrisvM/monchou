@@ -1,6 +1,7 @@
 ---
 title: Monchou taart
 slug: monchou-taart
+image: recipes/baksels/monchou-taart.jpg
 tags: 
   - taart
   - zoet

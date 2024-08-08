@@ -1,6 +1,7 @@
 ---
 title: Verse pasta
 slug: verse-pasta
+image: recipes/gerechten/ravioli.jpg
 tags: 
   - vegetarisch
   - pasta

@@ -1,6 +1,7 @@
 ---
 title: Passievrucht-mango mousse
 slug: passievrucht-mousse
+image: recipes/baksels/passievrucht-mousse.jpg
 tags: 
   - dessert
   - zoet
