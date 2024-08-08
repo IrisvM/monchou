@@ -3,8 +3,8 @@ title: Paprika-tomatensoep
 slug: paprika-tomatensoep
 image: recipes/gerechten/paprika-tomatensoep.jpg
 tags: 
-  - Soep
-  - Vegetarisch
+  - soep
+  - vegetarisch
 type: hoofdgerecht
 serving: 2 personen
 ingredients:

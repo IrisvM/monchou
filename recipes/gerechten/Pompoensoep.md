@@ -2,8 +2,8 @@
 title: Pompoensoep
 slug: pompoensoep
 tags: 
-  - Soep
-  - Vegetarisch
+  - soep
+  - vegetarisch
 type: hoofdgerecht
 serving: 2 personen
 ingredients:

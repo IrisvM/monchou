@@ -2,7 +2,7 @@
 title: Zuurkool stamppot
 slug: zuurkool
 tags: 
-  - Winters
+  - winters
 type: hoofdgerecht
 serving: 2 personen
 ingredients:

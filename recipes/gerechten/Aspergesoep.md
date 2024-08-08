@@ -3,7 +3,7 @@ title: Aspergesoep
 slug: aspergesoep
 image: recipes/gerechten/aspergesoep.jpg
 tags: 
-  - Soep
+  - soep
 type: hoofdgerecht
 serving: 2 personen
 ingredients:

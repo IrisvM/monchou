@@ -2,8 +2,8 @@
 title: Erwtensoep
 slug: erwtensoep
 tags: 
-  - Winters
-  - Soep
+  - winters
+  - soep
 type: hoofdgerecht
 serving: 3 personen
 ingredients:

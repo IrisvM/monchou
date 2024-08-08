@@ -2,7 +2,8 @@
 title: Sinaasappel Tofu
 slug: sinaasappel-tofu
 tags:
-  - Vegetarisch
+  - vegetarisch
+  - veganistisch
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
