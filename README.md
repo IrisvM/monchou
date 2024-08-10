@@ -2,10 +2,16 @@
 
 ## Getting Started
 
-First, run the development server:
+First, [install bun](https://bun.sh/)
+
+To install all dependencies run:
 
 ```bash
-npm run dev
-# or
-yarn dev
+bun i
+```
+
+To run the development server:
+
+```bash
+bun run dev
 ```
