@@ -2,8 +2,7 @@
 title: Boerenkool stamppot
 slug: boerenkool
 tags: 
-  - w
-  inters
+  - winters
 type: hoofdgerecht
 serving: 2 personen
 ingredients:

@@ -86,7 +86,8 @@ async function* listRecipesDir(dir: string): AsyncGenerator<Recipe> {
 export async function listRecipesByType(type: string): Promise<Recipe[]> {
   const recipes = await listRecipes();
 
-  return recipes.filter((recipe) => recipe.type === type);
+  const matcher = new RegExp(`^${type}$`, 'i');
+  return recipes.filter((recipe) => matcher.test(recipe.type));
 }
 
 export async function listRecipesByTag(tag: string): Promise<Recipe[]> {
@@ -99,7 +100,7 @@ export async function listTags(): Promise<string[]> {
 
   for (const recipe of recipes) {
     for (const tag of recipe.tags) {
-      set.add(tag);
+      set.add(tag.toLocaleLowerCase());
     }
   }
 
