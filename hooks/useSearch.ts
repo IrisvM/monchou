@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { Recipe } from '../pages/api/recipes';
+import { Recipe } from '../api/recipes';
 
 export default function useSearch(recipes: Recipe[]): Recipe[] {
   const [filteredRecipes, setFilteredRecipes] = useState<Recipe[]>(recipes);
@@ -8,7 +8,7 @@ export default function useSearch(recipes: Recipe[]): Recipe[] {
   const { query } = router.query;
 
   useEffect(() => {
-    const queryString = Array.isArray(query) ? query.join(' ') : query ?? '';
+    const queryString = Array.isArray(query) ? query.join(' ') : (query ?? '');
     const safeRegexp = new RegExp(
       queryString.replaceAll(/[.*+?^${}()|[\]\\]/g, '\\$&'),
       'gi'

@@ -1,3 +1,10 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Monchou recepten pagina',
+  description: 'De recepten pagina van Vincent en Iris',
+};
+
 export default function Home() {
   return (
     <section>
@@ -10,4 +17,3 @@ export default function Home() {
     </section>
   );
 }
-Home.displayName = 'Home';

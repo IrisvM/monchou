@@ -1,5 +1,5 @@
 import useSearch from '../../hooks/useSearch';
-import { Recipe } from '../../pages/api/recipes';
+import { Recipe } from '../../api/recipes';
 import RecipeList from '../RecipeList';
 import TagList from '../TagList';
 

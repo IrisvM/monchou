@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Recipe } from '../../pages/api/recipes';
+import { Recipe } from '../../api/recipes';
 import classNames from '../../helpers/classNames';
 
 export default function RecipeImage({
