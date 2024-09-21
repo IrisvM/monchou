@@ -19,16 +19,13 @@ const navigation: { name: string; href: string; exact?: boolean }[] = [
   { name: 'Kruiden', href: '/recepten/kruiden' },
 ];
 
-export default function Layout({
-  children,
-  title,
-}: PropsWithChildren<{ title?: string }>) {
+export default function Layout({ children }: PropsWithChildren<{}>) {
   return (
     <>
       <div className="min-h-full">
         <Disclosure as="nav" className="bg-fuchsia-700 pb-44">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="flex h-16 items-center justify-between">
+            <div className="flex h-16 items-center justify-between gap-4">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <Link href="/">
@@ -42,7 +39,8 @@ export default function Layout({
                         exact={item.exact}
                         key={item.name}
                         href={item.href}
-                        className="text-white hover:bg-fuchsia-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium active:underline"
+                        activeClass="underline"
+                        className="text-white hover:bg-fuchsia-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
                       >
                         {item.name}
                       </Link>
@@ -50,7 +48,7 @@ export default function Layout({
                   </div>
                 </div>
               </div>
-              <div className="flex mr-4">
+              <div className="flex">
                 <div className="relative mt-1 rounded-md shadow-sm">
                   <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                     <MagnifyingGlassIcon
@@ -63,7 +61,7 @@ export default function Layout({
               </div>
               <div className="flex lg:hidden justify-self-end justify-end">
                 {/* Mobile menu button */}
-                <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-fuchsia-700 p-2 text-fuchsia-200 hover:bg-fuchsia-500 hover:bg-opacity-75 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-fuchsia-600">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   <Bars3Icon
@@ -86,7 +84,8 @@ export default function Layout({
                   key={item.name}
                   as={Link}
                   href={item.href}
-                  className="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-fuchsia-500 hover:bg-opacity-75 active:bg-fuchsia-700"
+                  activeClass="underline !bg-fuchsia-700"
+                  className="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-fuchsia-500 hover:bg-opacity-75"
                 >
                   {item.name}
                 </DisclosureButton>
@@ -96,8 +95,7 @@ export default function Layout({
         </Disclosure>
 
         <main id="main-content" className="-mt-44">
-          <Header title={title ?? '(Monchou)'} />
-          <div className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8 pt-28">
             {/* Replace with your content */}
             <div className="rounded-lg bg-white px-5 py-6 shadow sm:px-6 min-h-[10rem]">
               {children}

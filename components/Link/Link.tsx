@@ -1,17 +1,20 @@
 'use client';
 
+import classNames from '@/helpers/classNames';
 import { usePathname } from 'next/navigation';
 import { PropsWithChildren } from 'react';
 
 type Props = {
   href: string;
   className?: string;
+  activeClass?: string;
   exact?: boolean;
 };
 
 export default function Link({
   href,
   className,
+  activeClass: activeClassName,
   children,
   exact = false,
 }: PropsWithChildren<Props>) {
@@ -21,7 +24,7 @@ export default function Link({
   return (
     <a
       href={href}
-      className={className}
+      className={classNames(className, isActive ? activeClassName : undefined)}
       aria-current={isActive ? 'page' : undefined}
     >
       {children}
