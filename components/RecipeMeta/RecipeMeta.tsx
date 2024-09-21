@@ -1,6 +1,6 @@
 import classNames from '../../helpers/classNames';
 import uppercaseFirst from '../../helpers/uppercaseFirst';
-import { Recipe } from '../../pages/api/recipes';
+import { Recipe } from '../../api/recipes';
 import Tag from '../Tag';
 
 export default function RecipeMeta({

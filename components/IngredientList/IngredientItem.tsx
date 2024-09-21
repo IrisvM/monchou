@@ -1,4 +1,4 @@
-import { Recipe } from '../../pages/api/recipes';
+import { Recipe } from '../../api/recipes';
 import Link from '../Link';
 
 export default function IngredientItem({

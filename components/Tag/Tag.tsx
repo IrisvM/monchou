@@ -1,6 +1,4 @@
-import classNames from '../../helpers/classNames';
-import uppercaseFirst from '../../helpers/uppercaseFirst';
-import { tagClassNames, tagDefaultColors } from './classNames';
+import uppercaseFirst from '@/helpers/uppercaseFirst';
 
 type Props = {
   tag: string;
@@ -8,7 +6,7 @@ type Props = {
 
 export default function Tag({ tag }: Props) {
   return (
-    <span className={classNames(tagClassNames, tagDefaultColors)}>
+    <span className="rounded-full mr-2 mb-2 px-2 py-1 text-xs font-medium bg-indigo-100 text-indigo-800 active:bg-indigo-800 active:text-indigo-100">
       {uppercaseFirst(tag)}
     </span>
   );

@@ -1,4 +1,4 @@
-import { Recipe } from '../../pages/api/recipes';
+import { Recipe } from '../../api/recipes';
 import RecipeCard from '../RecipeCard';
 
 export default function RecipeList({ recipes }: { recipes: Recipe[] }) {

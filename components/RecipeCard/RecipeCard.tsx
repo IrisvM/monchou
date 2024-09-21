@@ -1,4 +1,4 @@
-import { Recipe } from '../../pages/api/recipes';
+import { Recipe } from '../../api/recipes';
 import Image from 'next/image';
 import RecipeMeta from '../RecipeMeta';
 import RecipeImage from '../RecipeImage';
