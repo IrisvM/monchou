@@ -7,11 +7,11 @@ import {
 import Header from '@/components/Header';
 import uppercaseFirst from '@/helpers/uppercaseFirst';
 
-export default async function RecipesByTag({
-  params: { type },
-}: {
-  params: { type: string };
+export default async function RecipesByTag(props: {
+  params: Promise<{ type: string }>;
 }) {
+  const { type } = await props.params;
+
   const recipes = await listRecipesByType(type);
   const tags = await listTagsByType(type);
   const plural: { [word: string]: string | undefined } = {

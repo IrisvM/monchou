@@ -8,11 +8,11 @@ import asyncGeneratorToArray from '@/helpers/asyncGenetorToArray';
 import Header from '@/components/Header';
 import uppercaseFirst from '@/helpers/uppercaseFirst';
 
-export default async function RecipesByTag({
-  params: { tag, type },
-}: {
-  params: { tag: string; type: string };
+export default async function RecipesByTag(props: {
+  params: Promise<{ tag: string; type: string }>;
 }) {
+  const { tag, type } = await props.params;
+
   const recipes = await listRecipesByTag(tag);
   const tags = await listTagsByType(type);
 

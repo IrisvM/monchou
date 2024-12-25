@@ -5,11 +5,11 @@ import WYSIWYG from '@/components/WYSIWYG';
 import { getRecipeByTypeAndSlug, listRecipes } from '@/api/recipes';
 import Header from '@/components/Header';
 
-export default async function Recipe({
-  params: { type, slug },
-}: {
-  params: { type: string; slug: string };
+export default async function Recipe(props: {
+  params: Promise<{ type: string; slug: string }>;
 }) {
+  const { type, slug } = await props.params;
+
   const { image, title, tags, serving, ingredients, content } =
     await getRecipeByTypeAndSlug(type, slug);
   return (

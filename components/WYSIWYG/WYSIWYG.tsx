@@ -9,18 +9,18 @@ type Props = {
 function offsetHeading(
   domNode: DOMNode,
   offset: number
-): DOMNode | ReactElement {
+): DOMNode | ReactElement<unknown> {
   if (domNode instanceof Element && /^h[1-9]$/.test(domNode.name)) {
     const headingNumber = parseInt(domNode.name.substring(1));
     const Heading = ('h' + (headingNumber + offset)) as 'h1';
 
     return (
       <Heading {...domNode.attribs}>
-          {domToReact(
-              domNode.children
-                  .filter((n) => n.type !== 'cdata')
-                  .map((n) => n as DOMNode)
-          )}
+        {domToReact(
+          domNode.children
+            .filter((n) => n.type !== 'cdata')
+            .map((n) => n as DOMNode)
+        )}
       </Heading>
     );
   }
