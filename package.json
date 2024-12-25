@@ -3,18 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preinstall": "cp dev/git-hooks/* .git/hooks/",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint && prettier . -c",
+    "fix": "eslint --fix && prettier . -w"
+  },
+  "lint-staged": {
+    "*.{js,tsx,ts}": [
+      "eslint --fix",
+      "prettier -w ."
+    ],
+    "*.{json,md}": [
+      "prettier -w ."
+    ]
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
     "@netlify/plugin-nextjs": "^5.9.2",
     "@tailwindcss/forms": "^0.5.9",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
     "gray-matter": "^4.0.3",
     "html-react-parser": "^5.2.1",
+    "lint-staged": "^15.2.11",
     "next": "^15.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
