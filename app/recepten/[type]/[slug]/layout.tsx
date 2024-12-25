@@ -3,11 +3,11 @@ import Header from '@/components/Header';
 import { Metadata } from 'next';
 import React from 'react';
 
-export async function generateMetadata({
-  params: { type, slug },
-}: {
-  params: { type: string; slug: string };
+export async function generateMetadata(props: {
+  params: Promise<{ type: string; slug: string }>;
 }): Promise<Metadata> {
+  const { type, slug } = await props.params;
+
   const { title } = await getRecipeByTypeAndSlug(type, slug);
 
   return {

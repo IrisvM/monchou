@@ -12,24 +12,11 @@ function getTypeFromPath(currenPath: string): string | undefined {
   return matches[1] ?? undefined;
 }
 
-function getSearchPath(currentPath: string): string | undefined {
-  if (!currentPath.startsWith('/recepten')) {
-    return '/recepten';
-  }
-
-  const type = getTypeFromPath(currentPath);
-  if (type !== undefined) {
-    return '/recepten/' + type;
-  }
-
-  return undefined;
-}
-
 export default function SearchForm() {
   const path = usePathname();
   const searchParams = useSearchParams();
 
-  const searchPath = getSearchPath(path ?? '');
+  const searchPath = `/recepten`;
   const query = searchParams?.get('query') ?? '';
 
   return (
