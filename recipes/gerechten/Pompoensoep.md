@@ -1,17 +1,17 @@
 ---
 title: Pompoensoep
 slug: pompoensoep
-tags: 
+tags:
   - soep
   - vegetarisch
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
   - quantity: 0.5
-    unit: 
+    unit:
     title: winterpeen
   - quantity: 0.5
-    unit: 
+    unit:
     title: flespompoen
   - quantity: 500
     unit: mL
@@ -20,27 +20,28 @@ ingredients:
     unit: blokje
     title: groentebouillon
   - quantity: 1
-    unit: 
+    unit:
     title: sjalot
-  - quantity: 1/8 
+  - quantity: 1/8
     unit: tl
     title: gemalen komijn
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: cayennepeper
-
 ---
 
 # Bereiding
-- Schil de pompoen en wortel en snijd alle groenten 
+
+- Schil de pompoen en wortel en snijd alle groenten
 - Kook water.
 - Bak de sjalot in wat olie glazig, in de soeppan.
-- Voeg de wortel en pompeon toe en bak deze mee. 
-- Voeg het water en het bouillonblokje toe. 
+- Voeg de wortel en pompeon toe en bak deze mee.
+- Voeg het water en het bouillonblokje toe.
 - Laat het geheel enige tijd koken tot alles gaar is.
-- Maak de soep glad met gebruik van een staafmixer. 
+- Maak de soep glad met gebruik van een staafmixer.
 - Voeg de gemalen komijn toe.
 - Voeg eventueel water, zout, cayennepeper en peper naar smaak toe.
 
 # Serveertips
+
 Door de zachte smaak en structuur is deze soep goed te combineren met bruschetta met vijgencompote en zachte geitenkaas.

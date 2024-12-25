@@ -1,7 +1,7 @@
 ---
 title: Pastasalade
 slug: pastasalade
-tags: 
+tags:
   - maaltijdsalade
 type: hoofdgerecht
 serving: 2 personen
@@ -10,34 +10,35 @@ ingredients:
     unit: g
     title: pasta
   - quantity: 0.5
-    unit: 
+    unit:
     title: komkommer
   - quantity: 1
-    unit: 
+    unit:
     title: (rode) paprika
   - quantity: 2
-    unit: 
+    unit:
     title: tomaten
   - quantity: 0.5
-    unit: 
+    unit:
     title: ijsbergsla
-  - quantity: 120 
+  - quantity: 120
     unit: g
     title: gegrilde kipfilet
   - quantity: scheutje
     unit:
     title: (extra vierge) olijfolie
   - quantity: klein scheutje
-    unit: 
+    unit:
     title: balsamico azijn
 ---
 
 # Bereiding
-- Kook de pasta gaar, spoel af met koud water en laat staan. 
+
+- Kook de pasta gaar, spoel af met koud water en laat staan.
 - Snijd alle groenten
 - Meng de olie, azijn en kruiden naar smaak
 - Meng alle ingrediënten in een grote bak.
 
 # Variaties
+
 Ook lekker met feta kaas en/of olijven
- 

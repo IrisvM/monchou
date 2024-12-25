@@ -6,10 +6,11 @@ import {
 } from '@/api/recipes';
 import Header from '@/components/Header';
 import uppercaseFirst from '@/helpers/uppercaseFirst';
+import { ReactNode } from 'react';
 
 export default async function RecipesByTag(props: {
   params: Promise<{ type: string }>;
-}) {
+}): Promise<ReactNode> {
   const { type } = await props.params;
 
   const recipes = await listRecipesByType(type);
@@ -28,7 +29,7 @@ export default async function RecipesByTag(props: {
   );
 }
 
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<{ type: string }[]> {
   const types = await listRecipeTypes();
   return types.map((type) => ({
     type,

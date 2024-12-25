@@ -1,7 +1,7 @@
 ---
 title: Kaasfondue
 slug: kaasfondue
-tags: 
+tags:
   - vegetarisch
 type: hoofdgerecht
 serving: 6 personen
@@ -22,13 +22,13 @@ ingredients:
     unit: g
     title: cherry tomaatjes
   - quantity: 1
-    unit: 
+    unit:
     title: komkommer
   - quantity: 2
-    unit: 
+    unit:
     title: stokbroden
   - quantity: 1
-    unit: 
+    unit:
     title: paprika
   - quantity: 250
     unit: g
@@ -44,4 +44,5 @@ ingredients:
 - Bij gebruik losse ingrediënten: Vocht verhitten, kaas geleidelijk laten smelten. Als alles is gesmolten, klein beetje vocht met maizena toevoegen. Bij grote klont moet er meer zuur worden toegevoegd, bij kleine druppels vet moet er meer maizena bij.
 
 # Serveertip
+
 Andere smeersels voor op brood, zoals tapenade of eiersalade zijn.

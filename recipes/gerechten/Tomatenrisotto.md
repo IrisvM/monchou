@@ -1,7 +1,7 @@
 ---
 title: Tomatenrisotto
 slug: tomatenrisotto
-tags: 
+tags:
   - risotto
 type: hoofdgerecht
 serving: 2 personen
@@ -19,7 +19,7 @@ ingredients:
     unit: g
     title: chorizo worst
   - quantity: handje
-    unit: 
+    unit:
     title: cherry tomaatjes
   - quantity: 1
     unit: g
@@ -36,6 +36,7 @@ ingredients:
 ---
 
 # Bereiding
+
 - Snijd alle ingrediënten
 - Bak de sjalot glazig
 - Voeg de rijst toe en bak deze tot deze glazig is en de typische geur verdwenen is. Zorg ervoor om er voldoende olie bij te doen.
@@ -45,9 +46,10 @@ ingredients:
 - Als het geheel gaar is, kunnen de cherry tomaten en Parmezaanse kaas worden toegevoegd. Paar keer roeren en klaar! Deze hoeven alleen warm te worden.
 - Doe bij het serveren rucola op de risotto.
 
-
 # Tips
+
 Het geheel wordt smeuïger als er continu geroerd wordt, vanaf het eerste moment dat er bouillon wordt toegevoegd.
 
 # Variaties
+
 Ook lekker met verse spinazie in plaats van rucola. Dit heeft een wat zachtere, minder pittige smaak.

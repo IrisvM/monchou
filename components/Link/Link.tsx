@@ -2,7 +2,7 @@
 
 import classNames from '@/helpers/classNames';
 import { usePathname } from 'next/navigation';
-import { PropsWithChildren } from 'react';
+import { PropsWithChildren, ReactNode } from 'react';
 
 type Props = {
   href: string;
@@ -17,7 +17,7 @@ export default function Link({
   activeClass: activeClassName,
   children,
   exact = false,
-}: PropsWithChildren<Props>) {
+}: PropsWithChildren<Props>): ReactNode {
   const path = usePathname() ?? '';
   const isActive = exact ? path === href : path.indexOf(href) === 0;
 

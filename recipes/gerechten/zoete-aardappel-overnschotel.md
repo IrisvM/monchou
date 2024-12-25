@@ -1,7 +1,7 @@
 ---
 title: Zoete aardappel ovenschotel
 slug: zoete-aardappel-ovenschotel
-tags: 
+tags:
   - vegetarisch
   - oven
 type: hoofdgerecht
@@ -17,16 +17,16 @@ ingredients:
     unit: g
     title: zachte geitenkaas
   - quantity: handje
-    unit: 
+    unit:
     title: amandelen
   - quantity: 3
-    unit: 
+    unit:
     title: sjalotten
   - quantity: scheutje
     unit:
     title: balsamico azijn
   - quantity: scheutje
-    unit: 
+    unit:
     title: appelcider azijn
   - quantity: 2
     unit: tl
@@ -47,11 +47,10 @@ ingredients:
 # Ovenschotel
 
 - Schil de pompoen. Snijd de pompoen en bietjes in gelijke blokjes.
-- Doe de pompoen en rode bieten in de oven met een beetje olie en kruiden naar keuze. Schep regelmatig om. 
+- Doe de pompoen en rode bieten in de oven met een beetje olie en kruiden naar keuze. Schep regelmatig om.
 - Rooster de amandelen. Laat afkoelen en hak deze grof.
 - Als de aardappel gaar is, kan dit worden verdeeld over de schaaltjes. Voeg de geitenkaas in stukjes toe (het is prima als het licht smelt). Verdeel de amandelen.
 
-
 # Serveren
 
-Serveer in schaaltjes met de chutney en spinazie apart. 
+Serveer in schaaltjes met de chutney en spinazie apart.

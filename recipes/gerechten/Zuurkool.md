@@ -1,7 +1,7 @@
 ---
 title: Zuurkool stamppot
 slug: zuurkool
-tags: 
+tags:
   - winters
 type: hoofdgerecht
 serving: 2 personen
@@ -16,21 +16,22 @@ ingredients:
     unit: g
     title: spekjes
   - quantity: handje
-    unit: 
+    unit:
     title: rozijnen
   - quantity: scheutje
-    unit: 
+    unit:
     title: melk
   - quantity: klontje
-    unit: 
+    unit:
     title: boter
 ---
 
 # Bereiding
+
 - Schil de aardappelen
 - Kook de aardappelen gaar (ongeveer 15 minuten)
 - Breng ondertussen de zuurkool aan de kook met een paar eetlepels water. Zorg dat tijdens het koken er een minimale hoeveelheid vocht in de pan blijft
 - Bak de spekjes
 - Wel de rozijnen in warm water
-- Als de aardappelen gaar zijn, kunnen deze worden gestampt met een beetje boter en melk. Stamp daarna de afgegoten zuurkool er doorheen. 
+- Als de aardappelen gaar zijn, kunnen deze worden gestampt met een beetje boter en melk. Stamp daarna de afgegoten zuurkool er doorheen.
 - Voeg de spekjes en rozijnen toe en verdeel de stamppot over de borden

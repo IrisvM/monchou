@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ ! -z "$CI" ]; then
+  echo "No githooks: Running in automation"
+  exit 0
+fi
+
+if [ ! -d .git ]; then
+  echo "No githooks: No git found"
+  exit 0
+fi
+
+echo "Installing git-hooks"
+cp dev/git-hooks/* .git/hooks/

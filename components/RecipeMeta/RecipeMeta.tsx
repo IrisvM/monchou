@@ -2,13 +2,14 @@ import classNames from '../../helpers/classNames';
 import uppercaseFirst from '../../helpers/uppercaseFirst';
 import { Recipe } from '../../api/recipes';
 import Tag from '../Tag';
+import { ReactNode } from 'react';
 
 export default function RecipeMeta({
   type,
   tags,
   serving,
   className,
-}: Partial<Recipe> & { className?: string }) {
+}: Partial<Recipe> & { className?: string }): ReactNode {
   return (
     <dl
       className={classNames(

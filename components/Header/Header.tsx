@@ -1,8 +1,10 @@
+import { ReactNode } from 'react';
+
 type Props = {
   children: string | string[];
 };
 
-export default function Header({ children }: Props) {
+export default function Header({ children }: Props): ReactNode {
   return (
     <header className="h-24 -mt-24 -ml-4 sm:-ml-6 lg:-ml-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

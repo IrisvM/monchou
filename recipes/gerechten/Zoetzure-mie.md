@@ -1,7 +1,7 @@
 ---
 title: Zoetzure mie
 slug: zoetzure-mie
-tags: 
+tags:
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
@@ -15,7 +15,7 @@ ingredients:
     unit: g
     title: wortel
   - quantity: 1
-    unit: 
+    unit:
     title: rode puntpaprika
   - quantity: 1
     unit: klein blik
@@ -35,8 +35,8 @@ ingredients:
   - quantity: 1
     unit: teentje
     title: knoflook
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: gemalen gember
   - quantity: 1
     unit: blikje
@@ -50,7 +50,6 @@ ingredients:
 - Voeg de chilisaus, sojasaus, water en het boullionblokje toe en roer tot een gladde saus
 - Voeg meer water nodig indien nodig. Dit kan ook later nog nodig zijn.
 
-
 # Koken
 
 - Snijd de kip, wortel, paprika en ananas
@@ -58,7 +57,6 @@ ingredients:
 - Voeg de wortel toe en laat deze meer garen. Als deze zacht beginnen te worden, kan de paprika erbij
 - Kook ondertussen de eiermie volgens de instructies op de verpakking
 - Kort voor serveren kan de ananas worden toegevoegd
-
 
 # Serveren
 

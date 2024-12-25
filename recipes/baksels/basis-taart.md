@@ -1,7 +1,7 @@
 ---
 title: Basis taart
 slug: basis-taart
-tags: 
+tags:
   - taart
   - zoet
 type: baksel
@@ -17,7 +17,7 @@ ingredients:
     unit: g
     title: zelfrijzend bakmeel
   - quantity: 5-6
-    unit: 
+    unit:
     title: eieren
   - quantity: 3.5
     unit: el
@@ -25,7 +25,6 @@ ingredients:
   - quantity: 0.5
     unit: tl
     title: vanille extract
-
 ---
 
 # Bereiden
@@ -36,7 +35,7 @@ ingredients:
 - Voeg één voor één de eieren toe en meng goed tussendoor. Zorg dat het vorige ei is opgenomen voordat de volgende wordt toegevoegd. Het kan zijn dat het beslag licht gaat schiften - dit komt later nog goed. (Eventueel een schepje bloem uit de volgende stap toevoegen)
 - Voeg het zelfrijzend bakmeel toe en laat dit op de laagste snelheid mengen (folding). Meng niet langer dan nodig.
 - Meng het vanille extract met de melk en laat dit kort mengen
-- Meng nog kort na met een spatel 
+- Meng nog kort na met een spatel
 
 # Bakken
 
@@ -44,9 +43,7 @@ ingredients:
 - Laat de taartlagen kort afkoelen in de vorm.
 - Stort de taartlagen op een rooster om geheel af te koelen
 
- 
 # Variaties
 
 - Citroen: zest van 5 citroenen en melk vervangen voor gelijke hoeveelheid citroensap
 - Chocolade: 70 g tarwebloem vervangen voor 70 g cacaopoeder
- 

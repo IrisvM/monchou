@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import { Recipe } from '../../api/recipes';
 import Link from '../Link';
 
@@ -5,7 +6,7 @@ export default function IngredientItem({
   ingredient,
 }: {
   ingredient: Recipe['ingredients'][number];
-}) {
+}): ReactNode {
   if (ingredient.to) {
     return (
       <li>

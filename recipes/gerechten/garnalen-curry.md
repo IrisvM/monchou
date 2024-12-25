@@ -1,7 +1,7 @@
 ---
 title: Garnalen curry
 slug: garnalen-curry
-tags: 
+tags:
   - curry
   - vis
 type: hoofdgerecht
@@ -10,11 +10,11 @@ ingredients:
   - quantity: 300
     unit: g
     title: reuze garnalen (rauw en ongepeld - vriezer)
-  - quantity: 350 
+  - quantity: 350
     unit: g
     title: erwten
   - quantity: 1
-    unit: 
+    unit:
     title: (rode) paprika
   - quantity: 1
     unit: teentje
@@ -38,7 +38,7 @@ ingredients:
 
 # Curry
 
-- Snijd de paprika in stukjes en snijd de knoflook fijn 
+- Snijd de paprika in stukjes en snijd de knoflook fijn
 - Kook de erwten en mie volgens de verpakking
 - Fruit de knoflook in een scheutje olie
 - Bak de garnalen in de knoflook en voeg een deel van de kerrie kruiden toe
@@ -47,7 +47,6 @@ ingredients:
 - Maak ondertussen de curry door de kokosmelk, rest van de kerrie, tomatenblokjes toe te voegen aan de paprika
 - Breng op smaak met zout, peper en citroensap
 - Voeg de (gesneden) garnalen en de erwten toe
-
 
 # Serveren
 

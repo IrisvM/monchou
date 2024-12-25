@@ -1,12 +1,13 @@
 import Header from '@/components/Header';
 import { Metadata } from 'next';
+import { ReactNode } from 'react';
 
 export const metadata: Metadata = {
   title: 'Monchou recepten pagina',
   description: 'De recepten pagina van Vincent en Iris',
 };
 
-export default function Home() {
+export default function Home(): ReactNode {
   return (
     <>
       <Header>Monchou</Header>

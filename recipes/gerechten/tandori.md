@@ -1,7 +1,7 @@
 ---
 title: Tandori
 slug: tandori
-tags: 
+tags:
   - curry
 type: hoofdgerecht
 serving: 2 personen
@@ -16,7 +16,7 @@ ingredients:
     unit: g
     title: sperziebonen
   - quantity: 1
-    unit: 
+    unit:
     title: sjalot
   - quantity: 200
     unit: g
@@ -25,7 +25,7 @@ ingredients:
     unit: el
     title: tandori kruiden
     to: /recepten/kruiden/tandori-kruiden
-  - quantity: 
+  - quantity:
     unit: scheutje
     title: citroensap
   - quantity: 100
@@ -39,6 +39,4 @@ ingredients:
 - Kook de bonen en rijst.
 - Marineer de kipdij in ongeveer de helft van de kruiden met wat olie
 - Bak de sjalot glazig en bak vervolgens de kipdij gaar. Bak daarna de paprika.
-- Voeg de crème fraîche en het resterende deel van de kruiden toe. Breng op smaak met een beetje citroensap. 
-
-
+- Voeg de crème fraîche en het resterende deel van de kruiden toe. Breng op smaak met een beetje citroensap.

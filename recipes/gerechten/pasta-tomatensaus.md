@@ -1,7 +1,7 @@
 ---
 title: Pasta met tomatensaus
 slug: pasta-tomatensaus
-tags: 
+tags:
   - pasta
   - vegetarisch
 type: hoofdgerecht
@@ -14,7 +14,7 @@ ingredients:
     unit: blik
     title: tomatenblokjes
   - quantity: 0.5
-    unit: 
+    unit:
     title: aubergina
   - quantity: 150
     unit: g
@@ -22,27 +22,27 @@ ingredients:
   - quantity: 125
     unit: g
     title: (kastanje) champignons
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: cayenne-peper
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: basilicum
   - quantity:
-    unit: 
+    unit:
     title: tijm
   - quantity:
-    unit: 
-    title: bonenkruid  
+    unit:
+    title: bonenkruid
   - quantity:
-    unit: 
+    unit:
     title: oregano
   - quantity:
-    unit: 
+    unit:
     title: knolookpoeder
   - quantity:
-    unit: 
-    title: paprikapoeder    
+    unit:
+    title: paprikapoeder
 ---
 
 # Bereiding

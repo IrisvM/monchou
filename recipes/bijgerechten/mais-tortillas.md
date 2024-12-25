@@ -1,7 +1,7 @@
 ---
 title: Mais tortilla's
 slug: Mais-tortillas
-tags: 
+tags:
   - brood
 type: bijgerecht
 serving: 6 Tortillas
@@ -14,5 +14,5 @@ ingredients:
     title: Lauwwarm water
   - quantity: 4
     unit: g
-    title: Zout 
+    title: Zout
 ---

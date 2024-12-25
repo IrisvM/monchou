@@ -1,13 +1,14 @@
 import IngredientList from '@/components/IngredientList/IngredientList';
 import RecipeImage from '@/components/RecipeImage';
 import RecipeMeta from '@/components/RecipeMeta';
-import WYSIWYG from '@/components/WYSIWYG';
+import Content from '@/components/Content';
 import { getRecipeByTypeAndSlug, listRecipes } from '@/api/recipes';
 import Header from '@/components/Header';
+import { ReactNode } from 'react';
 
 export default async function Recipe(props: {
   params: Promise<{ type: string; slug: string }>;
-}) {
+}): Promise<ReactNode> {
   const { type, slug } = await props.params;
 
   const { image, title, tags, serving, ingredients, content } =
@@ -31,13 +32,15 @@ export default async function Recipe(props: {
       </section>
       <section className="mb-3">
         <h2 className="text-2xl font-bold">Stappen</h2>
-        <WYSIWYG content={content} headingOffset={2} />
+        <Content content={content} headingOffset={2} />
       </section>
     </>
   );
 }
 
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<
+  { type: string; slug: string }[]
+> {
   const recipes = await listRecipes();
 
   return recipes.map((recipe) => ({

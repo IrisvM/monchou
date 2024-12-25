@@ -1,9 +1,9 @@
 ---
 title: Tandori kruiden
 slug: tandori-kruiden
-tags: 
+tags:
 type: kruiden
-serving: 
+serving:
 ingredients:
   - quantity: 5
     unit: delen
@@ -11,7 +11,7 @@ ingredients:
   - quantity: 3
     unit: delen
     title: gemalen komijnzaad
-  - quantity: 1  
+  - quantity: 1
     unit: deel
     title: gemalen korianderzaad
   - quantity: 0.5
@@ -23,8 +23,7 @@ ingredients:
   - quantity: 0.125
     unit: deel
     title: gemalen kruidnagel
-  - quantity: 0.125 
+  - quantity: 0.125
     unit: deel
     title: chilipoeder
 ---
-

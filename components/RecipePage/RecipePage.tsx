@@ -1,8 +1,7 @@
-import useSearch from '../../hooks/useSearch';
 import { Recipe } from '../../api/recipes';
-import RecipeList from '../RecipeList';
 import TagList from '../TagList';
 import FilteredRecipes from '../FilteredRecipes';
+import { ReactNode } from 'react';
 
 type Props = {
   recipes: Recipe[];
@@ -10,7 +9,11 @@ type Props = {
   type?: string;
 };
 
-export default function RecipeListPage({ recipes, tags, type }: Props) {
+export default function RecipeListPage({
+  recipes,
+  tags,
+  type,
+}: Props): ReactNode {
   return (
     <>
       <div className="mb-4">

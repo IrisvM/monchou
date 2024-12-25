@@ -1,7 +1,7 @@
 ---
 title: Toscaanse kip
 slug: toscaanse-kip
-tags: 
+tags:
   - oven
 type: hoofdgerecht
 serving: 2 personen
@@ -13,7 +13,7 @@ ingredients:
     unit:
     title: paprika
   - quantity: 0.5
-    unit: 
+    unit:
     title: courgette
   - quantity: 100
     unit: g
@@ -21,32 +21,32 @@ ingredients:
   - quantity: 200
     unit: g
     title: kipdijfilet
-  - quantity: 
+  - quantity:
     unit: handje
     title: cherry tomaten
   - quantity: 2
     unit: tl
     title: bindmiddel
   - quantity:
-    unit: 
+    unit:
     title: paprikapoeder
   - quantity:
-    unit: 
+    unit:
     title: knoflookpoeder
   - quantity:
-    unit: 
+    unit:
     title: basilicum
   - quantity:
-    unit: 
+    unit:
     title: oregano
   - quantity:
-    unit: 
+    unit:
     title: tijm
   - quantity:
-    unit: 
+    unit:
     title: bonenkruid
   - quantity:
-    unit: 
+    unit:
     title: komijn
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Voorjaarssalade met spruitjes
 slug: voorjaarssalade-spruitjes
-tags: 
+tags:
   - vegetarisch
   - maaltijdsalade
 type: hoofdgerecht
@@ -14,18 +14,18 @@ ingredients:
     unit: g
     title: spruitjes
   - quantity: 1
-    unit: 
+    unit:
     title: (rode) paprika
   - quantity: 1
-    unit: 
+    unit:
     title: sjalot
-  - quantity: 1 
+  - quantity: 1
     unit: teentje
     title: knoflook
-  - quantity: handje 
-    unit: 
+  - quantity: handje
+    unit:
     title: walnoten
-  - quantity: 
+  - quantity:
     unit:
     title: sesamzaad
   - quantity: 100
@@ -35,11 +35,12 @@ ingredients:
     unit: g
     title: rucola sla melange
   - quantity: klein stukje
-    unit: 
+    unit:
     title: groentebouillon blokje
 ---
 
 # Bereiding
+
 - Kook de spruitjes 8 minuten met wat groentebouillon
 - Kook de pasta, zet apart indien klaar
 - Rooster de walnoten licht bruin en laat deze afkoelen
@@ -48,5 +49,3 @@ ingredients:
 - Als de spruitjes klaar zijn: giet ze af en voeg ze aan de groente toe
 - Laat de spruitjes 5 minuten mee roerbakken, voeg de pasta en de sesamzaad toe en laat het nog even op het vuur mee bakken.
 - Haal het van het vuur voeg de walnoten, witte kaas en en sla toe
-
- 

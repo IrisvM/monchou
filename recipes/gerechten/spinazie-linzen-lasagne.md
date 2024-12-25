@@ -1,7 +1,7 @@
 ---
 title: Spinzaie-linzen lasagne
 slug: spinazie-linzen-lasagne
-tags: 
+tags:
   - pasta
   - vegetarisch
 type: hoofdgerecht
@@ -11,7 +11,7 @@ ingredients:
     unit: bladen
     title: volkoren lasagne
   - quantity: 1
-    unit: 
+    unit:
     title: sjalot
   - quantity: 1
     unit: teentje
@@ -28,32 +28,32 @@ ingredients:
   - quantity: 125
     unit: g
     title: ricotta
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: geraspte kaas
   - quantity: scheutje
-    unit: 
+    unit:
     title: slagroom
   - quantity: scheutje
-    unit: 
-    title: melk 
-  - quantity: 
-    unit: 
+    unit:
+    title: melk
+  - quantity:
+    unit:
     title: basilicum
   - quantity:
-    unit: 
+    unit:
     title: tijm
   - quantity:
-    unit: 
-    title: bonenkruid  
+    unit:
+    title: bonenkruid
   - quantity:
-    unit: 
+    unit:
     title: oregano
 ---
 
 # Bereiding
 
-- Ontdooi de spinzaie en laat zoveel mogelijk vocht uitlekken. Vang dit wel op. 
+- Ontdooi de spinzaie en laat zoveel mogelijk vocht uitlekken. Vang dit wel op.
 - Verwarm de oven voor op 180 graden Celcius.
 - Snijd de sjalot in kleine stukjes, de knoflook fijn en de champignons in plakjes.
 - Spoel de linzen af in een zeef en laat goed uitlekken.
@@ -63,4 +63,3 @@ ingredients:
 - Bouw de lasagne op door te beginnen en eindigen met het spinaziemengsel. Tussen elke laag spinazie-mengsel en lasagnebladen kan hier en daar ricotta worden gedaan.
 - Eindig met een laag spinazie-mengsel en bedek met geraspte kaas.
 - Bak in de oven in ongeveer 20 minuten.
-

@@ -1,11 +1,11 @@
 ---
 title: Banketbakkersroom
 slug: banketbakkersroom
-tags: 
+tags:
   - vulling
   - zoet
 type: baksel
-serving: 450 g 
+serving: 450 g
 ingredients:
   - quantity: 65
     unit: g
@@ -13,8 +13,8 @@ ingredients:
   - quantity: 16
     unit: g
     title: vanillesuiker
-  - quantity: 3 
-    unit: 
+  - quantity: 3
+    unit:
     title: eidooiers
   - quantity: 350
     unit: mL
@@ -25,7 +25,7 @@ ingredients:
 
 - Doe de suiker en de eidooiers in een hittebestendige kom en meng deze tot een egale massa
 - Voeg de bloem toe en meng wederom tot een egale massa. Zorg dat er geen klontjes in zitten!
-- Verwarm ondertussen de melk tot nèt aan de kook 
+- Verwarm ondertussen de melk tot nèt aan de kook
 - Zorg dat kom stevig staat (bijvoorbeeld met een onderzetter of opgerolde theedoek)
 - Voeg scheutjes melk toe aan het eimengels, terwijl je ondertussen blijft mengen
 - Doe dit beetje voor beetje, zodat alles geleidelijk op temerpatuur komt
@@ -35,4 +35,4 @@ ingredients:
 
 # Bewaren
 
-Bewaar in de koelkast tot gebruik. Laat de room op kamertemperatuur komen voor deze wordt verwerkt en roer goed door voor gebruik. 
+Bewaar in de koelkast tot gebruik. Laat de room op kamertemperatuur komen voor deze wordt verwerkt en roer goed door voor gebruik.

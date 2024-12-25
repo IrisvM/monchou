@@ -1,7 +1,6 @@
 import { getRecipeByTypeAndSlug } from '@/api/recipes';
-import Header from '@/components/Header';
 import { Metadata } from 'next';
-import React from 'react';
+import { ReactNode } from 'react';
 
 export async function generateMetadata(props: {
   params: Promise<{ type: string; slug: string }>;
@@ -15,10 +14,9 @@ export async function generateMetadata(props: {
   };
 }
 
-export default async function RecipeLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+type Props = {
+  children: ReactNode;
+};
+export default function RecipeLayout({ children }: Props): ReactNode {
   return children;
 }

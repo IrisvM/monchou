@@ -1,7 +1,7 @@
 ---
 title: Lava cakejes
 slug: lava-cakejes
-tags: 
+tags:
   - cupcakes
   - zoet
 type: baksel
@@ -13,7 +13,7 @@ ingredients:
   - quantity: 100
     unit: g
     title: suiker
-  - quantity: 100 
+  - quantity: 100
     unit: g
     title: zachte ongezouten roomboter
   - quantity: 3
@@ -22,15 +22,15 @@ ingredients:
   - quantity: 50
     unit: g
     title: tarwebloem
-  - quantity: 
+  - quantity:
     unit: snufje
     title: zout
   - quantity: 200
     unit: g
     title: genache
     to: /recepten/baskels/genache
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: (vloeibare) boter en cacaopoeder voor invetten
 ---
 
@@ -53,11 +53,10 @@ ingredients:
 - Vet de vormpjes in met (vloeibare) boter
 - Doe een beetje cacaopoeder in het vormpje. Klop dit door vormpje heen en doe het restant in het volgende vormpje. Dit kan ook met bloem, maar geeft een witte gloed op het cakeje.
 - Doe een bodempje deeg in een vormpje (ongeveer ⅓ van de vorm)
-- Leg een stukje vulling in het midden. 
-Vul de rest van het vormpje met deeg. Let op: het deeg wordt eerst vloeibaarder in de oven, dus zorg dat het vormpje niet te vol zit en overloopt in de oven.
+- Leg een stukje vulling in het midden.
+  Vul de rest van het vormpje met deeg. Let op: het deeg wordt eerst vloeibaarder in de oven, dus zorg dat het vormpje niet te vol zit en overloopt in de oven.
 - Bak de cakejes zo’n 18 minuten bij 200 graden
 - De cakejes zijn klaar als ze niet meer nat lijken (minder glimmen) en lichtelijk terugveren als je er met een vinger op drukt. Test dit NIET met een prikker!
-
 
 # Tips
 

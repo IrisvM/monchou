@@ -1,7 +1,7 @@
 ---
 title: Risotto
 slug: risotto
-tags: 
+tags:
   - risotto
 type: hoofdgerecht
 serving: 2 personen
@@ -13,13 +13,13 @@ ingredients:
     unit:
     title: sjalot
   - quantity: 0.5
-    unit: 
+    unit:
     title: courgette
   - quantity: 125
     unit: g
     title: (kastanje) champignons
   - quantity: handje
-    unit: 
+    unit:
     title: cherry tomaatjes
   - quantity: 1
     unit: g
@@ -49,4 +49,5 @@ ingredients:
 - Voeg de cherry tomaten en kaas toe. Roer dit door totdat het geheel goed verwarmd is.
 
 # Tips
+
 Het geheel wordt smeuïger als er continu geroerd wordt, vanaf het eerste moment dat er bouillon wordt toegevoegd.

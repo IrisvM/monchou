@@ -1,7 +1,6 @@
 import { PropsWithChildren } from 'react';
 import { CakeIcon } from '@heroicons/react/20/solid';
 import Link from '../Link';
-import Header from '../Header/Header';
 import Search from '../Search';
 
 import {
@@ -19,7 +18,7 @@ const navigation: { name: string; href: string; exact?: boolean }[] = [
   { name: 'Kruiden', href: '/recepten/kruiden' },
 ];
 
-export default function Layout({ children }: PropsWithChildren<{}>) {
+export default function Layout({ children }: PropsWithChildren<unknown>) {
   return (
     <>
       <div className="min-h-full">
