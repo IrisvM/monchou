@@ -1,7 +1,7 @@
 ---
 title: Curry
 slug: curry
-tags: 
+tags:
   - curry
 type: hoofdgerecht
 serving: 2 personen
@@ -12,16 +12,16 @@ ingredients:
   - quantity: 400
     unit: g
     title: sperziebonen
-  - quantity: 
+  - quantity:
     unit: handje
     title: cherry tomaten
   - quantity: 2
     unit: el
     title: kerrie masala kruiden
-  - quantity: 
+  - quantity:
     unit: scheutje
     title: limoensap
-  - quantity: 
+  - quantity:
     unit: scheutje
     title: zonnebloemolie
   - quantity: 1
@@ -46,15 +46,13 @@ ingredients:
 
 # Curry maken
 
-- Kook sperziebonen hard 
+- Kook sperziebonen hard
 - Bak runderreepjes op hoog vuur bruin en bewaar dit apart voor later
 - Doe de currypasta in de pan op laag vuur, voeg daarna de tomatenpuree toe en laat het voor een minuutje sudderen
 - Voeg de sperziebonen en de cherrytomaatjes toe
 - Voeg de runderreepjes toe en roer het goed door. Laat het een minuutje sudderen.
-- Voeg kokosmelk toe 
+- Voeg kokosmelk toe
 - Laat het even sudderen om een fijne consistentie te krijgen
-
-
 
 # Serveren
 

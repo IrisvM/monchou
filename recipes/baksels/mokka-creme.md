@@ -1,7 +1,7 @@
 ---
 title: Mokka crème
 slug: mokka-creme
-tags: 
+tags:
   - vulling
   - zoet
 type: baksel
@@ -13,7 +13,7 @@ ingredients:
   - quantity: 25
     unit: g
     title: suiker
-  - quantity: 250 
+  - quantity: 250
     unit: g
     title: zachte ongezouten roomboter
   - quantity: 60

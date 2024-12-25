@@ -1,7 +1,7 @@
 ---
 title: Pompoen traybake
 slug: pompoen-traybake
-tags: 
+tags:
   - oven
   - pompoen
 type: hoofdgerecht
@@ -11,10 +11,10 @@ ingredients:
     unit: g
     title: flespompoen
   - quantity: 1
-    unit: 
+    unit:
     title: rode paprika
   - quantity: 2
-    unit: 
+    unit:
     title: sjalotten
   - quantity: 200
     unit: g
@@ -26,22 +26,22 @@ ingredients:
     unit:
     title: gerookte gezouten amandelen
   - quantity: scheutje
-    unit: 
+    unit:
     title: limoensap
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: komijn
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: paprikapoeder
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: verse knoflook
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: verse rode peper / chilivlokken
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: zonnebloemolie
 ---
 
@@ -53,7 +53,7 @@ ingredients:
 # Ovenschotel
 
 - Verwarm de oven voor op 200 graden Celcius.
-- Snijd de pompoen in friet formaat. De schil kan er aan blijven. 
+- Snijd de pompoen in friet formaat. De schil kan er aan blijven.
 - Snijd de sjalot in grote ringen en de paprika in reepjes
 - Snijd de kipdij in stukjes.
 - Spoel de bonen goed af onder koud water en laat uitlekken.

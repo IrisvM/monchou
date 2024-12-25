@@ -1,7 +1,7 @@
 ---
 title: Broodje falafel
 slug: broodje-falafel
-tags: 
+tags:
   - vegetarisch
 type: hoofdgerecht
 serving: 2 personen
@@ -12,17 +12,17 @@ ingredients:
   - quantity: 200
     unit: g
     title: falafel
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: ijsbergsla
   - quantity: 1
-    unit: 
+    unit:
     title: rode puntpaprika
   - quantity: 1 à 2
     unit:
     title: tomaten
   - quantity: 0.5
-    unit: 
+    unit:
     title: komkommer
   - quantity: 1
     unit: teentje
@@ -30,23 +30,20 @@ ingredients:
   - quantity: 1
     unit: scheutje
     title: citroensap
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: gemalen koriander
 ---
-
 
 # Salsa
 
 - Snijd de paprika, tomaten en knoflook fijn (eventueel met pers).
 - Meng dit met koriander en citroensap in een kom. Breng op smaak met peper en zout.
 
- 
 # Vulling broodjes
 
 - Bak de falafel.
 - Vul de broodjes naar wens met sla, komkommer, salsa en falafel
-
 
 # Serveren
 

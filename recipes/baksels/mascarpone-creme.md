@@ -1,7 +1,7 @@
 ---
 title: Mascarpone crème
 slug: mascarpone-creme
-tags: 
+tags:
   - vulling
   - zoet
 type: baksel
@@ -13,13 +13,12 @@ ingredients:
   - quantity: 100
     unit: mL
     title: slagroom
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: suiker
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: eventueel klopfix
-
 ---
 
 # Bereiden

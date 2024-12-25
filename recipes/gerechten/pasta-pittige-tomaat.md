@@ -1,7 +1,7 @@
 ---
 title: Pasta pittige tomatensaus
 slug: pasta-pittige-tomaat
-tags: 
+tags:
   - pasta
   - vegetarisch
 type: hoofdgerecht
@@ -20,16 +20,16 @@ ingredients:
     unit: teen
     title: knoflook
   - quantity: 1
-    unit: 
+    unit:
     title: aubergine
   - quantity: handje
-    unit: 
+    unit:
     title: semi-gedroogde tomaten op olie
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: gedroogde basilicum
   - quantity:
-    unit: 
+    unit:
     title: chilivlokken
 ---
 
@@ -40,4 +40,3 @@ ingredients:
 - Voeg de tomatenblokjes toe en breng de saus op smaak.
 - Voeg de zongedroogde tomaten en gegrilde aubergine toe
 - Kook de pasta en voeg deze toe aan de saus.
-

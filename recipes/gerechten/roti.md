@@ -2,7 +2,7 @@
 title: Roti
 slug: roti
 image: recipes/gerechten/roti.jpg
-tags: 
+tags:
   - vegetarisch
   - curry
 type: hoofdgerecht
@@ -14,17 +14,17 @@ ingredients:
   - quantity: 3
     unit: tl
     title: komijn
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: (zonnebloem)olie
   - quantity: 2
     unit: tenen
     title: knoflook
   - quantity: 1
-    unit: 
+    unit:
     title: sjalot
   - quantity: 1
-    unit: 
+    unit:
     title: rode peper
   - quantity: 2
     unit: el
@@ -32,7 +32,7 @@ ingredients:
   - quantity: 1
     unit: blikje
     title: tomatenpuree
-  - quantity: 300 
+  - quantity: 300
     unit: g
     title: aardapppelen (iets kruimig)
   - quantity: 400
@@ -42,13 +42,13 @@ ingredients:
     unit: g
     title: kikkererwten
   - quantity: 2
-    unit: 
+    unit:
     title: eieren
   - quantity: 1
     unit: blokje
     title: groentebouillon
   - quantity: 1-2
-    unit: 
+    unit:
     title: laurierblad
 ---
 
@@ -63,12 +63,12 @@ ingredients:
 - Schil de aardappel en snijd in blokjes. Snijd de sjalot.
 - Bak de sjalot glazig en fruit de andere teen knoflook.
 - Voeg de kerrie, 2 tl komijn, blikje tomatenpuree toe en fruit deze voor 1 minuut
-- Voeg de aardappel, water (ongeveer 400 mL)  en groentebouillon toe. Het water moet genoeg zijn voor een dikkere saus.
+- Voeg de aardappel, water (ongeveer 400 mL) en groentebouillon toe. Het water moet genoeg zijn voor een dikkere saus.
 - Snijd de rode peper in, verwijder de zaad(lijsten) en voeg deze toe aan de saus. Voeg ook het laurierblad toe.
 - Laat dit geheel zo’n 20 minuten staan, totdat de aardappelen gaar zijn. De rode peper kan naar wens er eerder uitgehaald worden.
 - Als er kikkererwten overblijven, kunnen deze worden toegevoegd aan de saus.
 - Kook ondertussen 2 eieren. Deze kunnen gepeld worden toegevoegd aan de saus. Zacht gekookt is genoeg - de eieren garen verder in de saus.
-- Kook ook de sperziebonen gaar.  Het is fijn als deze pas later op worden gezet.
+- Kook ook de sperziebonen gaar. Het is fijn als deze pas later op worden gezet.
 
 # Roti vellen maken
 
@@ -76,7 +76,6 @@ ingredients:
 - Bestuif het aanrecht met zelfrijzend bakmeel en rol de deegbal uit tot een rond vel van zo’n 20 cm doorsnede (grote van de koekenpan)
 - Verwarm de koekenpan (liefst zonder anti-aanbak laag) met zonnebloemolie. Voeg het rotivel toe als de olie warm is.
 - Bak in enkele minuten bruin, bestrijk de bovenkant met olie en draai het vel om.
-
 
 # Serveren
 

@@ -2,7 +2,7 @@
 title: Passievrucht-mango mousse
 slug: passievrucht-mousse
 image: recipes/baksels/passievrucht-mousse.jpg
-tags: 
+tags:
   - dessert
   - zoet
 type: baksel
@@ -27,16 +27,16 @@ ingredients:
     unit: g
     title: suiker
   - quantity: 2
-    unit: 
+    unit:
     title: eiwitten
   - quantity: 2
     unit: eetlepels
     title: suiker
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: eventueel extra mango (rest uit blik) voor garnering
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: eventueel handje pistachenoten voor garnering
 ---
 
@@ -44,8 +44,8 @@ ingredients:
 
 - Maal 150 g mango helemaal fijn met een blender of staafmixer.
 - Doe 50 g passievrucht puree en 50 g mango puree in een kleine pan.
-- Voeg hier ongeveer een halve eetlepel suiker en 1,125 theelepel agar aan toe. 
-- Breng dit fruitmengsel al roerend aan de kook. Even kort doorkoken is genoeg. 
+- Voeg hier ongeveer een halve eetlepel suiker en 1,125 theelepel agar aan toe.
+- Breng dit fruitmengsel al roerend aan de kook. Even kort doorkoken is genoeg.
 - Laat eventueel een klein lepeltje afkoelen om te proeven of er genoeg suiker in zit. De mousse wordt nog zoeter, het gaat er alleen om dat het fruitmengsel niet overdreven zuur is.
 
 - Maak een Italiaanse meringue. Zoek eventueel een stappenplan op (zoals bij Rutger bakt).
@@ -59,11 +59,9 @@ ingredients:
 - Voeg tenslotte de slagroom toe in twee delen en meng ook dit voorzichtig en zo kort mogelijk
 - Verdeel het mengsel over 6 (dessert)glaasjes en zet in de koelkast om verder op te laten stijven.
 
-
-
 # Bereiding fruitlaag
 
-- Doe de rest van de gepureerde mango en passievrucht in een pan. Voeg ongeveer 1,5 eetlepel suiker en 0,375 theelepel agar toe. 
+- Doe de rest van de gepureerde mango en passievrucht in een pan. Voeg ongeveer 1,5 eetlepel suiker en 0,375 theelepel agar toe.
 - Breng al roerende aan de kook. Kort doorkoken is voldoende.
 - Laat eventueel een klein lepeltje afkoelen om te proeven of er genoeg suiker in zit. Deze fruitpuree moet op zichzelf prettig smaken. Licht zuur mag, de mousse is zoeter.
 - Laat afkoelen. Eventueel in een schaal om sneller te laten afkoelen. Blijf af en toe roeren om te voorkomen dat het een plakkaat wordt.
@@ -76,6 +74,7 @@ ingredients:
 - De mousse kan enkele dagen afgedekt in de koelkast bewaard worden.
 
 # Tips
+
 In dit recept is gebruik gemaakt van zeer vloeibaar passievrucht puree en gepureerde mango. De passievrucht was aan de zure kant. Als je kiest voor andere vormen van deze vruchten, heb je meer of minder agar en/of suiker nodig.
-Kies je voor ander fruit en is dit geen zuur fruit? Dan kan er 1/8 tot 1/4 minder agar in. 
+Kies je voor ander fruit en is dit geen zuur fruit? Dan kan er 1/8 tot 1/4 minder agar in.
 In dit recept is gebruik gemaakt van 'vegatine'. Er kan ook gebruik worden gemaakt van gelatine. In dat geval wordt elke theelepel (=2 gram) vegatine vervangen voor 3 blaadjes (=5 gram) gelatine. Zorg er dan voor dat gelatine eerst wordt geweekt in koud water, alvorens het toe te voegen aan de fruitpuree. Verder kan het recept worden gevolgd.

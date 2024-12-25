@@ -2,7 +2,7 @@
 title: Mokka taart
 slug: mokka-taart
 image: recipes/baksels/mokka-taart.jpg
-tags: 
+tags:
   - taart
   - zoet
 type: baksel
@@ -24,12 +24,12 @@ ingredients:
     unit: g
     title: genache
     to: /recepten/baksel/genache
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: nogatine
-  - quantity: 
-    unit: 
-    title: (optioneel) mokka boontjes of pure chocolade 
+  - quantity:
+    unit:
+    title: (optioneel) mokka boontjes of pure chocolade
 ---
 
 # Bereiden
@@ -38,8 +38,6 @@ ingredients:
 - Bouw de taart op door de eerste laag te bedekken met mokka creme.
 - De tweede laag kan het beste worden voorzien van een ring aan de buitenzijde van mokka creme, waarbinnen gevuld kan worden met de overgebleven banketbakkersroom.
 
-
 # Tips
 
 Let op: één volledig recept banketbakkersroom wordt gesplitst voor direct gebruik én voor gebruik in de mokka crème.
- 

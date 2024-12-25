@@ -1,19 +1,9 @@
 'use client';
 
-import { usePathname, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
+import { ReactNode } from 'react';
 
-function getTypeFromPath(currenPath: string): string | undefined {
-  const matches = /\/recepten\/([^/]+)\/.*/.exec(currenPath);
-
-  if (matches === null) {
-    return undefined;
-  }
-
-  return matches[1] ?? undefined;
-}
-
-export default function SearchForm() {
-  const path = usePathname();
+export default function SearchForm(): ReactNode {
   const searchParams = useSearchParams();
 
   const searchPath = `/recepten`;

@@ -1,7 +1,7 @@
 ---
 title: Chicken Tonight
 slug: chicken-tonight
-tags: 
+tags:
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
@@ -12,7 +12,7 @@ ingredients:
     unit: g
     title: wortel
   - quantity: 1
-    unit: 
+    unit:
     title: paprika
   - quantity: 150
     unit: g
@@ -42,7 +42,7 @@ ingredients:
 - Snijd de kip en de groenten. Laat de cherry tomaten heel.
 - Kook de rijst.
 - Maak de saus en voeg deze samen met de kip in de pan.
-- Voeg na enkele minuten de wortel toe. 
+- Voeg na enkele minuten de wortel toe.
 - Zodra de wortel zachter wordt, kan de paprika worden toevoegd. Als alles gaar is, kan de spitskool worden toegevoegd.
 - Indien nodig kan er water worden toegevoegd en/of worden ingedikt met maizena.
 

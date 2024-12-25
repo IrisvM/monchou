@@ -1,7 +1,7 @@
 ---
 title: Pompoenstoof
 slug: pompoenstoof
-tags: 
+tags:
   - vegetarisch
   - pompoen
 type: hoofdgerecht
@@ -35,16 +35,16 @@ ingredients:
     unit: klein blikje
     title: kikkererwten
   - quantity: 4
-    unit: 
+    unit:
     title: eieren
   - quantity: 2
-    unit: 
+    unit:
     title: bruine (afbak)broodjes
 ---
 
 # Curry
 
-- Schil en snijd de pompoen in stukjes. 
+- Schil en snijd de pompoen in stukjes.
 - Rooster het karwijzaad voor ongeveer 3 minuten en laat deze afkoelen op een bord.
 - Snijd de paprika in stukjes.
 - Snijd de knoflook fijn en fruit deze. Gebruik een braadpan of andere hoge pan met deksel.
@@ -54,10 +54,9 @@ ingredients:
 - Als de pompoen (bijna) gaar is, kunnen de eieren worden toegevoegd. Maak hiervoor kuiltjes in de stoof en doe daar de eieren in.
 - Doe de deksel schuin op de pan en laat staan totdat de eieren gaar zijn (zo'n 10 minuten).
 
-
 # Tips
 
-- De stroop kan ook vervangen worden voor een theelepel donker bruine basterdsuiker. 
+- De stroop kan ook vervangen worden voor een theelepel donker bruine basterdsuiker.
 - Voor grotere hoeveelheden kan het nodig zijn om de stoof in twee pannen te verdelen om genoeg ruimte te hebben voor de eieren.
 
 # Serveren

@@ -1,7 +1,7 @@
 ---
 title: Asperge risotto
 slug: asperge-risotto
-tags: 
+tags:
   - risotto
   - vegetarisch
 type: hoofdgerecht
@@ -20,7 +20,7 @@ ingredients:
     unit: g
     title: (kastanje) champignons
   - quantity: 4-5
-    unit: 
+    unit:
     title: zongedroogde tomaatjes
   - quantity: 500
     unit: mL
@@ -31,6 +31,7 @@ ingredients:
 ---
 
 # Bereiding
+
 - Snijd de ingrediënten
 - Bak de sjalot glazig
 - Voeg de rijst toe en bak deze totdat het glazig is en de typishe geur verdwenen is.
@@ -39,9 +40,10 @@ ingredients:
 - Bereid de asperges volgens de verpakking.
 - Als de rijst zo goed als gaar is, kunnen de tomaten, asperges en kaas worden teogevoegd.
 
-
 # Tips
+
 Het geheel wordt smeuïger als er continu geroerd wordt, vanaf het eerste moment dat er bouillon wordt toegevoegd.
 
 # Variaties
+
 Ook lekker met erwten. Goede toevoeging als er een grotere hoeveelheid wordt gemaakt. Kook deze apart gaar en voeg aan het einde toe.

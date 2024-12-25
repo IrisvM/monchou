@@ -1,7 +1,14 @@
+import { ReactNode } from 'react';
 import uppercaseFirst from '../../helpers/uppercaseFirst';
 import Link from '../Link';
 
-export default function TagLink({ tag, href }: { tag: string; href: string }) {
+export default function TagLink({
+  tag,
+  href,
+}: {
+  tag: string;
+  href: string;
+}): ReactNode {
   return (
     <Link
       className="rounded-full mr-2 mb-2 px-2 py-1 text-xs font-medium bg-indigo-100"

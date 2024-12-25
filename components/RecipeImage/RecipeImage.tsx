@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { Recipe } from '../../api/recipes';
 import classNames from '../../helpers/classNames';
+import { ReactNode } from 'react';
 
 export default function RecipeImage({
   image,
@@ -10,7 +10,7 @@ export default function RecipeImage({
   className?: string;
   image: string | null;
   title: string;
-}) {
+}): ReactNode {
   return image == null ? (
     <div
       className={classNames(

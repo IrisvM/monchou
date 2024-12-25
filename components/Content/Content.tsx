@@ -1,5 +1,5 @@
 import parse, { DOMNode, Element, domToReact } from 'html-react-parser';
-import { ReactElement } from 'react';
+import { ReactElement, ReactNode } from 'react';
 
 type Props = {
   content: string;
@@ -28,7 +28,7 @@ function offsetHeading(
   return domNode;
 }
 
-export default function WYSIWYG({ content, headingOffset }: Props) {
+export default function Content({ content, headingOffset }: Props): ReactNode {
   const Content = parse(content, {
     replace(domNode) {
       return offsetHeading(domNode, headingOffset ?? 0);

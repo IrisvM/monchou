@@ -1,9 +1,9 @@
 import { Recipe } from '../../api/recipes';
-import Image from 'next/image';
 import RecipeMeta from '../RecipeMeta';
 import RecipeImage from '../RecipeImage';
+import { ReactNode } from 'react';
 
-export default function RecipeCard({ recipe }: { recipe: Recipe }) {
+export default function RecipeCard({ recipe }: { recipe: Recipe }): ReactNode {
   return (
     <li
       key={recipe.slug}

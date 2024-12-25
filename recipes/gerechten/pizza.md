@@ -1,7 +1,7 @@
 ---
 title: Pizza
 slug: pizza
-tags: 
+tags:
   - vegetarisch
 type: hoofdgerecht
 serving: 2 personen
@@ -24,13 +24,13 @@ ingredients:
   - quantity: 1
     unit: klein blikje
     title: tomatenpuree
-  - quantity: 
+  - quantity:
     unit:
     title: kruiden naar wens zoals italiaanse kruiden
-  - quantity: 
+  - quantity:
     unit:
     title: kaas en/of mozzarella
-  - quantity: 
+  - quantity:
     unit:
     title: toppings naar wens
 ---
@@ -45,11 +45,11 @@ ingredients:
 - Verwarm de oven voor op 250 graden.
 - Druk de lucht uit het deeg en kneed licht door.
 - Bestuif het werkblad/bakpapier en de deegroller met bloem.
-- Rol het deeg uit tot de gewenste grootte. 
+- Rol het deeg uit tot de gewenste grootte.
 - Meng de gewenste kruiden met de tomatenpuree en besmeer de pizzabodem. Houd de randen vrij voor een knapperige korst.
 - Voor een meer broodstructuur pizza moet deze nu een tijdje rusten.
 - Beleg de pizza naar wens.
- 
+
 # Bakken
 
 - Bak de pizza in zo'n 20 minuten gaar op 250 graden Celcius

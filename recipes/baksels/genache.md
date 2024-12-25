@@ -1,7 +1,7 @@
 ---
 title: Genache
 slug: genache
-tags: 
+tags:
   - vulling
   - zoet
 type: baksel
@@ -15,7 +15,7 @@ ingredients:
     title: slagroom
   - quantity: (optioneel)
     unit: klontje
-    title: ongezouten roomboter 
+    title: ongezouten roomboter
 ---
 
 # Bereiden

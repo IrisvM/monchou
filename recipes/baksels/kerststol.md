@@ -1,7 +1,7 @@
 ---
 title: Kerststol
 slug: kerststol
-tags: 
+tags:
   - brood
   - zoet
 type: baksel
@@ -28,29 +28,29 @@ ingredients:
   - quantity: 7
     unit: g
     title: zout
-  - quantity: 75  
-    unit: g
-    title: ongezouten roomboter
-  - quantity: 100 
-    unit: g
-    title: rozijnen  
   - quantity: 75
     unit: g
-    title: blanke rozijnen  
+    title: ongezouten roomboter
+  - quantity: 100
+    unit: g
+    title: rozijnen
+  - quantity: 75
+    unit: g
+    title: blanke rozijnen
   - quantity: 75
     unit: g
     title: gedroogde cranberries
   - quantity: 100
     unit: g
-    title: geblancheerde, gepelde amandelen  
-  - quantity: 
-    unit: 
+    title: geblancheerde, gepelde amandelen
+  - quantity:
+    unit:
     title: extra zonnebloemolie
   - quantity:
-    unit: 
+    unit:
     title: extra boter
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: extra poedersuiker
   - quantity: 1
     unit: recept
@@ -75,14 +75,13 @@ ingredients:
 - Vet een werkblad in met zonnebloemolie
 - Leg het deeg op het werkblad en druk de lucht eruit. Bol het deeg losjes op en laat dit afgedekt liggen voor 15 minuten.
 - Druk het deeg uit tot een ovaal van 2 cm dik. Zorg voor dikkere uiteinden. De lengte moet net iets langer zijn dan de amandelspijs
-- Leg het amandelspijs op de ovaal 
+- Leg het amandelspijs op de ovaal
 - Vouw het deeg over het amandelspijs heen. Druk het deeg aan beide kanten aan.
 - Zorg dat de uiteinden goed dicht zitten, zodat er geen spijs uit gaat komen.
 - Leg het brood op een bakplaat met bakpapier
 - Werk blootliggende vullingen weg (deze zullen anders verbranden in de oven)
 - Laat het brood zo’n 45 minuten rijzen
 - Verwarm de oven voor op 180 graden
-
 
 # Bakken
 
@@ -92,9 +91,7 @@ ingredients:
 - Leg de stol direct op een rooster om af te koelen.
 - Bestrijk het brood na 10 minuten koelen met gesmolten boter en bestrooi met poedersuiker
 
-
- 
 # Bewaartips
 
-Bewaar in een goed afgesloten bak of zak. Anders wordt een aangesneden brood snel droog. 
+Bewaar in een goed afgesloten bak of zak. Anders wordt een aangesneden brood snel droog.
 Bestrooi naar verloop van tijd opnieuw met poedersuiker. Door het vocht uit de lucht is een deel opgelost naar veroop van tijd.

@@ -1,7 +1,7 @@
 ---
 title: Pompoenrisotto
 slug: pompoenrisotto
-tags: 
+tags:
   - risotto
 type: hoofdgerecht
 serving: 2 personen
@@ -27,8 +27,9 @@ ingredients:
 ---
 
 # Bereiding
+
 - Snijd de sjalot en pompoen. Zorg dat de pompoen geen schil meer heeft.
-- Verdeel de pompoen over een rooster met bakpapier en bestrijk met olie. 
+- Verdeel de pompoen over een rooster met bakpapier en bestrijk met olie.
 - Bak pompoen in de oven gaar, liefst aan het einde met gril
 - Bak de sjalot
 - Kook ondertussen water en maak hier bouillon van.
@@ -41,7 +42,6 @@ ingredients:
 - Eventueel op smaak brengen met wat zwarte peper
 - Verdeel de risotto over de borden en leg de bacon erbij
 
-
 # Tips
-Het geheel wordt smeuïger als er continu geroerd wordt, vanaf het eerste moment dat er bouillon wordt toegevoegd.
 
+Het geheel wordt smeuïger als er continu geroerd wordt, vanaf het eerste moment dat er bouillon wordt toegevoegd.

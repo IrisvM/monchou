@@ -1,9 +1,9 @@
 ---
 title: Nasi kruiden
 slug: nasi-kruiden
-tags: 
+tags:
 type: kruiden
-serving: 
+serving:
 ingredients:
   - quantity: 3
     unit: delen
@@ -11,7 +11,7 @@ ingredients:
   - quantity: 3
     unit: delen
     title: komijn
-  - quantity: 1  
+  - quantity: 1
     unit: deel
     title: gemalen korianderzaad
   - quantity: 1
@@ -30,4 +30,3 @@ ingredients:
     unit: deel
     title: kaneel
 ---
-

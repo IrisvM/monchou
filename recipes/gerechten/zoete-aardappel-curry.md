@@ -1,7 +1,7 @@
 ---
 title: Zoete aardappel curry
 slug: zoete-aardappel-curry
-tags: 
+tags:
   - curry
   - vegetarisch
 type: hoofdgerecht
@@ -14,7 +14,7 @@ ingredients:
     unit: klein blik
     title: kikkererwten
   - quantity: 1
-    unit: 
+    unit:
     title: sjalot
   - quantity: 100
     unit: g
@@ -28,7 +28,7 @@ ingredients:
   - quantity: 2
     unit: el
     title: kerrie masala kruiden
-  - quantity: 
+  - quantity:
     unit: heel recept
     title: naanbrood
 ---

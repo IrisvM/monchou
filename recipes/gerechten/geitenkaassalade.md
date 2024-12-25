@@ -1,7 +1,7 @@
 ---
 title: Geitenkaassalade
 slug: geitenkaassalade
-tags: 
+tags:
   - vegetarisch
   - maaltijdsalade
 type: hoofdgerecht
@@ -11,16 +11,16 @@ ingredients:
     unit: g
     title: zachte geitenkaas
   - quantity: 0.5
-    unit: 
+    unit:
     title: komkommer
   - quantity: 75
     unit: g
     title: rucola sla melange
   - quantity: handje
-    unit: 
+    unit:
     title: walnoten
   - quantity: 1
-    unit: 
+    unit:
     title: (gele) paprika
   - quantity: 1
     unit: portie
@@ -35,16 +35,13 @@ ingredients:
   - quantity: 1
     unit: el
     title: olijfolie
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: tijm
 ---
 
 # Bereiding
+
 - Snijd, kruimel en breek alle ingrediënten en doe deze in een grote bak
 - Maak de dressing in een apart schaaltje
 - Serveer salade en dressing apart.
-
-
-
- 

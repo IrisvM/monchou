@@ -1,7 +1,7 @@
 ---
 title: Burrito's uit de oven
 slug: burrito
-tags: 
+tags:
   - oven
 type: hoofdgerecht
 serving: 2 personen
@@ -13,7 +13,7 @@ ingredients:
     unit: g
     title: kipfilet
   - quantity: 1
-    unit: 
+    unit:
     title: paprika
   - quantity: 150
     unit: g
@@ -24,14 +24,14 @@ ingredients:
   - quantity: 1
     unit: el (naar smaak)
     title: Nacho kruiden
-    to: /recepten/kruiden/texmex-kruiden 
+    to: /recepten/kruiden/texmex-kruiden
   - quantity: 50
     unit: g
-    title: creme fraiche 
+    title: creme fraiche
   - quantity: 1
     unit: el
     title: Olie (naar keuze)
-  - quantity: 100 
+  - quantity: 100
     unit: g
     title: Kaas (geraspt)
 ---
@@ -58,8 +58,8 @@ ingredients:
 - Verdeel (resterende) geraspte kaas over de tortilla's
 - Zet de ovenschaal in de oven
 - Haal de schaal na ongeveer 5 minuten uit de oven
- 
-# Tips
-Zet de grill stand aan als je van knapperige kaas en randjes houdt. Wellicht staat de schaal dan wat langer in de oven.
-Ook lekker aan te vullen met kidneybonen. Of bonen ter vervanging van kip. 
 
+# Tips
+
+Zet de grill stand aan als je van knapperige kaas en randjes houdt. Wellicht staat de schaal dan wat langer in de oven.
+Ook lekker aan te vullen met kidneybonen. Of bonen ter vervanging van kip.

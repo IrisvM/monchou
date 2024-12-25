@@ -2,14 +2,14 @@
 title: Gevulde Paprika's
 slug: gevulde-paprikas
 image: recipes/gerechten/gevulde-paprikas.jpg
-tags: 
+tags:
   - vegetarisch
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
   - quantity: 3
     title: grote (rode) paprika's
-  - quantity: 1 
+  - quantity: 1
     unit: kop(je)
     title: rijst
   - quantity: 1/3
@@ -52,7 +52,6 @@ ingredients:
   - quantity: 2
     unit: eetlepels
     title: (olijf)olie
-     
 ---
 
 ## Rijst
@@ -62,14 +61,13 @@ ingredients:
 - Snij de bovenkant van de paprika en hol ze uit. De bovenkant kan je klein snijden en bewaren om later toe te voegen.
 - Doe de paprika in de oven met een beetje olie , zout, peper en oregano
 
-
 ## Vulling
 
 - Snij de knoflook fijn
 - Fruit deze op een laag vuur
 - Snij de rest van groente klein en houdt ze los van elkaar klaar
 - Snij de vega stukjes kleiner
-- Fezel de folie met een beetje zout 
+- Fezel de folie met een beetje zout
 - Voeg paprika poeder, de folie en een beetje bonenkruid in de pan met knoflook
 - Laat het sudderen voor 2 minuten.
 - Voeg de klein gesnede champignonen toe

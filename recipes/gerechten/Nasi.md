@@ -1,7 +1,7 @@
 ---
 title: Nasi
 slug: nasi
-tags: 
+tags:
   - vegetarisch
 type: hoofdgerecht
 serving: 2 personen
@@ -19,12 +19,12 @@ ingredients:
     unit: g
     title: spitskool
   - quantity: 3
-    unit: 
+    unit:
     title: eieren
-  - quantity: 
+  - quantity:
     unit: scheutje
     title: melk
-  - quantity: 
+  - quantity:
     unit: scheutje
     title: ketjap manis
   - quantity: 1
@@ -43,10 +43,9 @@ ingredients:
 - Kluts de eieren met de melk en breng op smaak naar wens
 - Bak eerst de wortel. Zodra deze zachter wordt, kan de paprika worden toegevoegd.
 - Bak ondertussen het ei en maak de saté saus
-- Voeg de kruiden en ketjap toe 
+- Voeg de kruiden en ketjap toe
 - Voeg de rijst toe en meng goed
 - Voeg vervolgens de spitskool toe. Blijf roeren totdat de spitskool iets zachter wordt en begint de slinken
-
 
 # Variaties
 

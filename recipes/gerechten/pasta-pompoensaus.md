@@ -1,7 +1,7 @@
 ---
 title: Pasta pompoensaus
 slug: pasta-pompoensaus
-tags: 
+tags:
   - pasta
   - vegetarisch
 type: hoofdgerecht
@@ -11,14 +11,14 @@ ingredients:
     unit: g
     title: pasta
   - quantity: 0.5
-    unit: 
+    unit:
     title: Flespompoen
   - quantity: 1
-    unit: 
+    unit:
     title: Shallot
   - quantity: 1
     unit: teentje
-    title: Knoflook 
+    title: Knoflook
   - quantity: snufje
     title: Kaneel
   - quantity: Beetje
@@ -33,6 +33,7 @@ ingredients:
 ---
 
 # Bereiding
+
 - Zet de oven aan op 180 graden.
 - Snijd de (halve) pompoen door de helft. Leg deze met de "vlees" zijde naar benede op een bakplaat met bakpapier (dus de schil naar boven). Stop deze in de 180 grade voor verwarmde oven voor minimaal 40 minuten, tot het vlees van de pompoen zacht is.
 - Schaap de pompoen leeg en leg dit apart

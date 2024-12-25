@@ -15,17 +15,17 @@ ingredients:
   - quantity: 4
     unit: eetlepels
     title: Sojasaus
-  - quantity: 350 
+  - quantity: 350
     unit: gram
     title: Spruitjes
-  - quantity: 1 
+  - quantity: 1
     unit: kop
     title: Rijst
   - quantity: 0.5
     unit: theelepel
     title: Tahini
   - quantity:
-    unit: 
+    unit:
     title: Gember poeder
   - quantity:
     unit:
@@ -52,7 +52,6 @@ ingredients:
 
 # Bereiding
 
-
 ## Voorbereiding
 
 - Laat de tofu uitlekken en wikkel deze in keuken papier met iets zwaars erop on de vocht er uit te trekken. Laat dit voor minimaal 15 minuten staan en vervang het keukenpapier wanneer doordrengt
@@ -66,7 +65,7 @@ ingredients:
 - Doe hier één eetlepel olie bij, wat tijm en zout.
 - Hussel het geheel
 - Doe dit in de airfryer op 200 graden voor ongeveer 10 minuten en hussel het frequent
-- De spruitjes moeten een licht bruine kleur krijgen 
+- De spruitjes moeten een licht bruine kleur krijgen
 - Na 10 minuten kunnen deze in oven om goed door te garen voor zo een 15 minuten.
 
 ## Tofu
@@ -87,7 +86,7 @@ ingredients:
 - Pers de sinaasappel
 - Doe dit in een niet te grote pan
 - Voeg hier aan toe: de helft van de sinaasappel zest, 2 eetlepels sojasaus, 1/2 theelepel tahini, één beetje gember, één beetje piment
-- Maak dit geheel warm 
+- Maak dit geheel warm
 - Dik het in naar een gladde saus met Maizena
 - Voeg meer kruiden, sojasaus en zest toe naar smaak
 

@@ -1,14 +1,14 @@
 ---
 title: Volkoren appel crumble
 slug: appel-crumble
-tags: 
+tags:
   - dessert
   - zoet
 type: baksel
 serving: 3 personen
 ingredients:
   - quantity: 2
-    unit: 
+    unit:
     title: appels
   - quantity: 80
     unit: g
@@ -16,8 +16,8 @@ ingredients:
   - quantity: 15
     unit: g
     title: suiker
-  - quantity: 
-    unit: 
+  - quantity:
+    unit:
     title: kaneel
   - quantity: 45
     unit: g
@@ -50,6 +50,6 @@ ingredients:
 - Bak de appel crumble in ongeveer 30 minuten gaar in de oven. Laat na het bakken even afkoelen in de schaal, zodat de crumble wat steviger wordt.
 
 # Tips
+
 Lekker met slagroom en/of vanille ijs
 Rietsuiker kan ook vervangen worden voor gewone suiker en de noten kunnen ook weggelaten worden.
-
