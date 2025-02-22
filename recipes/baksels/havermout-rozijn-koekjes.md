@@ -6,7 +6,7 @@ tags:
   - koek
   - zoet
 type: baksel
-serving: 14 stuks
+serving: 12 stuks
 ingredients:
   - quantity: 120
     unit: g
@@ -35,14 +35,14 @@ ingredients:
   - quantity: 150
     unit: g
     title: (grove) havervlokken
-  - quantity: 0.5
-    unit: cup
+  - quantity: 90
+    unit: g
     title: rozijnen
-  - quantity: 0.5
-    unit: cup
+  - quantity: 70
+    unit: gram
     title: gedroogde cranberries
-  - quantity: 0.5
-    unit: cup
+  - quantity: 55
+    unit: g
     title: pecannoten
 ---
 
@@ -58,8 +58,8 @@ ingredients:
 
 # Bakken
 
-- Maak koekjes (bijvoorbeeld 50 g per stuk) en plaats deze op een ovenplaat. De koekjes spreiden zich minimaal, dus maak ongeveer de beoogde vorm en dikte.
-- Bak de koekjes in zo’n 10 minuten goudbruin op 190 graden. De koekjes zijn goed als de randjes zichtbaar bruin worden. Het midden zal nog heel zacht voelen.
+- Maak koekjes (bijvoorbeeld 60 g per stuk) en plaats deze op een ovenplaat. De koekjes spreiden zich minimaal, dus maak ongeveer de beoogde vorm en dikte.
+- Bak de koekjes in zo’n 12 minuten goudbruin op 190 graden. De koekjes zijn goed als de randjes zichtbaar bruin worden. Het midden zal nog heel zacht voelen.
 - Laat de koekjes 2 minuten afkoelen op de plaat buiten de oven en verplaats ze daarna naar een rek om volledig af te koelen.
 
 # Bewaren

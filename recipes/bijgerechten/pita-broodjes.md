@@ -8,14 +8,14 @@ serving: 2 personen
 ingredients:
   - quantity: 250
     unit: g
-    title: bloem
+    title: volkoren bloem
   - quantity: 5
     unit: g
     title: zout
   - quantity: 0.5
     unit: zakje
     title: gist
-  - quantity: 150
+  - quantity: 160
     unit: mL
     title: lauwwarm water
   - quantity:

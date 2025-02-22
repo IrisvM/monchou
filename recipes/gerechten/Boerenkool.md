@@ -1,6 +1,7 @@
 ---
 title: Boerenkool stamppot
 slug: boerenkool
+image: recipes/gerechten/boerenkool.jpg
 tags:
   - winters
 type: hoofdgerecht

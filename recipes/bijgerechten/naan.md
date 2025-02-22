@@ -6,9 +6,12 @@ tags:
 type: bijgerecht
 serving: 2 personen
 ingredients:
-  - quantity: 250
+  - quantity: 125
     unit: g
-    title: bloem
+    title: tarwe bloem
+  - quantity: 125
+    unit: g
+    title: volkoren tarwe meel
   - quantity: 5
     unit: g
     title: zout
