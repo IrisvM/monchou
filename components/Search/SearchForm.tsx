@@ -16,7 +16,7 @@ export default function SearchForm(): ReactNode {
         name="query"
         id="searchQuery"
         defaultValue={query}
-        className="block w-full bg-fuchsia-200 rounded-md border-gray-300 pl-10 focus:border-fuchsia-500 focus:ring-fuchsia-500 sm:text-sm"
+        className="block w-full bg-fuchsia-200 rounded-md border-gray-300 pl-10 outline-0 focus:outline-2 focus:outline-fuchsia-500 sm:text-sm py-3 px-6"
         placeholder="Zoeken..."
       />
     </form>

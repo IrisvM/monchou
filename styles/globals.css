@@ -1,4 +1,2 @@
+@import './tailwind.css';
 @import './wysiwyg.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
