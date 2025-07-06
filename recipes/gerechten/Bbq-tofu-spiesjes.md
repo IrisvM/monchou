@@ -1,6 +1,6 @@
 ---
 title: BBQ Tofu spiesjes
-slug: bbq-tofu-spoesjes
+slug: bbq-tofu-spiesjes
 tags:
   - BBQ
   - vegetarisch
