@@ -23,9 +23,9 @@ ingredients:
   - quantity: 20
     unit: g
     title: kaas
-  - quantity: 
-    unit: 
-    title: kruiden (nog aan te vullen)   
+  - quantity:
+    unit:
+    title: kruiden (nog aan te vullen)
 ---
 
 # Bereiding

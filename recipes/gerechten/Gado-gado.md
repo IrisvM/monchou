@@ -11,7 +11,7 @@ ingredients:
     unit: porties
     title: (zilvervlies) rijst
   - quantity: 2
-    unit: 
+    unit:
     title: eieren
   - quantity: 60
     unit: g
@@ -41,7 +41,7 @@ ingredients:
     unit: eetlepels
     title: sojasaus
   - quantity:
-    unit: 
+    unit:
     title: gemberpoeder
 ---
 
@@ -55,7 +55,7 @@ ingredients:
 - Snijd de komkommer in korte reepjes.
 - Gaar de sperziebonen, edamame bonen en taugé (indien nodig).
 - Vul een kom met rijst. Verdeel alle ingrediënten over de rijst.
-- Voeg de pindasaus toe en garneer naar wens met extra pinda's. 
+- Voeg de pindasaus toe en garneer naar wens met extra pinda's.
 
 # tip
 

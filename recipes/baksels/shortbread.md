@@ -1,7 +1,7 @@
 ---
 title: Shortbread
 slug: shortbread
-tags: 
+tags:
   - koek
 type: baksel
 serving: 12 stuks
@@ -31,7 +31,6 @@ ingredients:
 - Doe de stukken deeg in de vorm en druk het geheel goed aan. Op die manier vormt het één bodem.
 - Bak voor 30 minuten voor een gare bodem. De bodem kleurt heel licht, naar goudbruin. Bak korter als er voor de volgende laag nog meer baktijd volgt.
 - Laat de brownie afkoelen in de vorm.
-
 
 # Tips
 

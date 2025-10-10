@@ -66,6 +66,6 @@ export default [
     },
   },
   {
-    ignores: ['.next/', 'dist/', '.netlify/', 'node_modules/'],
+    ignores: ['next-env.d.ts', '.next/', 'dist/', '.netlify/', 'node_modules/'],
   },
 ];

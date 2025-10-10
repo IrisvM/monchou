@@ -46,7 +46,6 @@ ingredients:
   - quantity: 1
     unit: theelepel
     title: (donker) (bruine) (basterd) suiker
-
 ---
 
 # Bereiding
@@ -57,11 +56,10 @@ Doe dit ongeveer een halve dag van te voren.
 
 - Haal de tofu uit de verpakking en gooi het vocht weg.
 - Nnijp de tofu een beetje uit om een deel alvast kwijt te zijn.
-- Verpak de tofu in  veel keuken papier of een theedoek.
+- Verpak de tofu in veel keuken papier of een theedoek.
 - Leg een gewichtig voorwerp met een platte zeide op de tofu (zoals een ovenschaal).
 - Laat dit een halve dag liggen.
 - Je zal zien dat de keuken papier of theedoek compleet doordrengt zijn, nu is de tofu klaar voor marineren.
-
 
 ## Marinade
 
@@ -77,7 +75,6 @@ Doe dit ongeveer een halve dag van te voren.
 - Laat het een halve dag trekken.
 
 Heb je niet genoeg marinade om het onder te laten staan? Je kan het aanvullen met een beetje water en sojasaus, of helemaal meer marinade maken. Je kan ook de marinade tot de helft doen, dan moet je na een uurtje of 2 alle stokjes draaien zodat beide kanten de marinade opnemen.
-
 
 # Oh mijn god ik mis kruiden waar ik nog nooit van heb gehoord.
 

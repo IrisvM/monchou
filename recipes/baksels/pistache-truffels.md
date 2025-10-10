@@ -14,12 +14,12 @@ ingredients:
     title: vanillesuiker
   - quantity: 110
     unit: g
-    title: slagroom 
+    title: slagroom
   - quantity: 80
     unit: g
     title: ongezouten roomboter
   - quantity: snuf
-    unit: 
+    unit:
     title: zout
   - quantity: 40
     unit: g
@@ -29,7 +29,7 @@ ingredients:
     title: gepelde pistache noten
   - quantity: 200
     unit: g
-    title: witte (of pure) chocola 
+    title: witte (of pure) chocola
 ---
 
 # Bereiden
@@ -41,8 +41,8 @@ ingredients:
 - Als alle room is toegevoegd, klop dan nog 1 à 2 minuten door.
 - Voeg de pistachepasta toe en klop tot alles gemengd is.
 - Bekleed een bakje of plaat met bakpapier. Deze moet zometeen in de vriezer passen.
-- Doe de vulling in een spuitzak. 
-- Spuit truffels, in vorm naar wens, op het bakpapier. 
+- Doe de vulling in een spuitzak.
+- Spuit truffels, in vorm naar wens, op het bakpapier.
 - Doe de truffels in de vriezer voor minstens een uur
 - Smelt de chocola. Doe deze het liefst in een klein bakje, zodat de truffel makkelijk ondergedompeld kan worden.
 - Hak de noten fijn. Je kunt deze eventueel van te voren roosteren. Doe de kruimels in een schaaltje.
@@ -52,9 +52,9 @@ ingredients:
 # Tips
 
 - Is het mengsel bij het toevoegen van de room te dun? Zet de kom dan een kwartiertje in de koelkast en klop deze daarna verder op.
-- Is het mengsel bij het toevoegen van de room korrelig geworden? Dan zijn de ingrediënten niet op gelijke temperatuur. Verwarm de kom au-bain-marie of met een föhn en klop alsnog het mengsel op. 
+- Is het mengsel bij het toevoegen van de room korrelig geworden? Dan zijn de ingrediënten niet op gelijke temperatuur. Verwarm de kom au-bain-marie of met een föhn en klop alsnog het mengsel op.
 - Gesmolten witte chocola is wat dikker dan pure chocola. Daarom werkt pure chocola wel iets makkelijker.
-- 100% pistache pasta is te koop in (sommige) supermarkten. Het voordeel hiervan is dat de textuur heel glad is, wat goed past bij deze truffels. Kan je dit niet krijgen? Je kunt ook zelf extra pistache noten in de blender tot een pasta malen. 
+- 100% pistache pasta is te koop in (sommige) supermarkten. Het voordeel hiervan is dat de textuur heel glad is, wat goed past bij deze truffels. Kan je dit niet krijgen? Je kunt ook zelf extra pistache noten in de blender tot een pasta malen.
 - Smelt niet te veel chocola tegelijk. Door het temperatuurverschil smelt er wat boter en slagroom in de chocola, wat een andere textuur geeft. Of je moet het soms tussendoor opwarmen. Dat gaat allemaal makkelijker met kleine hoeveelheden.
 - Doe wel altijd iets extra's over de chocola heen. Doordat deze snel afkoelt en niet is getempereerd, zal de chocola er snel dof uitzien. Met nootjes zie je dat niet.
 
@@ -65,4 +65,5 @@ ingredients:
 - Dit recept is gebaseerd op [het recept van Rutger bakt](https://rutgerbakt.nl/friandise-recepten/truffels/slagroomtruffels-maken-in-3-smaken/). Hier staan ook andere samen in vermeld.
 
 # Bewaren
+
 Bewaar de truffels in de koelkast en haal deze 15-30 minuten voor serveren uit de koelkast.
