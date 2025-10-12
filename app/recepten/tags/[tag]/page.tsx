@@ -1,5 +1,5 @@
 import RecipeListPage from '@/components/RecipePage';
-import { listRecipesByTag, listTags } from '@/api/recipes';
+import { listTags } from '@/api/recipes';
 import { ReactNode } from 'react';
 
 export default async function RecipesByTag(props: {
@@ -7,10 +7,9 @@ export default async function RecipesByTag(props: {
 }): Promise<ReactNode> {
   const { tag } = await props.params;
 
-  const recipes = await listRecipesByTag(tag);
   const tags = await listTags();
 
-  return <RecipeListPage recipes={recipes} tags={tags} />;
+  return <RecipeListPage tag={tag} tags={tags} />;
 }
 
 export async function generateStaticParams(): Promise<{ tag: string }[]> {

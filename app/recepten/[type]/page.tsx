@@ -1,9 +1,5 @@
 import RecipeListPage from '@/components/RecipePage';
-import {
-  listRecipesByType,
-  listRecipeTypes,
-  listTagsByType,
-} from '@/api/recipes';
+import { listRecipeTypes, listTagsByType } from '@/api/recipes';
 import Header from '@/components/Header';
 import uppercaseFirst from '@/helpers/uppercaseFirst';
 import { ReactNode } from 'react';
@@ -13,7 +9,6 @@ export default async function RecipesByTag(props: {
 }): Promise<ReactNode> {
   const { type } = await props.params;
 
-  const recipes = await listRecipesByType(type);
   const tags = await listTagsByType(type);
   const plural: { [word: string]: string | undefined } = {
     hoofdgerecht: 'hoofdgerechten',
@@ -24,7 +19,7 @@ export default async function RecipesByTag(props: {
   return (
     <>
       <Header>{uppercaseFirst(plural[type] ?? type)}</Header>
-      <RecipeListPage recipes={recipes} tags={tags} type={type} />
+      <RecipeListPage tags={tags} type={type} />
     </>
   );
 }
