@@ -1,9 +1,5 @@
 import RecipeListPage from '@/components/RecipePage';
-import {
-  listRecipesByTag,
-  listRecipeTypeTags,
-  listTagsByType,
-} from '@/api/recipes';
+import { listRecipeTypeTags, listTagsByType } from '@/api/recipes';
 import asyncGeneratorToArray from '@/helpers/asyncGenetorToArray';
 import Header from '@/components/Header';
 import uppercaseFirst from '@/helpers/uppercaseFirst';
@@ -14,13 +10,12 @@ export default async function RecipesByTag(props: {
 }): Promise<ReactNode> {
   const { tag, type } = await props.params;
 
-  const recipes = await listRecipesByTag(tag);
   const tags = await listTagsByType(type);
 
   return (
     <>
       <Header>{uppercaseFirst(tag)} recepten</Header>
-      <RecipeListPage recipes={recipes} tags={tags} type={type} />
+      <RecipeListPage tags={tags} type={type} tag={tag} />
     </>
   );
 }
