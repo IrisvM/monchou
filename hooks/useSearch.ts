@@ -1,20 +1,26 @@
 import { useEffect, useState } from 'react';
 import { Recipe } from '../api/recipes';
 import { useSearchParams } from 'next/navigation';
+import Fuse from 'fuse.js';
 
 export default function useSearch(recipes: Recipe[]): Recipe[] {
   const [filteredRecipes, setFilteredRecipes] = useState<Recipe[]>(recipes);
   const queryParams = useSearchParams();
   const query = queryParams?.get('query') ?? '';
 
-  useEffect(() => {
-    const queryString = Array.isArray(query) ? query.join(' ') : (query ?? '');
-    const safeRegexp = new RegExp(
-      queryString.replaceAll(/[.*+?^${}()|[\]\\]/g, '\\$&'),
-      'gi'
-    );
+  const fuse = new Fuse(recipes, {
+    keys: ['title', 'tags'],
+    threshold: 0.3,
+  });
 
-    setFilteredRecipes(recipes.filter((r) => safeRegexp.test(r.title)));
+  useEffect(() => {
+    if (!query) {
+      setFilteredRecipes(recipes);
+      return;
+    }
+
+    const results = fuse.search(query);
+    setFilteredRecipes(results.map((result) => result.item));
   }, [setFilteredRecipes, recipes, query]);
 
   return filteredRecipes;

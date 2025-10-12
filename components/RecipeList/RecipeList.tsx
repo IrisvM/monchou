@@ -4,9 +4,15 @@ import RecipeCard from '../RecipeCard';
 
 export default function RecipeList({
   recipes,
+  isLoading,
 }: {
   recipes: Recipe[];
+  isLoading?: boolean;
 }): ReactNode {
+  if (isLoading) {
+    return <span>Loading...</span>;
+  }
+
   return (
     <ul
       role="list"
