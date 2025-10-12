@@ -3,6 +3,7 @@ import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 import typescriptParser from '@typescript-eslint/parser';
 import reactPlugin from 'eslint-plugin-react';
 import unusedImports from 'eslint-plugin-unused-imports';
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 
 const projectRules = {
   '@next/next/no-img-element': 'off',
@@ -23,6 +24,7 @@ const projectRules = {
 };
 
 export default [
+  eslintPluginPrettierRecommended,
   {
     plugins: {
       '@typescript-eslint': typescriptPlugin,
