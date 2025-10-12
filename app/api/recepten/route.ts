@@ -14,6 +14,7 @@ export async function GET(req: NextRequest): Promise<Response> {
       headers: {
         'Cache-Control':
           'public, durable, s-maxage=60, stale-while-revalidate=300',
+        'Netlify-Vary': 'query=query|tag|type',
       },
     }
   );
