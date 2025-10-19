@@ -31,7 +31,5 @@ export async function buildRecipeListIndex(): Promise<void> {
 export async function readRecipeListByIndex(): Promise<RecipeListItem[]> {
   const contents = await import('../recipes/.cache/list.js');
 
-  console.log(contents.recipeListIndex);
-
   return contents.recipeListIndex;
 }
