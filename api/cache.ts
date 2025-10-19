@@ -1,7 +1,6 @@
 import { RecipeListItem } from '@/api/recipes';
 import fs from 'node:fs/promises';
 import { readAllRecipes } from './fs';
-import {} from '../recipes/.cache/index.js';
 
 const CACHE_DIR = `${process.cwd()}/recipes/.cache`;
 
