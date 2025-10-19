@@ -1,5 +1,6 @@
 import Fuse from 'fuse.js';
-import { listRecipes, Recipe } from './recipes';
+import { RecipeListItem } from './recipes';
+import { readRecipeListByIndex } from './cache';
 
 type Props = {
   query?: string;
@@ -10,8 +11,8 @@ export async function searchRecipes({
   query,
   tag,
   type,
-}: Props): Promise<Recipe[]> {
-  let recipes = await listRecipes();
+}: Props): Promise<RecipeListItem[]> {
+  let recipes = await readRecipeListByIndex();
   const fuse = new Fuse(recipes, { threshold: 0.3, keys: ['title', 'tags'] });
 
   if (query) {

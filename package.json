@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "preinstall": "dev/apply-git-hooks",
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "bun scripts/build-index.ts && next dev --turbopack",
+    "build": "scripts/build-index.ts && next build",
     "start": "next start",
     "lint": "eslint && prettier . -c",
     "fix": "eslint --fix && prettier . -w"

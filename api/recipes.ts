@@ -1,47 +1,23 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
+import { readRecipeListByIndex } from './cache';
+import { readRecipe } from './fs';
 
-export type Recipe = {
-  title: string;
+export type Recipe = RecipeListItem & {
   ingredients: { quantity: number; unit: string; title: string; to?: string }[];
   serving: string;
-  tags: string[];
-  image: null | string;
-  slug: string;
   content: string;
+};
+export type RecipeListItem = {
+  title: string;
+  tags: string[];
   type: string;
-  key: string;
+  slug: string;
+  image: null | string;
   filename: string;
+  key: string;
 };
 
-const RECIPE_DIR = `${process.cwd()}/recipes`;
-
 export async function getRecipe(path: string): Promise<Recipe> {
-  const fileContents = await fs.promises.readFile(
-    `${RECIPE_DIR}/${path}`,
-    'utf8'
-  );
-
-  try {
-    const { data, content } = matter(fileContents);
-
-    const result = await remark().use(html).process(content);
-    return {
-      ...data,
-      slug: data.slug.toLocaleLowerCase(),
-      type: data.type.toLocaleLowerCase(),
-      image: data.image ?? null,
-      tags: data.tags ?? [],
-      content: result.toString(),
-      filename: path,
-      key: path,
-    } as Recipe;
-  } catch (err) {
-    throw new Error(`Error during parsing ${path}: ${err}`);
-  }
+  return await readRecipe(path);
 }
 
 export async function getRecipeByTypeAndSlug(
@@ -52,45 +28,23 @@ export async function getRecipeByTypeAndSlug(
 
   const recipe = recipes.find((recipe) => recipe.slug === slug)!;
 
-  return recipe;
+  return getRecipe(recipe.filename);
 }
 
-export async function listRecipes(): Promise<Recipe[]> {
-  const allRecipes = [];
-
-  for await (const recipe of listRecipesDir('')) {
-    allRecipes.push(recipe);
-  }
-
-  return allRecipes;
+export async function listRecipes(): Promise<RecipeListItem[]> {
+  return await readRecipeListByIndex();
 }
 
-async function* listRecipesDir(dir: string): AsyncGenerator<Recipe> {
-  const fileNames = await fs.promises.readdir(path.join(RECIPE_DIR, dir));
-
-  for (const fileName of fileNames) {
-    const filePath = path.join(dir, fileName);
-    const fullFilePath = path.join(RECIPE_DIR, filePath);
-    const fstat = await fs.promises.stat(fullFilePath);
-
-    if (fstat.isDirectory()) {
-      yield* listRecipesDir(filePath);
-    }
-
-    if (fstat.isFile()) {
-      yield await getRecipe(filePath);
-    }
-  }
-}
-
-export async function listRecipesByType(type: string): Promise<Recipe[]> {
+export async function listRecipesByType(
+  type: string
+): Promise<RecipeListItem[]> {
   const recipes = await listRecipes();
 
   const matcher = new RegExp(`^${type}$`, 'i');
   return recipes.filter((recipe) => matcher.test(recipe.type));
 }
 
-export async function listRecipesByTag(tag: string): Promise<Recipe[]> {
+export async function listRecipesByTag(tag: string): Promise<RecipeListItem[]> {
   return (await listRecipes()).filter((recipe) => recipe.tags.includes(tag));
 }
 
