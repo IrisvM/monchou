@@ -1,10 +1,9 @@
 'use client';
 
 import { Recipe } from '../../api/recipes';
-import { ReactNode } from 'react';
+import { ReactNode, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import RecipeList from '../RecipeList';
-import useSWR from 'swr';
 
 export function RecipesFromBackend({
   tag,
@@ -16,21 +15,13 @@ export function RecipesFromBackend({
   const searchParams = useSearchParams();
   const query = searchParams?.get('query') ?? '';
 
-  const { recipes, isLoading } = useRecipesFromBackend(query, tag, type);
+  const recipes = getRecipesFromBackend(query, tag, type);
 
-  return <RecipeList recipes={recipes} isLoading={isLoading} />;
-}
-
-function useRecipesFromBackend(
-  query: string,
-  tag?: string,
-  type?: string
-): { recipes: Recipe[]; isLoading: boolean } {
-  const { data } = useSWR(['recipes', type, tag, query], () =>
-    getRecipesFromBackend(query, tag, type)
+  return (
+    <Suspense fallback={<span>Loading...</span>}>
+      <RecipeList recipes={recipes} />
+    </Suspense>
   );
-
-  return { recipes: data ?? [], isLoading: !data };
 }
 
 async function getRecipesFromBackend(
@@ -50,8 +41,9 @@ async function getRecipesFromBackend(
   }
 
   const response = await fetch(
-    window.location.origin + '/api/recepten?' + searchParams.toString(),
+    `${process.env.NEXT_PUBLIC_API_URL}/recepten?${searchParams.toString()}`,
     {
+      cache: 'force-cache',
       method: 'GET',
     }
   );
