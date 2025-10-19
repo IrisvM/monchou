@@ -4,6 +4,7 @@ import { Recipe } from '../../api/recipes';
 import { ReactNode, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import RecipeList from '../RecipeList';
+import RecipeListLoading from '../RecipeList/RecipeList.loading';
 
 export function RecipesFromBackend({
   tag,
@@ -18,7 +19,7 @@ export function RecipesFromBackend({
   const recipes = getRecipesFromBackend(query, tag, type);
 
   return (
-    <Suspense fallback={<span>Loading...</span>}>
+    <Suspense fallback={<RecipeListLoading />}>
       <RecipeList recipes={recipes} />
     </Suspense>
   );
