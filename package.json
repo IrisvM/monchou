@@ -5,7 +5,7 @@
   "scripts": {
     "preinstall": "dev/apply-git-hooks",
     "dev": "bun scripts/build-index.ts && next dev --turbopack",
-    "build": "scripts/build-index.ts && next build",
+    "build": "bun scripts/build-index.ts && next build",
     "start": "next start",
     "lint": "eslint && prettier . -c",
     "fix": "eslint --fix && prettier . -w"
