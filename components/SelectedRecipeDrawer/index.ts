@@ -1,1 +1,1 @@
-export { default } from './SelectedRecipeDrawer';
+export { default } from './SelectedRecipeDrawer.container';

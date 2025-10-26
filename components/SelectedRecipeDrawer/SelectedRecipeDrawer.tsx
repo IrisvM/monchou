@@ -1,19 +1,27 @@
-'use client';
-
-import React, { use, useState } from 'react';
-import { SelectionContext } from '../../context/selectionContext';
+import React, { ReactNode, useState } from 'react';
+import { type RecipeSelection } from '../../context/selectionContext';
 import SelectedRecipeTabs from './SelectedRecipeTabs';
 import SelectedRecipeList from './SelectedRecipeList';
 import DrawerActions from './DrawerActions';
 import IngredientsList from './IngredientsList';
+import { Ingredient } from '@/api/shoplist';
 
-export default function SelectedRecipeDrawer(): React.ReactNode {
-  const { selectedRecipes, clear } = use(SelectionContext);
+type Props = {
+  ingredients: Ingredient[];
+  urls: { [shop: string]: string };
+  selectedRecipes: RecipeSelection[];
+  onClear: () => void;
+};
+export default function SelectedRecipeDrawer({
+  selectedRecipes,
+  ingredients,
+  urls,
+  onClear,
+}: Props): ReactNode {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedTab, setSelectedTab] = useState<'recipes' | 'ingredients'>(
     'recipes'
   );
-
   return (
     <aside
       className={[
@@ -39,8 +47,10 @@ export default function SelectedRecipeDrawer(): React.ReactNode {
         {selectedTab === 'recipes' && (
           <SelectedRecipeList recipes={selectedRecipes} />
         )}
-        {selectedTab === 'ingredients' && <IngredientsList ingredients={[]} />}
-        <DrawerActions onClear={clear} />
+        {selectedTab === 'ingredients' && (
+          <IngredientsList ingredients={ingredients} />
+        )}
+        <DrawerActions urls={urls} onClear={onClear} />
       </div>
     </aside>
   );

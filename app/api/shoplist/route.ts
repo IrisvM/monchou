@@ -2,10 +2,9 @@ import { getShopListUrls } from '@/api/shoplist';
 import { NextRequest } from 'next/server';
 
 export async function GET(req: NextRequest): Promise<Response> {
-  const shop = req.nextUrl.searchParams.get('shop') || 'ah';
   let recipes = req.nextUrl.searchParams.getAll('recipe[]');
 
-  const { urls, ingredients } = await getShopListUrls(shop, recipes);
+  const { urls, ingredients } = await getShopListUrls(recipes);
 
   return Response.json(
     { urls, ingredients },

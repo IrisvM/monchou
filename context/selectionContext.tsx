@@ -9,7 +9,7 @@ import {
   useState,
 } from 'react';
 
-type RecipeSelection = {
+export type RecipeSelection = {
   type: string;
   slug: string;
 };

@@ -7,10 +7,14 @@ export type Ingredient = {
   shopIds: { [shop in Shops]?: string };
 };
 
+export type ShoplistOutput = {
+  urls: { [shop in Shops]?: string };
+  ingredients: Ingredient[];
+};
+
 export async function getShopListUrls(
-  shop: string,
   recipes: string[]
-): Promise<{ urls: { [shop in Shops]: string }; ingredients: Ingredient[] }> {
+): Promise<ShoplistOutput> {
   const ingredients = (
     await Promise.all(
       recipes.map(async (typeSlug) => {
@@ -77,7 +81,11 @@ export async function getShopListUrls(
   );
 
   return {
-    ingredients: [...cart.values()],
+    ingredients: [...cart.values()].map((ingredient) => ({
+      name: ingredient.name,
+      shopIds: ingredient.shopIds,
+      quantity: Math.ceil(ingredient.quantity),
+    })),
     urls: {
       ah: `https://www.ah.nl/mijnlijst/add-multiple?${[...cart.entries()].map(([id, ingredient]) => `p=${id}:${Math.ceil(ingredient.quantity)}`).join('&')}`,
     },
