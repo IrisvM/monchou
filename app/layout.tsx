@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import '../styles/globals.css';
 import Layout from '@/components/Layout';
+import { SelectionContextProvider } from '../context/selectionContext';
 
 export default function MainLayout({
   children,
@@ -8,11 +9,13 @@ export default function MainLayout({
   children: React.ReactNode;
 }): ReactNode {
   return (
-    <html lang="nl">
-      <head></head>
-      <body>
-        <Layout>{children}</Layout>
-      </body>
-    </html>
+    <SelectionContextProvider>
+      <html lang="nl">
+        <head></head>
+        <body>
+          <Layout>{children}</Layout>
+        </body>
+      </html>
+    </SelectionContextProvider>
   );
 }
