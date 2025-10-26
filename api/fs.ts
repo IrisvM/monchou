@@ -5,7 +5,7 @@ import { Recipe, RecipeListItem } from './recipes';
 import html from 'remark-html';
 import path from 'node:path';
 
-const RECIPE_DIR = `${process.cwd()}/recipes`;
+const RECIPE_DIR = `${process.cwd()}/data/recipes`;
 
 export async function readAllRecipes(): Promise<RecipeListItem[]> {
   const allRecipes = [];

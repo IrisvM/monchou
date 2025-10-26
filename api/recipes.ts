@@ -1,3 +1,4 @@
+import { NotFoundError } from '../errors/NotFoundError';
 import { readRecipeListByIndex } from './cache';
 import { readRecipe } from './fs';
 
@@ -26,7 +27,11 @@ export async function getRecipeByTypeAndSlug(
 ): Promise<Recipe> {
   const recipes = await listRecipesByType(type);
 
-  const recipe = recipes.find((recipe) => recipe.slug === slug)!;
+  const recipe = recipes.find((recipe) => recipe.slug === slug);
+
+  if (!recipe) {
+    throw new NotFoundError(`Recipe not found for type=${type} slug=${slug}`);
+  }
 
   return getRecipe(recipe.filename);
 }

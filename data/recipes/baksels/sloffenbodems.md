@@ -27,7 +27,7 @@ ingredients:
     title: lichtbruine basterdsuiker
   - quantity: 1
     unit:
-    title: eidoooier
+    title: eidooier
   - quantity: 0.5
     unit:
     title: rasp van een citroen

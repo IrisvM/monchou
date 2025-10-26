@@ -2,7 +2,7 @@ import { RecipeListItem } from '@/api/recipes';
 import fs from 'node:fs/promises';
 import { readAllRecipes } from './fs';
 
-const CACHE_DIR = `${process.cwd()}/recipes/.cache`;
+const CACHE_DIR = `${process.cwd()}/data/recipes/.cache`;
 
 async function ensureCacheDirExists(): Promise<void> {
   await fs.mkdir(CACHE_DIR, { recursive: true });
@@ -29,7 +29,7 @@ export async function buildRecipeListIndex(): Promise<void> {
 }
 
 export async function readRecipeListByIndex(): Promise<RecipeListItem[]> {
-  const contents = await import('../recipes/.cache/list.js');
+  const contents = await import('../data/recipes/.cache/list.js');
 
   return contents.recipeListIndex;
 }

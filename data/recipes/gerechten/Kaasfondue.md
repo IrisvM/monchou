@@ -15,8 +15,8 @@ ingredients:
   - quantity: 250
     unit: g
     title: (kastanje) champignons
-  - quantity: 1
-    unit: stronk
+  - quantity: 200
+    unit: g
     title: broccoli
   - quantity: 250
     unit: g

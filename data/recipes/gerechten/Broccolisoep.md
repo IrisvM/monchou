@@ -7,8 +7,8 @@ tags:
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
-  - quantity: 1
-    unit: grote stronk
+  - quantity: 400
+    unit: g
     title: broccoli
   - quantity: 1
     unit: blokje

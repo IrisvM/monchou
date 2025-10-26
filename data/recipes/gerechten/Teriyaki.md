@@ -9,7 +9,7 @@ serving: 2 personen
 ingredients:
   - quantity: 200
     unit: g
-    title: kipdij filet
+    title: kipdijfilet
   - quantity: 1
     unit: kopje
     title: rijst
