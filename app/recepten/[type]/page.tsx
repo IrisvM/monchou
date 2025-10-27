@@ -1,4 +1,4 @@
-import RecipeListPage from '@/components/RecipePage';
+import RecipeListPage from '@/components/RecipeListPage';
 import { listRecipeTypes, listTagsByType } from '@/api/recipes';
 import Header from '@/components/Header';
 import uppercaseFirst from '@/helpers/uppercaseFirst';

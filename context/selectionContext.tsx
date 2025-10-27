@@ -12,6 +12,7 @@ import {
 export type RecipeSelection = {
   type: string;
   slug: string;
+  title: string;
 };
 
 type SelectionContextType = {
@@ -51,7 +52,14 @@ export function SelectionContextProvider({
   const add = useCallback(
     (recipe: RecipeSelection) => {
       if (!has(recipe)) {
-        setSelectedRecipes((prev) => [...prev, recipe]);
+        setSelectedRecipes((prev) => [
+          ...prev,
+          {
+            slug: recipe.slug,
+            type: recipe.type,
+            title: recipe.title,
+          },
+        ]);
       }
     },
     [has]

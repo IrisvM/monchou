@@ -1,14 +1,10 @@
 'use client';
 
 import React from 'react';
-
-type Recipe = {
-  type: string;
-  slug: string;
-};
+import { RecipeSelection } from '../../context/selectionContext';
 
 type SelectedRecipeListProps = {
-  recipes: Recipe[];
+  recipes: RecipeSelection[];
 };
 
 export default function SelectedRecipeList({
@@ -18,12 +14,10 @@ export default function SelectedRecipeList({
     <ul
       role="tabpanel"
       id="selected-recipe-tabpanel"
-      className="mb-2 flex-1 px-4 py-2 text-gray-500"
+      className="mb-2 flex-1 px-4 py-2 text-gray-500 text-sm"
     >
       {recipes.map((recipe) => (
-        <li key={`${recipe.type}-${recipe.slug}`}>
-          {recipe.type} - {recipe.slug}
-        </li>
+        <li key={`${recipe.type}-${recipe.slug}`}>1 - {recipe.title}</li>
       ))}
     </ul>
   );
