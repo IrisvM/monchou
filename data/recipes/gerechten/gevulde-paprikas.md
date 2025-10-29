@@ -9,8 +9,8 @@ serving: 2 personen
 ingredients:
   - quantity: 3
     title: grote (rode) paprika's
-  - quantity: 1
-    unit: kop(je)
+  - quantity: 190
+    unit: g
     title: rijst
   - quantity: 1/3
     title: courgette

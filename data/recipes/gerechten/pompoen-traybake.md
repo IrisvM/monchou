@@ -19,11 +19,11 @@ ingredients:
   - quantity: 200
     unit: g
     title: kipdijfilet
-  - quantity: 1
-    unit: blik
+  - quantity: 200
+    unit: g
     title: black eyed beans
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handle
     title: gerookte gezouten amandelen
   - quantity: scheutje
     unit:

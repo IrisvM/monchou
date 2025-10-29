@@ -10,8 +10,8 @@ ingredients:
   - quantity: 200
     unit: g
     title: kipdijfilet
-  - quantity: 1
-    unit: kopje
+  - quantity: 190
+    unit: g
     title: rijst
   - quantity: 400
     unit: g

@@ -12,17 +12,17 @@ ingredients:
   - quantity: 1
     unit:
     title: sjalot
-  - quantity: 0.5
-    unit: blik
+  - quantity: 200
+    unit: g
     title: tomatenblokjes
   - quantity: 125
     unit: g
     title: chorizo worst
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: cherry tomaatjes
   - quantity: 1
-    unit: g
+    unit:
     title: (rode) paprika
   - quantity: 500
     unit: mL
@@ -30,7 +30,7 @@ ingredients:
   - quantity: 30
     unit: g
     title: parmazaanse kaas
-  - quantity: 75
+  - quantity: 40
     unit: g
     title: rucola
 ---

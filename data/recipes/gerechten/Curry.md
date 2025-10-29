@@ -27,8 +27,8 @@ ingredients:
   - quantity: 1
     unit: hele
     title: chilipeper
-  - quantity: 0.5
-    unit: blik
+  - quantity: 100
+    unit: g
     title: kokosmelk
   - quantity: 1
     unit: heel recept

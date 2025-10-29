@@ -10,8 +10,8 @@ ingredients:
   - quantity: 200
     unit: g
     title: pasta
-  - quantity: 1
-    unit: blik
+  - quantity: 400
+    unit: g
     title: tomatenblokjes
   - quantity: 0.5
     unit: blikje

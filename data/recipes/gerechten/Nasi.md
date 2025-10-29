@@ -6,8 +6,8 @@ tags:
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
-  - quantity: 1
-    unit: kopje
+  - quantity: 190
+    unit: g
     title: rijst
   - quantity: 1
     unit:

@@ -25,11 +25,11 @@ ingredients:
   - quantity: 5
     unit: nestjes
     title: mie
-  - quantity: 0.5
-    unit: blik
+  - quantity: 100
+    unit: g
     title: kokosmelk
-  - quantity: 0.5
-    unit: blik
+  - quantity: 200
+    unit: g
     title: tomatenblokjes
   - quantity: 2
     unit: el

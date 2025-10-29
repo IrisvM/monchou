@@ -28,8 +28,8 @@ ingredients:
   - quantity: 0.5
     unit: el
     title: (zeeuwse) keukenstroop
-  - quantity: 1
-    unit: blik
+  - quantity: 400
+    unit: g
     title: tomatenblokjes
   - quantity: 1
     unit: klein blikje

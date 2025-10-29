@@ -6,14 +6,14 @@ tags:
 type: hoofdgerecht
 serving: 2 personen
 ingredients:
-  - quantity: 8-10
+  - quantity: 10
     unit: vellen
     title: lasagne
   - quantity: 200
     unit: g
     title: gehakt
-  - quantity: 1
-    unit: pak
+  - quantity: 500
+    unit: g
     title: gezeefde tomaten
   - quantity: 1
     unit:

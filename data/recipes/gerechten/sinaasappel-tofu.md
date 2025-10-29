@@ -18,8 +18,8 @@ ingredients:
   - quantity: 350
     unit: gram
     title: Spruitjes
-  - quantity: 1
-    unit: kop
+  - quantity: 190
+    unit: g
     title: Rijst
   - quantity: 0.5
     unit: theelepel

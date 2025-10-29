@@ -20,8 +20,8 @@ ingredients:
   - quantity: 1
     unit:
     title: sjalot
-  - quantity: 1
-    unit: blik
+  - quantity: 400
+    unit: g
     title: tomatenblokjes
   - quantity: 1
     unit: el
