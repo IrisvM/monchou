@@ -30,7 +30,7 @@ ingredients:
     title: appelcider azijn
   - quantity: 2
     unit: tl
-    title: bruine basterdsuiker
+    title: donker bruine basterdsuiker
   - quantity: 100
     unit: g
     title: verse spinazie

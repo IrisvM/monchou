@@ -19,8 +19,8 @@ ingredients:
   - quantity: 125
     unit: g
     title: (kastanje) champignons
-  - quantity: 4-5
-    unit:
+  - quantity: 150
+    unit: g
     title: zongedroogde tomaatjes
   - quantity: 500
     unit: mL

@@ -13,14 +13,14 @@ ingredients:
   - quantity: 1
     unit:
     title: courgette
-  - quantity: 1/2
+  - quantity: 0.5
     unit:
     title: venkelknol
   - quantity: 3
     unit: teentjes
     title: knoflook
-  - quantity: 1/2
-    unit: pot
+  - quantity: 140
+    unit: g
     title: zongedroogde tomaten
   - quantity: 100
     unit: mL

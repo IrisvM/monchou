@@ -16,8 +16,8 @@ ingredients:
   - quantity: 1
     unit:
     title: (rode) paprika
-  - quantity: 3-4
-    unit:
+  - quantity: 100
+    unit: g
     title: zongedroogde tomaatjes
   - quantity:
     unit:

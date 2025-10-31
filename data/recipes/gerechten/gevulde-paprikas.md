@@ -12,14 +12,14 @@ ingredients:
   - quantity: 190
     unit: g
     title: rijst
-  - quantity: 1/3
+  - quantity: 0.3
     title: courgette
   - quantity: 1
     unit: verpakking
     title: Vega stukjes
   - quantity: 3
     title: champignonen
-  - quantity: 1/3
+  - quantity: 0.5
     unit: blokje
     title: groente bouillon
   - quantity: 2

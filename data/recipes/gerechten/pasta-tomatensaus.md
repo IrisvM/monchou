@@ -15,7 +15,7 @@ ingredients:
     title: tomatenblokjes
   - quantity: 0.5
     unit:
-    title: aubergina
+    title: aubergine
   - quantity: 150
     unit: g
     title: wortel

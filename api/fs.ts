@@ -1,13 +1,13 @@
 import matter from 'gray-matter';
 import { readdir, readFile, stat } from 'node:fs/promises';
 import { remark } from 'remark';
-import { Recipe, RecipeListItem } from './recipes';
+import { Recipe } from './recipes';
 import html from 'remark-html';
 import path from 'node:path';
 
 const RECIPE_DIR = `${process.cwd()}/data/recipes`;
 
-export async function readAllRecipes(): Promise<RecipeListItem[]> {
+export async function readAllRecipes(): Promise<Recipe[]> {
   const allRecipes = [];
 
   for await (const recipe of listRecipesDir('')) {

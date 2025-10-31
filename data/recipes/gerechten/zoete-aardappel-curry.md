@@ -18,7 +18,7 @@ ingredients:
     title: sjalot
   - quantity: 100
     unit: g
-    title: vese spinazie
+    title: verse spinazie
   - quantity: 100
     unit: g
     title: kokosmelk

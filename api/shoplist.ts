@@ -12,6 +12,11 @@ export type ShoplistOutput = {
   ingredients: Ingredient[];
 };
 
+export function hasIngredient(shop: Shops, ingredient: string): boolean {
+  const key = aliases[ingredient.toLowerCase()] ?? ingredient.toLowerCase();
+  return shops[shop][key] !== undefined;
+}
+
 export async function getShopListUrls(
   recipes: string[]
 ): Promise<ShoplistOutput> {
