@@ -16,8 +16,8 @@ ingredients:
   - quantity: 0.5
     unit:
     title: aubergine
-  - quantity: 150
-    unit: g
+  - quantity: 0.5
+    unit:
     title: wortel
   - quantity: 125
     unit: g
