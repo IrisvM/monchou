@@ -19,8 +19,8 @@ ingredients:
   - quantity: 160
     unit: g
     title: lauwwarme volle melk
-  - quantity: 60
-    unit: g
+  - quantity: 1
+    unit: (60 gram)
     title: ei (maat M)
   - quantity: 0.5
     unit: tl

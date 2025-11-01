@@ -9,8 +9,8 @@ ingredients:
   - quantity: 6
     unit: stronken
     title: witlof
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: walnoten
   - quantity: 1
     unit:

@@ -12,8 +12,8 @@ ingredients:
   - quantity: 1
     unit:
     title: paprika
-  - quantity: 150
-    unit: g
+  - quantity: 0.5
+    unit: stuk
     title: wortel
   - quantity: 150
     unit: g

@@ -24,11 +24,11 @@ ingredients:
   - quantity: 120
     unit: g
     title: gegrilde kipfilet
-  - quantity: scheutje
-    unit:
+  - quantity: 1
+    unit: scheutje
     title: (extra vierge) olijfolie
-  - quantity: klein scheutje
-    unit:
+  - quantity: 1
+    unit: klein scheutje
     title: balsamico azijn
 ---
 

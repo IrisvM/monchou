@@ -15,10 +15,10 @@ ingredients:
   - quantity: 1
     unit:
     title: paprika
-  - quantity: 150
-    unit: g
+  - quantity: 1
+    unit: blokje
     title: maïs
-  - quantity: 1 à 2
+  - quantity: 2
     unit:
     title: tomaten
   - quantity: 1

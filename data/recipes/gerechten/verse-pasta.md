@@ -17,8 +17,8 @@ ingredients:
   - quantity: snufje
     unit:
     title: zout
-  - quantity: scheutje
-    unit:
+  - quantity: 1
+    unit: scheutje
     title: olijfolie
 ---
 

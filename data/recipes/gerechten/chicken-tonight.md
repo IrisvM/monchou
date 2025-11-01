@@ -8,8 +8,8 @@ ingredients:
   - quantity: 190
     unit: gr
     title: rijst
-  - quantity: 150
-    unit: g
+  - quantity: 0.5
+    unit:
     title: wortel
   - quantity: 1
     unit:

@@ -19,8 +19,8 @@ ingredients:
   - quantity: 500
     unit: mL
     title: heet water
-  - quantity: 1-2
-    unit: blokjes
+  - quantity: 1
+    unit: tot 2 blokjes
     title: kippenbouillon
   - quantity: 50
     unit: mL

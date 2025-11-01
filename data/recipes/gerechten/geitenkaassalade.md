@@ -16,8 +16,8 @@ ingredients:
   - quantity: 75
     unit: g
     title: rucola sla melange
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: walnoten
   - quantity: 1
     unit:

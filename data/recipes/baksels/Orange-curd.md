@@ -13,8 +13,8 @@ ingredients:
   - quantity: 88
     unit: g
     title: suiker
-  - quantity: 75
-    unit: mL
+  - quantity: 2
+    unit: stuks (of 75 mL)
     title: geperste sinaasappel
   - quantity: 1
     unit:

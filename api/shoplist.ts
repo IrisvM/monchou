@@ -17,6 +17,24 @@ export function hasIngredient(shop: Shops, ingredient: string): boolean {
   return shops[shop][key] !== undefined;
 }
 
+export function getIngredient(
+  shop: Shops,
+  ingredient: string
+): { name: string; id: string; quantity: number } | undefined {
+  const key = aliases[ingredient.toLowerCase()] ?? ingredient.toLowerCase();
+  const found = shops[shop][key];
+
+  if (!found) {
+    return undefined;
+  }
+
+  return {
+    id: found.id,
+    name: key,
+    quantity: found.quantity,
+  };
+}
+
 export async function getShopListUrls(
   recipes: string[]
 ): Promise<ShoplistOutput> {

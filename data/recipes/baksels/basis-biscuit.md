@@ -8,8 +8,8 @@ tags:
 type: baksel
 serving: drie lagen van 18 cm
 ingredients:
-  - quantity: 175
-    unit: g
+  - quantity: 3
+    unit: stuks (of 175 gram)
     title: eieren
   - quantity: 100
     unit: g

@@ -12,14 +12,14 @@ ingredients:
   - quantity: 200
     unit: g
     title: falafel
-  - quantity:
+  - quantity: 0.25
     unit:
     title: ijsbergsla
   - quantity: 1
     unit:
     title: rode puntpaprika
-  - quantity: 1 à 2
-    unit:
+  - quantity: 1
+    unit: (à 2)
     title: tomaten
   - quantity: 0.5
     unit:

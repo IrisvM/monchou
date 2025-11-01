@@ -15,14 +15,14 @@ ingredients:
   - quantity: 100
     unit: g
     title: spekjes
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: rozijnen
-  - quantity: scheutje
-    unit:
+  - quantity: 1
+    unit: scheutje
     title: melk
-  - quantity: klontje
-    unit:
+  - quantity: 1
+    unit: klontje
     title: boter
 ---
 

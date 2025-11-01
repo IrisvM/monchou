@@ -31,11 +31,11 @@ ingredients:
   - quantity:
     unit:
     title: geraspte kaas
-  - quantity: scheutje
-    unit:
+  - quantity: 1
+    unit: scheutje
     title: slagroom
-  - quantity: scheutje
-    unit:
+  - quantity: 1
+    unit: scheutje
     title: melk
   - quantity:
     unit:

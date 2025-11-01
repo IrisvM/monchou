@@ -22,8 +22,8 @@ ingredients:
   - quantity: 1
     unit: teentje
     title: knoflook
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: walnoten
   - quantity:
     unit:
@@ -34,8 +34,8 @@ ingredients:
   - quantity: 75
     unit: g
     title: rucola sla melange
-  - quantity: klein stukje
-    unit:
+  - quantity: 1
+    unit: klein stukje
     title: groentebouillon blokje
 ---
 

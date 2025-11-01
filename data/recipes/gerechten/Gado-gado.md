@@ -13,8 +13,8 @@ ingredients:
   - quantity: 2
     unit:
     title: eieren
-  - quantity: 60
-    unit: g
+  - quantity: 0.5
+    unit:
     title: komkommer
   - quantity: 200
     unit: g
@@ -25,8 +25,8 @@ ingredients:
   - quantity: 90
     unit: g
     title: edamame bonen
-  - quantity: 80
-    unit: g
+  - quantity: 1
+    unit: stuks (of 80 gram)
     title: rauwe (julienne) winterpeen of bospeen
   - quantity: 60
     unit: g

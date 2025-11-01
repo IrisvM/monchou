@@ -41,11 +41,11 @@ ingredients:
   - quantity: 2-3
     unit: eetlepels
     title: suiker
-  - quantity: eventueel
-    unit:
+  - quantity: 1
+    unit: eventueel beetje
     title: verse frambozen
-  - quantity: eventueel
-    unit:
+  - quantity: 1
+    unit: eventueel beetje
     title: witte chocolade
 ---
 

@@ -22,8 +22,8 @@ ingredients:
   - quantity:
     unit:
     title: feta kaas
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: gerookte, gezouten amandelen
   - quantity: 1
     unit:

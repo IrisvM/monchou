@@ -30,7 +30,7 @@ ingredients:
   - quantity: 1/4
     unit: theelepel
     title: zout
-  - quantity: 1/2
+  - quantity: 0.5
     unit: theelepel
     title: baksoda
 ---

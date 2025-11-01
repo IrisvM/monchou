@@ -22,8 +22,8 @@ ingredients:
   - quantity: 150
     unit: g
     title: zongedroogde tomaatjes
-  - quantity: 500
-    unit: mL
+  - quantity: 1
+    unit: blokje
     title: groentebouillon
   - quantity: 30
     unit: g

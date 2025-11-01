@@ -17,8 +17,8 @@ ingredients:
   - quantity: 200
     unit: g
     title: (kastanje) champignons
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: cherry tomaatjes
   - quantity: 40
     unit: g

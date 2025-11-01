@@ -22,8 +22,8 @@ ingredients:
   - quantity: 1
     unit:
     title: aubergine
-  - quantity: handje
-    unit:
+  - quantity: 0.5
+    unit: pot
     title: semi-gedroogde tomaten op olie
   - quantity:
     unit:

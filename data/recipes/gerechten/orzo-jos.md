@@ -25,18 +25,15 @@ ingredients:
   - quantity: 100
     unit: mL
     title: slagroom
-  - quantity: 500
-    unit: mL
+  - quantity: 1
+    unit: blokje
     title: groenten bouillon
-  - quantity: 1/2
+  - quantity: 0.5
     unit:
     title: komkommer
   - quantity: 1
     unit:
     title: sjalot
-  - quantity: 1/2
-    unit:
-    title: komkommer
 ---
 
 # Bereiding saus

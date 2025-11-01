@@ -13,8 +13,8 @@ ingredients:
   - quantity: 100
     unit: mL
     title: slagroom
-  - quantity: (optioneel)
-    unit: klontje
+  - quantity: 1
+    unit: (optioneel) klontje
     title: ongezouten roomboter
 ---
 

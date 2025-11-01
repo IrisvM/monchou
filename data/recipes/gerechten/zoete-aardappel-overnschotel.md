@@ -16,17 +16,17 @@ ingredients:
   - quantity: 100
     unit: g
     title: zachte geitenkaas
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: amandelen
   - quantity: 3
     unit:
     title: sjalotten
-  - quantity: scheutje
-    unit:
+  - quantity: 1
+    unit: scheutje
     title: balsamico azijn
-  - quantity: scheutje
-    unit:
+  - quantity: 1
+    unit: scheutje
     title: appelcider azijn
   - quantity: 2
     unit: tl

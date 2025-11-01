@@ -18,8 +18,8 @@ ingredients:
   - quantity: 125
     unit: g
     title: (kastanje) champignons
-  - quantity: handje
-    unit:
+  - quantity: 1
+    unit: handje
     title: cherry tomaatjes
   - quantity: 1
     unit: g
@@ -27,8 +27,8 @@ ingredients:
   - quantity: 200
     unit: g
     title: kipfilet
-  - quantity: 500
-    unit: mL
+  - quantity: 1
+    unit: bloje
     title: kippenbouillon
   - quantity: 30
     unit: g

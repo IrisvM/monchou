@@ -16,8 +16,8 @@ ingredients:
   - quantity: 300
     unit: g
     title: zelfrijzend bakmeel
-  - quantity: 5-6
-    unit:
+  - quantity: 5
+    unit: 'tot 6 stuks'
     title: eieren
   - quantity: 3.5
     unit: el

@@ -18,8 +18,8 @@ ingredients:
   - quantity: 50
     unit: g
     title: bacon / spek
-  - quantity: 500
-    unit: mL
+  - quantity: 1
+    unit: blokje
     title: kippenbouillon
   - quantity: 30
     unit: g

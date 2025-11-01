@@ -11,8 +11,8 @@ ingredients:
   - quantity: 0.5
     unit: verpakking
     title: eiermie
-  - quantity: 200
-    unit: g
+  - quantity: 1
+    unit: stuk
     title: wortel
   - quantity: 1
     unit:
