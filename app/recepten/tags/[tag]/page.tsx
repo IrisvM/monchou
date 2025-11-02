@@ -1,4 +1,4 @@
-import RecipeListPage from '@/components/RecipePage';
+import RecipeListPage from '@/components/RecipeListPage';
 import { listTags } from '@/api/recipes';
 import { ReactNode } from 'react';
 

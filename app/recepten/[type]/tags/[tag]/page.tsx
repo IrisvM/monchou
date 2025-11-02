@@ -1,4 +1,4 @@
-import RecipeListPage from '@/components/RecipePage';
+import RecipeListPage from '@/components/RecipeListPage';
 import { listRecipeTypeTags, listTagsByType } from '@/api/recipes';
 import asyncGeneratorToArray from '@/helpers/asyncGenetorToArray';
 import Header from '@/components/Header';
