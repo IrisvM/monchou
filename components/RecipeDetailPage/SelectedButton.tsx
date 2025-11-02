@@ -4,13 +4,17 @@ import { ReactNode, use } from 'react';
 import {
   RecipeSelection,
   SelectionContext,
-} from '../../context/selectionContext';
+} from '../../context/SelectionContext';
 
 type Props = {
   recipe: RecipeSelection;
 };
 export default function SelectedButton({ recipe }: Props): ReactNode {
-  const { has, add, remove } = use(SelectionContext);
+  const { has, add, remove, isLoaded } = use(SelectionContext);
+
+  if (!isLoaded) {
+    return null;
+  }
 
   return (
     <button

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { RecipeSelection } from '../../context/selectionContext';
+import { RecipeSelection } from '../../context/SelectionContext';
 
 type SelectedRecipeListProps = {
   recipes: RecipeSelection[];

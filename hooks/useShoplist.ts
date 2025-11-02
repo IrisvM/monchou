@@ -1,5 +1,5 @@
 import { Ingredient, ShoplistOutput } from '@/api/shoplist';
-import { RecipeSelection } from '../context/selectionContext';
+import { RecipeSelection } from '../context/SelectionContext';
 import useSWR from 'swr';
 
 export function useShoplist(recipes: RecipeSelection[]): {

@@ -79,10 +79,10 @@ export function SelectionContextProvider({
         setSelectedRecipes(parsed);
       } catch {
         // ignore
-      } finally {
-        setIsLoaded(true);
       }
     }
+
+    setIsLoaded(true);
   }, []);
 
   useEffect(() => {

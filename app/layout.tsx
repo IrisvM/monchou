@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import '../styles/globals.css';
 import Layout from '@/components/Layout';
-import { SelectionContextProvider } from '../context/selectionContext';
+import { SelectionContextProvider } from '../context/SelectionContext';
 
 export default function MainLayout({
   children,

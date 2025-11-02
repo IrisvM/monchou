@@ -1,7 +1,7 @@
 'use client';
 
 import React, { use } from 'react';
-import { SelectionContext } from '../../context/selectionContext';
+import { SelectionContext } from '../../context/SelectionContext';
 import SelectedRecipeDrawer from './SelectedRecipeDrawer';
 import { useShoplist } from '@/hooks/useShoplist';
 

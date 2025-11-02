@@ -1,5 +1,5 @@
 import React, { ReactNode, useState } from 'react';
-import { type RecipeSelection } from '../../context/selectionContext';
+import { type RecipeSelection } from '../../context/SelectionContext';
 import SelectedRecipeTabs from './SelectedRecipeTabs';
 import SelectedRecipeList from './SelectedRecipeList';
 import DrawerActions from './DrawerActions';

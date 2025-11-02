@@ -1,7 +1,7 @@
 'use client';
 
 import { ReactNode, use } from 'react';
-import { SelectionContext } from '../../context/selectionContext';
+import { SelectionContext } from '../../context/SelectionContext';
 import { Recipe } from '../../api/recipes';
 
 type Props = {
