@@ -1,5 +1,5 @@
 import { NotFoundError } from '../errors/NotFoundError';
-import { readRecipeListByIndex } from './cache';
+import { readRecipeListByIndex } from './readCache';
 import { readRecipe } from './fs';
 
 export type Recipe = RecipeListItem & {

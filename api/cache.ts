@@ -27,9 +27,3 @@ export async function buildRecipeListIndex(): Promise<void> {
 
   await fs.writeFile(CACHE_DIR + '/list.js', stringJs);
 }
-
-export async function readRecipeListByIndex(): Promise<RecipeListItem[]> {
-  const contents = await import('../data/recipes/.cache/list.js');
-
-  return contents.recipeListIndex;
-}

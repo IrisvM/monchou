@@ -1,6 +1,6 @@
 import Fuse from 'fuse.js';
 import { RecipeListItem } from './recipes';
-import { readRecipeListByIndex } from './cache';
+import { readRecipeListByIndex } from './readCache';
 
 type Props = {
   query?: string;
