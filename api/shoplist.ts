@@ -92,7 +92,7 @@ export async function getShopListUrls(
         shopIds: { ah: id },
       };
 
-      acc.set(name, {
+      acc.set(id, {
         name,
         shopIds: existing.shopIds ?? shopIds,
         quantity: existing.quantity + quantity / soldPer,
