@@ -10,7 +10,9 @@ export function useShoplist(recipes: RecipeSelection[]): {
 } {
   const key =
     '/shoplist/' +
-    recipes.map((recipe) => `${recipe.type}/${recipe.slug}`).join(',');
+    recipes
+      .map((recipe) => `${recipe.type}/${recipe.slug}:${recipe.quantity}`)
+      .join(',');
 
   const swr = useSWR(key, () => getIngredientsFromRecipes(recipes), {
     keepPreviousData: true,
@@ -36,7 +38,9 @@ async function getIngredientsFromRecipes(
 
   const url =
     '/api/shoplist?recipe[]=' +
-    recipes.map((recipe) => `${recipe.type}/${recipe.slug}`).join('&recipe[]=');
+    recipes
+      .map((recipe) => `${recipe.type}/${recipe.slug}:${recipe.quantity}`)
+      .join('&recipe[]=');
   const response = await fetch(url, {
     method: 'GET',
     headers: {

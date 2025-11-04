@@ -9,10 +9,16 @@ import {
   useState,
 } from 'react';
 
+type RecipeIdentifier = {
+  type: string;
+  slug: string;
+};
+
 export type RecipeSelection = {
   type: string;
   slug: string;
   title: string;
+  quantity: number;
 };
 
 type SelectionContextType = {
@@ -22,6 +28,7 @@ type SelectionContextType = {
   has(recipe: RecipeSelection): boolean;
   add(recipe: RecipeSelection): void;
   remove(recipe: RecipeSelection): void;
+  setQuantity(recipe: RecipeIdentifier, quantity: number): void;
 };
 
 export const SelectionContext = createContext<SelectionContextType>({
@@ -31,6 +38,7 @@ export const SelectionContext = createContext<SelectionContextType>({
   has: () => false,
   add: () => {},
   remove: () => {},
+  setQuantity: () => {},
 });
 
 export function SelectionContextProvider({
@@ -42,7 +50,7 @@ export function SelectionContextProvider({
   const clear = useCallback(() => setSelectedRecipes([]), []);
 
   const has = useCallback(
-    (recipe: RecipeSelection) =>
+    (recipe: RecipeIdentifier) =>
       selectedRecipes.some(
         (r) => r.slug === recipe.slug && r.type === recipe.type
       ),
@@ -55,6 +63,7 @@ export function SelectionContextProvider({
         setSelectedRecipes((prev) => [
           ...prev,
           {
+            quantity: 1,
             slug: recipe.slug,
             type: recipe.type,
             title: recipe.title,
@@ -65,11 +74,38 @@ export function SelectionContextProvider({
     [has]
   );
 
-  const remove = useCallback((recipe: RecipeSelection) => {
+  const remove = useCallback((recipe: RecipeIdentifier) => {
     setSelectedRecipes((prev) =>
       prev.filter((r) => r.slug !== recipe.slug || r.type !== recipe.type)
     );
   }, []);
+
+  const setQuantity = useCallback(
+    (recipe: RecipeIdentifier, quantity: number) => {
+      if (isNaN(quantity)) {
+        quantity = 1;
+      }
+
+      if (quantity < 1) {
+        remove(recipe);
+        return;
+      }
+
+      setSelectedRecipes((prev) =>
+        prev.map((r) => {
+          if (r.slug === recipe.slug && r.type === recipe.type) {
+            return {
+              ...r,
+              quantity,
+            };
+          }
+
+          return r;
+        })
+      );
+    },
+    [remove]
+  );
 
   useEffect(() => {
     const stored = localStorage.getItem('selectedRecipes');
@@ -95,7 +131,15 @@ export function SelectionContextProvider({
 
   return (
     <SelectionContext.Provider
-      value={{ isLoaded, selectedRecipes, clear, has, add, remove }}
+      value={{
+        isLoaded,
+        selectedRecipes,
+        clear,
+        has,
+        add,
+        remove,
+        setQuantity,
+      }}
     >
       {children}
     </SelectionContext.Provider>

@@ -12,7 +12,7 @@ export default function ClearAllButton({
   return (
     <button
       type="button"
-      className="border border-fuchsia-700 text-fuchsia-900 px-2 py-1 rounded-md text-sm cursor-pointer"
+      className="text-fuchsia-900 px-2 py-1 rounded-md text-sm cursor-pointer"
       onClick={onClear}
     >
       Alles wissen

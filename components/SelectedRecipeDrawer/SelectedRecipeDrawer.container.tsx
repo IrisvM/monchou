@@ -6,7 +6,7 @@ import SelectedRecipeDrawer from './SelectedRecipeDrawer';
 import { useShoplist } from '@/hooks/useShoplist';
 
 export default function SelectedRecipeDrawerContainer(): React.ReactNode {
-  const { selectedRecipes, clear } = use(SelectionContext);
+  const { selectedRecipes, clear, setQuantity } = use(SelectionContext);
 
   const { ingredients, urls } = useShoplist(selectedRecipes);
 
@@ -15,6 +15,7 @@ export default function SelectedRecipeDrawerContainer(): React.ReactNode {
       ingredients={ingredients}
       urls={urls}
       selectedRecipes={selectedRecipes}
+      onQuantityChange={setQuantity}
       onClear={clear}
     />
   );

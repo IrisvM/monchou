@@ -41,7 +41,10 @@ export async function getShopListUrls(
   const ingredients = (
     await Promise.all(
       recipes.map(async (typeSlug) => {
-        const [type, slug] = typeSlug.split('/');
+        const [identifier, amount] = typeSlug.split(':');
+        const [type, slug] = identifier.split('/');
+        const quantity = amount ? Number(amount) : 1;
+
         try {
           const recipe = await getRecipeByTypeAndSlug(type, slug);
 
@@ -50,7 +53,7 @@ export async function getShopListUrls(
 
             return {
               key: aliases[title] ?? title,
-              quantity: ingredient.quantity,
+              quantity: ingredient.quantity * quantity,
             };
           });
         } catch {

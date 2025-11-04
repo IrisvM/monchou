@@ -10,12 +10,17 @@ type Props = {
   ingredients: Ingredient[];
   urls: { [shop: string]: string };
   selectedRecipes: RecipeSelection[];
+  onQuantityChange: (
+    recipe: { type: string; slug: string },
+    quantity: number
+  ) => void;
   onClear: () => void;
 };
 export default function SelectedRecipeDrawer({
   selectedRecipes,
   ingredients,
   urls,
+  onQuantityChange,
   onClear,
 }: Props): ReactNode {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,17 +56,23 @@ export default function SelectedRecipeDrawer({
           {selectedRecipes.length} geselecteerde recepten
         </h1>
       </button>
-      <div className="min-h-32 flex flex-col">
+      <div className="flex flex-col">
         <SelectedRecipeTabs
           selectedTab={selectedTab}
           onTabChange={setSelectedTab}
         />
-        {selectedTab === 'recipes' && (
-          <SelectedRecipeList recipes={selectedRecipes} />
-        )}
-        {selectedTab === 'ingredients' && (
-          <IngredientsList ingredients={ingredients} />
-        )}
+
+        <div className="min-h-12 max-h-60 lg:max-h-96  overflow-y-scroll">
+          {selectedTab === 'recipes' && (
+            <SelectedRecipeList
+              recipes={selectedRecipes}
+              onQuantityChange={onQuantityChange}
+            />
+          )}
+          {selectedTab === 'ingredients' && (
+            <IngredientsList ingredients={ingredients} />
+          )}
+        </div>
         <DrawerActions urls={urls} onClear={onClear} />
       </div>
     </aside>
