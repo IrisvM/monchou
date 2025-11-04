@@ -9,7 +9,7 @@ import {
   useState,
 } from 'react';
 
-type RecipeIdentifier = {
+export type RecipeIdentifier = {
   type: string;
   slug: string;
 };
@@ -25,9 +25,9 @@ type SelectionContextType = {
   isLoaded: boolean;
   selectedRecipes: RecipeSelection[];
   clear: () => void;
-  has(recipe: RecipeSelection): boolean;
-  add(recipe: RecipeSelection): void;
-  remove(recipe: RecipeSelection): void;
+  has(recipe: RecipeIdentifier): boolean;
+  add(recipe: RecipeIdentifier & { title: string }): void;
+  remove(recipe: RecipeIdentifier): void;
   setQuantity(recipe: RecipeIdentifier, quantity: number): void;
 };
 
@@ -58,7 +58,7 @@ export function SelectionContextProvider({
   );
 
   const add = useCallback(
-    (recipe: RecipeSelection) => {
+    (recipe: RecipeIdentifier & { title: string }) => {
       if (!has(recipe)) {
         setSelectedRecipes((prev) => [
           ...prev,

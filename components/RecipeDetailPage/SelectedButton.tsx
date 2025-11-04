@@ -1,13 +1,11 @@
 'use client';
 
 import { ReactNode, use } from 'react';
-import {
-  RecipeSelection,
-  SelectionContext,
-} from '../../context/SelectionContext';
+import { SelectionContext } from '../../context/SelectionContext';
+import { Recipe } from '@/api/recipes';
 
 type Props = {
-  recipe: RecipeSelection;
+  recipe: Recipe;
 };
 export default function SelectedButton({ recipe }: Props): ReactNode {
   const { has, add, remove, isLoaded } = use(SelectionContext);
