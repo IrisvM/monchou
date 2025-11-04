@@ -12,7 +12,7 @@ export async function GET(req: NextRequest): Promise<Response> {
       headers: {
         'Netlify-CDN-Cache-Control':
           'public, durable, s-maxage=60, stale-while-revalidate=300',
-        'Netlify-Vary': 'query=recipe|shop',
+        'Netlify-Vary': 'query=recipe[]',
       },
     }
   );
