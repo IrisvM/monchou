@@ -4,6 +4,7 @@ import typescriptParser from '@typescript-eslint/parser';
 import reactPlugin from 'eslint-plugin-react';
 import unusedImports from 'eslint-plugin-unused-imports';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import reactHooks from 'eslint-plugin-react-hooks';
 
 const projectRules = {
   '@next/next/no-img-element': 'off',
@@ -24,6 +25,7 @@ const projectRules = {
 };
 
 export default [
+  reactHooks.configs.flat.recommended,
   eslintPluginPrettierRecommended,
   {
     plugins: {
@@ -50,7 +52,6 @@ export default [
     files: ['**/*.{ts,tsx}'],
     plugins: {
       react: reactPlugin,
-      // 'react-hooks': reactHooksPlugin,
       '@next/next': nextPlugin,
       'unused-imports': unusedImports,
     },
@@ -68,6 +69,13 @@ export default [
     },
   },
   {
-    ignores: ['next-env.d.ts', '.next/', 'dist/', '.netlify/', 'node_modules/'],
+    ignores: [
+      'next-env.d.ts',
+      '.next/',
+      'dist/',
+      '.netlify/',
+      'node_modules/',
+      'data/recipes/.cache',
+    ],
   },
 ];

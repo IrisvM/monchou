@@ -1,10 +1,11 @@
-import React, { ReactNode, useEffect, useState } from 'react';
+import React, { ReactNode, useEffect, useMemo, useState } from 'react';
 import { type RecipeSelection } from '../../context/SelectionContext';
 import SelectedRecipeTabs from './SelectedRecipeTabs';
 import SelectedRecipeList from './SelectedRecipeList';
 import DrawerActions from './DrawerActions';
 import IngredientsList from './IngredientsList';
 import { Ingredient } from '@/api/shoplist';
+import usePrevious from '@/hooks/usePrevious';
 
 type Props = {
   ingredients: Ingredient[];
@@ -23,23 +24,49 @@ export default function SelectedRecipeDrawer({
   onQuantityChange,
   onClear,
 }: Props): ReactNode {
+  const [isLoaded, setIsLoaded] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedTab, setSelectedTab] = useState<'recipes' | 'ingredients'>(
     'recipes'
   );
   const [nudge, setNudge] = useState(false);
+  const previousSelectedRecipesLength = usePrevious(selectedRecipes.length);
+
+  const isEmpty = useMemo(
+    () => selectedRecipes.length === 0,
+    [selectedRecipes.length]
+  );
 
   useEffect(() => {
-    if (selectedRecipes.length > 0 && !isOpen) {
-      setNudge(true);
+    if (
+      isOpen ||
+      !isLoaded ||
+      selectedRecipes.length === previousSelectedRecipesLength
+    ) {
+      return;
     }
-  }, [selectedRecipes.length]);
+
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setNudge(true);
+  }, [
+    isOpen,
+    isLoaded,
+    selectedRecipes.length,
+    isEmpty,
+    previousSelectedRecipesLength,
+  ]);
+
+  useEffect(() => {
+    const id = requestIdleCallback(() => setIsLoaded(true));
+    return (): void => cancelIdleCallback(id);
+  }, []);
 
   return (
     <aside
       className={[
         'fixed bottom-0 left-10 right-10 lg:left-auto  lg:w-72 rounded-t-xl border overflow-hidden transition-transform border-fuchsia-700 bg-white shadow-lg',
-        isOpen ? 'translate-y-0' : 'translate-y-[calc(100%-40px)]',
+        !isEmpty && isOpen ? 'translate-y-0' : 'translate-y-[calc(100%-40px)]',
+        isEmpty ? 'translate-y-full' : '',
         nudge ? 'animate-nudge' : '',
       ]
         .filter((c) => !!c)

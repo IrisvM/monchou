@@ -108,10 +108,19 @@ export function SelectionContextProvider({
   );
 
   useEffect(() => {
+    if (!isLoaded) {
+      return;
+    }
+
+    localStorage.setItem('selectedRecipes', JSON.stringify(selectedRecipes));
+  }, [selectedRecipes, isLoaded]);
+
+  useEffect(() => {
     const stored = localStorage.getItem('selectedRecipes');
     if (stored) {
       try {
         const parsed: RecipeSelection[] = JSON.parse(stored);
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setSelectedRecipes(parsed);
       } catch {
         // ignore
@@ -120,14 +129,6 @@ export function SelectionContextProvider({
 
     setIsLoaded(true);
   }, []);
-
-  useEffect(() => {
-    if (!isLoaded) {
-      return;
-    }
-
-    localStorage.setItem('selectedRecipes', JSON.stringify(selectedRecipes));
-  }, [selectedRecipes, isLoaded]);
 
   return (
     <SelectionContext.Provider
