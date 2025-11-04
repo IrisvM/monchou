@@ -1,4 +1,4 @@
-import React, { ReactNode, useState } from 'react';
+import React, { ReactNode, useEffect, useState } from 'react';
 import { type RecipeSelection } from '../../context/SelectionContext';
 import SelectedRecipeTabs from './SelectedRecipeTabs';
 import SelectedRecipeList from './SelectedRecipeList';
@@ -22,12 +22,24 @@ export default function SelectedRecipeDrawer({
   const [selectedTab, setSelectedTab] = useState<'recipes' | 'ingredients'>(
     'recipes'
   );
+  const [nudge, setNudge] = useState(false);
+
+  useEffect(() => {
+    if (selectedRecipes.length > 0 && !isOpen) {
+      setNudge(true);
+    }
+  }, [selectedRecipes.length]);
+
   return (
     <aside
       className={[
         'fixed bottom-0 left-10 right-10 lg:left-auto  lg:w-72 rounded-t-xl border overflow-hidden transition-transform border-fuchsia-700 bg-white shadow-lg',
         isOpen ? 'translate-y-0' : 'translate-y-[calc(100%-40px)]',
-      ].join(' ')}
+        nudge ? 'animate-nudge' : '',
+      ]
+        .filter((c) => !!c)
+        .join(' ')}
+      onAnimationEnd={() => setNudge(false)}
     >
       <button
         type="button"

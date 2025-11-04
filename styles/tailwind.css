@@ -1,1 +1,30 @@
 @import 'tailwindcss';
+
+@theme {
+  --animate-nudge: nudge 1s ease-in-out;
+
+  @keyframes nudge {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    20% {
+      transform: translateY(-15px);
+    }
+
+    40% {
+      transform: translateY(10px);
+    }
+
+    60% {
+      transform: translateY(-7px);
+    }
+
+    80% {
+      transform: translateY(5px);
+    }
+
+  }
+}
