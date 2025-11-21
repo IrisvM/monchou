@@ -1,6 +1,7 @@
 import { getRecipeByTypeAndSlug, listRecipes } from '@/api/recipes';
 import Header from '@/components/Header';
 import RecipeDetailPage from '@/components/RecipeDetailPage';
+import { Metadata } from 'next';
 import { ReactNode } from 'react';
 
 export default async function Recipe(props: {
@@ -15,6 +16,19 @@ export default async function Recipe(props: {
       <RecipeDetailPage recipe={recipe} />
     </>
   );
+}
+
+export async function generateMetadata(props: {
+  params: Promise<{ type: string; slug: string }>;
+}): Promise<Metadata> {
+  const { type, slug } = await props.params;
+
+  const { title } = await getRecipeByTypeAndSlug(type, slug);
+
+  return {
+    title: title,
+    description: `Het recept voor ${title}`,
+  };
 }
 
 export async function generateStaticParams(): Promise<

@@ -4,6 +4,20 @@ import asyncGeneratorToArray from '@/helpers/asyncGenetorToArray';
 import Header from '@/components/Header';
 import uppercaseFirst from '@/helpers/uppercaseFirst';
 import { ReactNode } from 'react';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ tag: string; type: string }>;
+}): Promise<Metadata> {
+  const { tag } = await params;
+
+  return {
+    title: `${uppercaseFirst(tag)} recepten`,
+    description: `Overzicht van alle ${tag} recepten`,
+  };
+}
 
 export default async function RecipesByTag(props: {
   params: Promise<{ tag: string; type: string }>;
