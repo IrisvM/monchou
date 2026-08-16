@@ -11,7 +11,7 @@ export default function TagLink({
 }): ReactNode {
   return (
     <Link
-      className="rounded-full mr-2 mb-2 px-2 py-1 text-xs font-medium bg-indigo-100"
+      className="rounded-full mr-2 mb-2 px-2 py-1 text-xs font-medium bg-indigo-100 hover:scale-105 transition-all duration-300 hover:bg-fuchsia-500 hover:text-white"
       activeClass="!text-indigo-100 !bg-indigo-800"
       href={href}
     >

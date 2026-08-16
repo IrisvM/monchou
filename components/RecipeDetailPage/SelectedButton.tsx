@@ -17,7 +17,7 @@ export default function SelectedButton({ recipe }: Props): ReactNode {
   return (
     <button
       type="button"
-      className="bg-fuchsia-800 hover:bg-fuchsia-700 focus:bg-fuchsia-700 text-white py-2 px-4 rounded-md mt-2"
+      className="bg-fuchsia-800 hover:bg-fuchsia-700 focus:bg-fuchsia-700 text-white py-2 px-4 rounded-md mt-2 transition-all duration-300"
       onClick={() => (has(recipe) ? remove(recipe) : add(recipe))}
     >
       {has(recipe) ? 'Verwijder van selectie' : 'Voeg toe aan selectie'}
