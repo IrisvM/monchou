@@ -6,7 +6,14 @@ import SelectButton from './SelectButton';
 
 export default function RecipeCard({ recipe }: { recipe: Recipe }): ReactNode {
   return (
-    <li className="relative col-span-1 flex divide-y divide-gray-200 rounded-lg bg-white text-center shadow border border-gray-100 hover:border-fuchsia-100">
+    <li
+      className={[
+        'relative col-span-1 flex rounded-lg text-center shadow ',
+        'divide-y divide-gray-200 bg-white border border-fuchsia-100',
+        'hover:scale-105 lg:hover:scale-110 hover:rotate-2 odd:hover:-rotate-2 transition-transform duration-300',
+        'animat',
+      ].join(' ')}
+    >
       <div className="flex flex-1">
         <a
           href={`/recepten/${recipe.type}/${recipe.slug}`}
